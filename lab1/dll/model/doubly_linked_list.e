@@ -315,8 +315,12 @@ feature -- commands
 			end
 		ensure
 				decrement_count: count = old count - 1
+--				old_trailer_previous_attached: attached old trailer.previous as tp
+--				last_element_removed: tp.next = trailer
+
 				old_trailer_previous_attached: attached old trailer.previous as tp
-				last_element_removed: tp.next = trailer
+				old_trailer_pre_pre_attached: attached tp.previous as tpp
+				last_element_removed: tpp.next = trailer
 		end
 
 	add_before (n: NODE [G]; e: detachable G)

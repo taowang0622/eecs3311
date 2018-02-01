@@ -22,7 +22,7 @@ feature {NONE} -- Initialization
 			eval: EVALUATOR
 		do
 			if not is_print then -- unit testing
-				--add_test (create {STUDENT_TESTS}.make)
+				add_test (create {STUDENT_TESTS}.make)
 				add_test (create {TEST_STACK_ARRAY}.make("array"))
 				add_test (create {TEST_STACK_LIST}.make("list"))
 				add_test (create {TEST_STACK_ARRAY_EVAL}.make("array"))

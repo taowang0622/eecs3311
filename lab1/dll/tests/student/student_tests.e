@@ -22,6 +22,7 @@ feature {NONE} -- Initialization
 			-- boolean cases
 			add_boolean_case (agent t1)
 			add_boolean_case (agent t2)
+			add_boolean_case (agent test_remove_last)
 
 			-- violation cases
 			add_violation_case (agent t1v)
@@ -61,6 +62,16 @@ feature -- boolean cases
 			Result := (not list1.is_equal (list2)) and (not (list1 ~ list2))
 			check Result end
 		end
+
+	test_remove_last: BOOLEAN
+	local
+		list: DOUBLY_LINKED_LIST [STRING]
+	do
+		Result := false
+		check Result end
+		create list.make_from_array (<<"tao">>)
+		list.remove_last
+	end
 
 
 

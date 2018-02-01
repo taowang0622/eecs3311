@@ -1898,6 +1898,7 @@ void F1002_7577 (EIF_REFERENCE Current)
 	RTEX;
 	EIF_REFERENCE loc1 = (EIF_REFERENCE) 0;
 	EIF_REFERENCE loc2 = (EIF_REFERENCE) 0;
+	EIF_REFERENCE loc3 = (EIF_REFERENCE) 0;
 	EIF_TYPED_VALUE up1x = {{0}, SK_POINTER};
 #define up1 up1x.it_p
 	EIF_TYPED_VALUE up2x = {{0}, SK_POINTER};
@@ -1918,7 +1919,7 @@ void F1002_7577 (EIF_REFERENCE Current)
 	RTDA;
 	RTLD;
 	
-	RTLI(9);
+	RTLI(10);
 	RTLR(0,Current);
 	RTLR(1,tr1);
 	RTLR(2,tr2);
@@ -1928,13 +1929,15 @@ void F1002_7577 (EIF_REFERENCE Current)
 	RTLR(6,tr5);
 	RTLR(7,ur1);
 	RTLR(8,loc2);
-	RTLIU(9);
+	RTLR(9,loc3);
+	RTLIU(10);
 	RTLU (SK_VOID, NULL);
 	RTLU (SK_REF, &Current);
 	RTLU(SK_REF, &loc1);
 	RTLU(SK_REF, &loc2);
+	RTLU(SK_REF, &loc3);
 	
-	RTEAA(l_feature_name, 1001, Current, 2, 0, 13843);
+	RTEAA(l_feature_name, 1001, Current, 3, 0, 13843);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
@@ -2006,8 +2009,17 @@ body:;
 			RTCF;
 		}
 		RTHOOK(6);
+		RTCT("old_trailer_pre_pre_attached", EX_POST);
+		tr4 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(4940, "previous", loc2))(loc2)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
+		loc3 = RTCCL(tr4);
+		if (EIF_TEST(loc3)) {
+			RTCK;
+		} else {
+			RTCF;
+		}
+		RTHOOK(7);
 		RTCT("last_element_removed", EX_POST);
-		tr4 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(4941, "next", loc2))(loc2)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
+		tr4 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(4941, "next", loc3))(loc3)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 		tr5 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(5310, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
 		if (RTCEQ(tr4, tr5)) {
 			RTCK;
@@ -2017,11 +2029,11 @@ body:;
 	}
 	RTVI(Current, RTAL);
 	RTRS;
-	RTHOOK(7);
+	RTHOOK(8);
 	RTDBGLE;
 	RTMD(0);
 	RTLE;
-	RTLO(4);
+	RTLO(5);
 	RTEE;
 #undef up1
 #undef up2

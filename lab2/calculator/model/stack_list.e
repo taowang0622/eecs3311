@@ -11,26 +11,34 @@ note
 
 class
 	STACK_LIST [G -> attached ANY]
-inherit
-	ANY
-		undefine is_equal end
-	ABSTRACT_STACK[G]
-		redefine count end
 
+inherit
+
+	ANY
+		undefine
+			is_equal
+		end
+
+	ABSTRACT_STACK [G]
+		redefine
+			count
+		end
 
 create
 	make
 
-feature {NONE,ES_TEST} -- creation
+feature {NONE, ES_TEST} -- creation
+
 	implementation: LINKED_LIST [G]
-		-- implementation of stack as array
+			-- implementation of stack as array
 
 	make
 			-- create an empty stack
 		do
 			create implementation.make
-			-- TBD
 
+			ensure
+				count = 0
 		end
 
 feature -- model
@@ -41,25 +49,24 @@ feature -- model
 			i: INTEGER
 		do
 			create Result.make_empty
-			-- TBD
-
+			across
+				1 |..| count as ic
+			loop
+				Result.append (implementation [ic.item])
+			end
 		end
 
 feature -- Queries
 
 	count: INTEGER
-			 -- number of items in stack
+			-- number of items in stack
 		do
-			-- TBD
+				Result := implementation.count
 		end
 
 	top: G
 		do
-			Result := implementation [implementation.count]
-			-- the above may not be correct
-
-			-- TBD
-
+			Result := implementation [1]
 		end
 
 feature -- Commands
@@ -67,19 +74,19 @@ feature -- Commands
 	push (x: G)
 			-- push `x' on to the stack
 		do
-			-- TBD
+				implementation.start
+				implementation.put_left (x)
 		end
 
 	pop
 		do
-			-- TBD
+				implementation.start
+				implementation.remove
 		end
 
 invariant
-	same_count:
-		model.count = implementation.count
-	equality: across 1 |..| count as i all
-		model[i.item] ~ implementation[i.item]
-	end
-	comment("top of stack is model[1] and implementation[1]")
+	same_count: model.count = implementation.count
+	equality: across 1 |..| count as i all model [i.item] ~ implementation [i.item] end
+	comment ("top of stack is model[1] and implementation[1]")
+
 end

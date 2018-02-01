@@ -38,8 +38,9 @@ feature {NONE, ES_TEST} -- creation
 			-- create an empty stack
 		do
 			create implementation.make_empty
-			--TBD
 
+		ensure
+			implementation_is_empty: 0 = implementation.count
 		end
 
 feature -- model
@@ -50,8 +51,11 @@ feature -- model
 			i: INTEGER
 		do
 			create Result.make_empty
-			-- TBD
-
+			across
+				1 |..| count as ic
+			loop
+				Result.append (implementation [count + 1 - ic.item])
+			end
 		end
 
 feature -- Queries
@@ -59,15 +63,12 @@ feature -- Queries
 	count: INTEGER
 			-- number of items in stack
 		do
-			-- TBD
+			Result := implementation.count
 		end
 
 	top: G
 		do
-			Result := implementation [1]
-			-- the above may not be correct
-
-			--TBD
+			Result := implementation[count]
 		end
 
 feature -- Commands
@@ -75,20 +76,17 @@ feature -- Commands
 	push (x: G)
 			-- push `x' on to the stack
 		do
-			-- TBD
-
+				implementation.force (x, count + 1)
 		end
 
 	pop
 		do
-			-- TBD
+				implementation.remove_tail (1)
 		end
 
 invariant
-	same_count:
-		model.count = implementation.count
-	equality:
-		across 1 |..| count as i all model [i.item] ~ implementation [count + 1 - i.item] end
+	same_count: model.count = implementation.count
+	equality: across 1 |..| count as i all model [i.item] ~ implementation [count + 1 - i.item] end
 	comment ("top of stack is model[1] and implementation[count]")
 
 end

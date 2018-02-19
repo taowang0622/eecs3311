@@ -1,6 +1,0 @@
-#include "kl2046.c"
-#include "kl2046d.c"
-#include "kl2047.c"
-#include "kl2047d.c"
-#include "kl2048.c"
-#include "kl2048d.c"

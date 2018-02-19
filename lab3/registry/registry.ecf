@@ -47,6 +47,6 @@
 			</file_rule>
 		</cluster>
 		<cluster name="root" location=".\root\" recursive="true"/>
-		<cluster name="tests" location="D:\York\EECS 3311 Software design\eecs3311\lab3\registry\tests\" recursive="true"/>
+		<cluster name="tests" location=".\tests\" recursive="true"/>
 	</target>
 </system>

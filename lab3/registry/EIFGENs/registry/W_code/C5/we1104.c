@@ -1,0 +1,602 @@
+/*
+ * Code for class WEL_SM_CONSTANTS
+ */
+
+#include "eif_eiffel.h"
+#include "../E1/estructure.h"
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+extern EIF_TYPED_VALUE F1104_10706(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10707(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10708(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10709(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10710(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10711(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10712(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10713(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10714(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10715(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10716(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10717(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10718(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10719(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10720(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10721(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10722(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10723(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10724(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10725(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10726(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10727(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10728(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10729(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10730(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10731(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10732(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10733(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10734(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10735(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10736(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10737(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10738(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10739(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10740(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10741(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10742(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10743(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10744(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10745(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10746(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10747(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10748(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10749(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10750(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10751(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10752(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10753(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10754(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10755(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10756(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10757(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10758(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10759(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10760(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F1104_10761(EIF_REFERENCE);
+extern void EIF_Minit1104(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
+#ifdef __cplusplus
+}
+#endif
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/* {WEL_SM_CONSTANTS}.sm_cxscreen */
+EIF_TYPED_VALUE F1104_10706 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 0L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cyscreen */
+EIF_TYPED_VALUE F1104_10707 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 1L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxvscroll */
+EIF_TYPED_VALUE F1104_10708 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 2L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cyhscroll */
+EIF_TYPED_VALUE F1104_10709 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 3L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cycaption */
+EIF_TYPED_VALUE F1104_10710 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 4L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxborder */
+EIF_TYPED_VALUE F1104_10711 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 5L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cyborder */
+EIF_TYPED_VALUE F1104_10712 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 6L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxdlgframe */
+EIF_TYPED_VALUE F1104_10713 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 7L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cydlgframe */
+EIF_TYPED_VALUE F1104_10714 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 8L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cyvthumb */
+EIF_TYPED_VALUE F1104_10715 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 9L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxhthumb */
+EIF_TYPED_VALUE F1104_10716 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 10L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxicon */
+EIF_TYPED_VALUE F1104_10717 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 11L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cyicon */
+EIF_TYPED_VALUE F1104_10718 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 12L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxcursor */
+EIF_TYPED_VALUE F1104_10719 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 13L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cycursor */
+EIF_TYPED_VALUE F1104_10720 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 14L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cymenu */
+EIF_TYPED_VALUE F1104_10721 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 15L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxfullscreen */
+EIF_TYPED_VALUE F1104_10722 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 16L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cyfullscreen */
+EIF_TYPED_VALUE F1104_10723 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 17L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxmaximized */
+EIF_TYPED_VALUE F1104_10724 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 61L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cymaximized */
+EIF_TYPED_VALUE F1104_10725 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 62L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cykanjiwindow */
+EIF_TYPED_VALUE F1104_10726 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 18L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_mousepresent */
+EIF_TYPED_VALUE F1104_10727 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 19L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cyvscroll */
+EIF_TYPED_VALUE F1104_10728 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 20L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxhscroll */
+EIF_TYPED_VALUE F1104_10729 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 21L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_debug */
+EIF_TYPED_VALUE F1104_10730 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 22L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_swapbutton */
+EIF_TYPED_VALUE F1104_10731 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 23L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_reserved1 */
+EIF_TYPED_VALUE F1104_10732 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 24L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_reserved2 */
+EIF_TYPED_VALUE F1104_10733 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 25L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_reserved3 */
+EIF_TYPED_VALUE F1104_10734 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 26L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_reserved4 */
+EIF_TYPED_VALUE F1104_10735 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 27L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxmin */
+EIF_TYPED_VALUE F1104_10736 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 28L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cymin */
+EIF_TYPED_VALUE F1104_10737 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 29L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxsize */
+EIF_TYPED_VALUE F1104_10738 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 30L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cysize */
+EIF_TYPED_VALUE F1104_10739 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 31L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxframe */
+EIF_TYPED_VALUE F1104_10740 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 32L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cyframe */
+EIF_TYPED_VALUE F1104_10741 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 33L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxmintrack */
+EIF_TYPED_VALUE F1104_10742 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 34L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cymintrack */
+EIF_TYPED_VALUE F1104_10743 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 35L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxdoubleclk */
+EIF_TYPED_VALUE F1104_10744 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 36L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cydoubleclk */
+EIF_TYPED_VALUE F1104_10745 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 37L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxiconspacing */
+EIF_TYPED_VALUE F1104_10746 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 38L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cyiconspacing */
+EIF_TYPED_VALUE F1104_10747 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 39L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_menudropalignment */
+EIF_TYPED_VALUE F1104_10748 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 40L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_penwindows */
+EIF_TYPED_VALUE F1104_10749 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 41L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_dbcsenabled */
+EIF_TYPED_VALUE F1104_10750 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 42L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxmenucheck */
+EIF_TYPED_VALUE F1104_10751 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 71L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cymenucheck */
+EIF_TYPED_VALUE F1104_10752 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 72L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_mousewheelpresent */
+EIF_TYPED_VALUE F1104_10753 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 75L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cmetrics */
+EIF_TYPED_VALUE F1104_10754 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 76L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_xvirtualscreen */
+EIF_TYPED_VALUE F1104_10755 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 76L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_yvirtualscreen */
+EIF_TYPED_VALUE F1104_10756 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 77L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cxvirtualscreen */
+EIF_TYPED_VALUE F1104_10757 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 78L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cyvirtualscreen */
+EIF_TYPED_VALUE F1104_10758 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 79L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_cmonitors */
+EIF_TYPED_VALUE F1104_10759 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 80L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_immenabled */
+EIF_TYPED_VALUE F1104_10760 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 82L);
+	return r;
+}
+
+/* {WEL_SM_CONSTANTS}.sm_remotesession */
+EIF_TYPED_VALUE F1104_10761 (EIF_REFERENCE Current)
+{
+	EIF_TYPED_VALUE r;
+	r.type = SK_INT32;
+	r.it_i4 = (EIF_INTEGER_32) ((EIF_INTEGER_32) 4096L);
+	return r;
+}
+
+void EIF_Minit1104 (void)
+{
+	GTCX
+}
+
+
+#ifdef __cplusplus
+}
+#endif

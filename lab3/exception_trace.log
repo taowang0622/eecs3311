@@ -1,0 +1,657 @@
+
+registry: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+REGISTRY            marry @1               id1_can_marry_id2_on_passed_date:
+<0000000008583748>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+ETF_MARRY           marry @3                                            
+<00000000085DDAA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<00000000085DDD78>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<00000000085DDD78>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           apply @2                                            
+<00000000085DDD78>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_ABSTRACT_UI     run_input_commands @2                               
+<0000000008583C98>  (From ETF_ABSTRACT_UI_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @9             
+<0000000008583628>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<000000000857F588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<000000000857F588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @27                                            
+<000000000857F588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<000000000857F588>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<000000000857F588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+registry: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+DATE                make @1                correct_date:                
+<00000000084D1798>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+CITIZEN             can_marry @8                                        
+<00000000084CE0D8>  (From PERSON)          Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MARRY           marry @13                                           
+<00000000084C4BD8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<00000000084C4EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<00000000084C4EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           apply @2                                            
+<00000000084C4EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_ABSTRACT_UI     run_input_commands @2                               
+<00000000084A6F38>  (From ETF_ABSTRACT_UI_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @9             
+<00000000084A6868>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<00000000084A4588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<00000000084A4588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @27                                            
+<00000000084A4588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<00000000084A4588>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<00000000084A4588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+registry: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+DATE                make @1                correct_date:                
+<00000000085A7798>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+CITIZEN             can_marry @8                                        
+<00000000085A40D8>  (From PERSON)          Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MARRY           marry @13                                           
+<000000000859ABD8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<000000000859AEA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<000000000859AEA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           apply @2                                            
+<000000000859AEA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_ABSTRACT_UI     run_input_commands @2                               
+<000000000857CF38>  (From ETF_ABSTRACT_UI_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @9             
+<000000000857C868>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<000000000857A588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<000000000857A588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @27                                            
+<000000000857A588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<000000000857A588>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<000000000857A588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+registry: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+DATE                make @1                correct_date:                
+<0000000008668798>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+CITIZEN             can_marry @8                                        
+<00000000086650D8>  (From PERSON)          Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MARRY           marry @13                                           
+<000000000865BBD8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<000000000865BEA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<000000000865BEA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           apply @2                                            
+<000000000865BEA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_ABSTRACT_UI     run_input_commands @2                               
+<000000000863DF38>  (From ETF_ABSTRACT_UI_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @9             
+<000000000863D868>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<000000000863B588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<000000000863B588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @27                                            
+<000000000863B588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<000000000863B588>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<000000000863B588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+registry: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+DATE                make @1                correct_date:                
+<00000000085CC798>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+CITIZEN             can_marry @8                                        
+<00000000085C90D8>  (From PERSON)          Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MARRY           marry @13                                           
+<00000000085BFBD8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<00000000085BFEA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<00000000085BFEA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           apply @2                                            
+<00000000085BFEA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_ABSTRACT_UI     run_input_commands @2                               
+<00000000085A1F38>  (From ETF_ABSTRACT_UI_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @9             
+<00000000085A1868>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<000000000859F588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<000000000859F588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @27                                            
+<000000000859F588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<000000000859F588>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<000000000859F588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+registry: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+DATE                make @1                correct_date:                
+<00000000086D0798>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+CITIZEN             can_marry @8                                        
+<00000000086CD0D8>  (From PERSON)          Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MARRY           marry @13                                           
+<00000000086C3BD8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<00000000086C3EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<00000000086C3EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           apply @2                                            
+<00000000086C3EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_ABSTRACT_UI     run_input_commands @2                               
+<00000000086A5F38>  (From ETF_ABSTRACT_UI_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @9             
+<00000000086A5868>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<00000000086A3588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<00000000086A3588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @27                                            
+<00000000086A3588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<00000000086A3588>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<00000000086A3588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+registry: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+DATE                make @1                correct_date:                
+<00000000085EF798>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+CITIZEN             can_marry @8                                        
+<00000000085EC0D8>  (From PERSON)          Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MARRY           marry @13                                           
+<00000000085E2BD8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<00000000085E2EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<00000000085E2EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           apply @2                                            
+<00000000085E2EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_ABSTRACT_UI     run_input_commands @2                               
+<00000000085C4F38>  (From ETF_ABSTRACT_UI_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @9             
+<00000000085C4868>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<00000000085C2588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<00000000085C2588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @27                                            
+<00000000085C2588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<00000000085C2588>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<00000000085C2588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+registry: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+DATE                make @1                correct_date:                
+<0000000008791788>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+CITIZEN             can_marry @8                                        
+<000000000878E0C8>  (From PERSON)          Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MARRY           marry @13                                           
+<0000000008784BC8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<0000000008784E98>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<0000000008784E98>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           apply @2                                            
+<0000000008784E98>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_ABSTRACT_UI     run_input_commands @2                               
+<0000000008766F28>  (From ETF_ABSTRACT_UI_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @9             
+<0000000008766858>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<0000000008764588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<0000000008764588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @27                                            
+<0000000008764588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<0000000008764588>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<0000000008764588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+registry: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+DATE                make @1                correct_date:                
+<00000000086E5798>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+CITIZEN             can_marry @8                                        
+<00000000086E20D8>  (From PERSON)          Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MARRY           marry @13                                           
+<00000000086D8BD8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<00000000086D8EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<00000000086D8EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           apply @2                                            
+<00000000086D8EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_ABSTRACT_UI     run_input_commands @2                               
+<00000000086BAF38>  (From ETF_ABSTRACT_UI_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @9             
+<00000000086BA868>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<00000000086B8588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<00000000086B8588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @27                                            
+<00000000086B8588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<00000000086B8588>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<00000000086B8588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+registry: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+DATE                make @1                correct_date:                
+<000000000856D798>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+CITIZEN             can_marry @8                                        
+<000000000856A0D8>  (From PERSON)          Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MARRY           marry @13                                           
+<0000000008560BD8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<0000000008560EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<0000000008560EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           apply @2                                            
+<0000000008560EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_ABSTRACT_UI     run_input_commands @2                               
+<0000000008542F38>  (From ETF_ABSTRACT_UI_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @9             
+<0000000008542868>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<0000000008540588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<0000000008540588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @27                                            
+<0000000008540588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<0000000008540588>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<0000000008540588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+registry: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+DATE                make @1                correct_date:                
+<00000000084A1798>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+CITIZEN             can_marry @8                                        
+<000000000849E0D8>  (From PERSON)          Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MARRY           marry @13                                           
+<0000000008494BD8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<0000000008494EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<0000000008494EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           apply @2                                            
+<0000000008494EA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_ABSTRACT_UI     run_input_commands @2                               
+<0000000008476F38>  (From ETF_ABSTRACT_UI_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @9             
+<0000000008476868>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<0000000008474588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<0000000008474588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @27                                            
+<0000000008474588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<0000000008474588>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<0000000008474588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+registry: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+DATE                make @1                correct_date:                
+<000000000868B798>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+CITIZEN             can_marry @8                                        
+<00000000086880D8>  (From PERSON)          Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_MARRY           marry @13                                           
+<000000000867EBD8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           fast_call                                           
+<000000000867EEA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           call @5                                             
+<000000000867EEA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+PROCEDURE           apply @2                                            
+<000000000867EEA8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_ABSTRACT_UI     run_input_commands @2                               
+<0000000008660F38>  (From ETF_ABSTRACT_UI_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ETF_SOFTWARE_OPERATION
+                    execute @9             
+<0000000008660868>  (From ETF_SOFTWARE_OPERATION_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                exec @3                                             
+<000000000865E588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                handle_batch_mode @5                                
+<000000000865E588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @27                                            
+<000000000865E588>  (From ETF_CMD_LINE_ROOT_INTERFACE)
+                                           Routine failure.              Fail
+-------------------------------------------------------------------------------
+ROOT                make @16                                            
+<000000000865E588>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+ROOT                root's creation                                     
+<000000000865E588>                         Routine failure.              Exit
+-------------------------------------------------------------------------------

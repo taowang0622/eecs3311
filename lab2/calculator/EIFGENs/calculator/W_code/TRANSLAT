@@ -1,0 +1,2423 @@
+kernel	KL_OPERATING_SYSTEM	is_windows	F958_7078	C1\kl958.c
+kernel	KL_OPERATING_SYSTEM	is_unix	F958_7079	C1\kl958.c
+kernel	KL_OPERATING_SYSTEM	is_dotnet	F958_7080	C1\kl958.c
+kernel	KL_OPERATING_SYSTEM	current_working_directory	F958_7081	C1\kl958.c
+kernel	KL_OPERATING_SYSTEM	variable_value	F958_7082	C1\kl958.c
+kernel	KL_OPERATING_SYSTEM	execution_environment	F958_7083	C1\kl958.c
+kernel	KL_ANY_ROUTINES	same_types	F959_7084	C1\kl959.c
+kernel	KL_ANY_ROUTINES	same_objects	F959_7085	C1\kl959.c
+kernel	KL_ANY_ROUTINES	equal_objects	F959_7086	C1\kl959.c
+kernel	KL_ANY_ROUTINES	to_any	F959_7087	C1\kl959.c
+kernel	KL_STANDARD_FILES	input	F960_7088	C1\kl960.c
+kernel	KL_STANDARD_FILES	output	F960_7089	C1\kl960.c
+kernel	KL_STANDARD_FILES	error	F960_7090	C1\kl960.c
+time	C_DATE	default_create	F961_7091	C1\c_961.c
+time	C_DATE	make_utc	F961_7092	C1\c_961.c
+time	C_DATE	is_utc	F961_7093	C1\c_961.c
+time	C_DATE	update	F961_7094	C1\c_961.c
+time	C_DATE	year_now	F961_7095	C1\c_961.c
+time	C_DATE	month_now	F961_7096	C1\c_961.c
+time	C_DATE	day_now	F961_7097	C1\c_961.c
+time	C_DATE	hour_now	F961_7098	C1\c_961.c
+time	C_DATE	minute_now	F961_7099	C1\c_961.c
+time	C_DATE	second_now	F961_7100	C1\c_961.c
+time	C_DATE	millisecond_now	F961_7101	C1\c_961.c
+time	C_DATE	microseconds_now	F961_7102	C1\c_961.c
+time	C_DATE	gettimeofday	F961_7103	C1\c_961.c
+time	C_DATE	timeval_structure_size	F961_7104	C1\c_961.c
+time	C_DATE	time_t_structure_size	F961_7105	C1\c_961.c
+time	C_DATE	tm_structure_size	F961_7106	C1\c_961.c
+time	C_DATE	get_time	F961_7107	C1\c_961.c
+time	C_DATE	get_micro	F961_7108	C1\c_961.c
+time	C_DATE	internal_item	F961_7109	C1\c_961.c
+time	C_DATE	localtime	F961_7110	C1\c_961.c
+time	C_DATE	gmtime	F961_7111	C1\c_961.c
+time	C_DATE	get_tm_year	F961_7112	C1\c_961.c
+time	C_DATE	get_tm_mon	F961_7113	C1\c_961.c
+time	C_DATE	get_tm_mday	F961_7114	C1\c_961.c
+time	C_DATE	get_tm_hour	F961_7115	C1\c_961.c
+time	C_DATE	get_tm_min	F961_7116	C1\c_961.c
+time	C_DATE	get_tm_sec	F961_7117	C1\c_961.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	make	F1104_7118	C5\kl1104.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	make_filled	F1104_7119	C5\kl1104.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	make_from_array	F1104_7120	C5\kl1104.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	to_special	F1104_7121	C5\kl1104.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	has	F1104_7122	C5\kl1104.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	force	F1104_7123	C5\kl1104.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	keep_head	F1104_7124	C5\kl1104.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	resize	F1104_7125	C5\kl1104.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	aliased_resized_area	F1104_7126	C5\kl1104.c
+kernel	KL_SPECIAL_ROUTINES [G#1]	aliased_resized_area_with_default	F1104_7127	C5\kl1104.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	make	F1137_7118	C6\kl1137.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	make_filled	F1137_7119	C6\kl1137.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	make_from_array	F1137_7120	C6\kl1137.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	to_special	F1137_7121	C6\kl1137.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	has	F1137_7122	C6\kl1137.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	force	F1137_7123	C6\kl1137.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	keep_head	F1137_7124	C6\kl1137.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	resize	F1137_7125	C6\kl1137.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	aliased_resized_area	F1137_7126	C6\kl1137.c
+kernel	KL_SPECIAL_ROUTINES [CHARACTER_8]	aliased_resized_area_with_default	F1137_7127	C6\kl1137.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	make	F1140_7118	C6\kl1140.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	make_filled	F1140_7119	C6\kl1140.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	make_from_array	F1140_7120	C6\kl1140.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	to_special	F1140_7121	C6\kl1140.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	has	F1140_7122	C6\kl1140.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	force	F1140_7123	C6\kl1140.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	keep_head	F1140_7124	C6\kl1140.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	resize	F1140_7125	C6\kl1140.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	aliased_resized_area	F1140_7126	C6\kl1140.c
+kernel	KL_SPECIAL_ROUTINES [BOOLEAN]	aliased_resized_area_with_default	F1140_7127	C6\kl1140.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	make	F1151_7118	C6\kl1151.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	make_filled	F1151_7119	C6\kl1151.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	make_from_array	F1151_7120	C6\kl1151.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	to_special	F1151_7121	C6\kl1151.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	has	F1151_7122	C6\kl1151.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	force	F1151_7123	C6\kl1151.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	keep_head	F1151_7124	C6\kl1151.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	resize	F1151_7125	C6\kl1151.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	aliased_resized_area	F1151_7126	C6\kl1151.c
+kernel	KL_SPECIAL_ROUTINES [INTEGER_32]	aliased_resized_area_with_default	F1151_7127	C6\kl1151.c
+model	TOKENIZER	parser	F962_7128	C1\to962.c
+model	TOKENIZER	make	F962_7129	C1\to962.c
+model	TOKENIZER	is_arithmetic_expression	F962_7130	C1\to962.c
+model	TOKENIZER	error_string	F962_7131	C1\to962.c
+model	TOKENIZER	get_tokens	F962_7132	C1\to962.c
+model	EVALUATOR	make	F963_7133	C1\ev963.c
+model	EVALUATOR	ops	F963_7134	C1\ev963.c
+model	EVALUATOR	vals	F963_7135	C1\ev963.c
+model	EVALUATOR	expression	F963_7136	C1\ev963.c
+model	EVALUATOR	value	F963_7137	C1\ev963.c
+model	EVALUATOR	value	F963_7137	C1\ev963.c
+model	EVALUATOR	error	F963_7138	C1\ev963.c
+model	EVALUATOR	error_string	F963_7139	C1\ev963.c
+model	EVALUATOR	is_valid	F963_7140	C1\ev963.c
+model	EVALUATOR	evaluated	F963_7141	C1\ev963.c
+model	EVALUATOR	evaluate	F963_7142	C1\ev963.c
+model	EVALUATOR	dijkstra_alg	F963_7143	C1\ev963.c
+kernel	KI_OUTPUT_STREAM [CHARACTER_8]	append	F1145_7145	C6\ki1145.c
+kernel	KI_OUTPUT_STREAM [CHARACTER_8]	is_closable	F1145_7147	C6\ki1145.c
+kernel	KI_OUTPUT_STREAM [CHARACTER_8]	close	F1145_7149	C6\ki1145.c
+kernel	UC_SHARED_STRING_EQUALITY_TESTER	string_equality_tester	F964_7150	C1\uc964.c
+kernel	KL_SHARED_STRING_EQUALITY_TESTER	string_equality_tester	F965_7151	C1\kl965.c
+kernel	KL_SHARED_STRING_EQUALITY_TESTER	case_insensitive_string_equality_tester	F965_7152	C1\kl965.c
+time	DATE_TIME_TOOLS	name	F967_7161	C1\da967.c
+time	DATE_TIME_TOOLS	days_text	F967_7162	C1\da967.c
+time	DATE_TIME_TOOLS	months_text	F967_7163	C1\da967.c
+time	DATE_TIME_TOOLS	long_days_text	F967_7164	C1\da967.c
+time	DATE_TIME_TOOLS	long_months_text	F967_7165	C1\da967.c
+time	DATE_TIME_TOOLS	date_default_format_string	F967_7166	C1\da967.c
+time	DATE_TIME_TOOLS	time_default_format_string	F967_7167	C1\da967.c
+time	DATE_TIME_TOOLS	default_format_string	F967_7168	C1\da967.c
+kernel	KL_SHARED_STREAMS	null_input_stream	F968_7169	C1\kl968.c
+kernel	KL_SHARED_STREAMS	null_output_stream	F968_7170	C1\kl968.c
+kernel	UC_IMPORTED_UTF8_ROUTINES	utf8	F969_7171	C1\uc969.c
+kernel	KI_PLATFORM	byte_bits	F970_7173	C1\ki970.c
+kernel	KI_PLATFORM	byte_bytes	F970_7180	C1\ki970.c
+kernel	KI_PLATFORM	minimum_byte_code	F970_7186	C1\ki970.c
+kernel	KI_PLATFORM	maximum_byte_code	F970_7187	C1\ki970.c
+kernel	KL_IMPORTED_CHARACTER_ROUTINES	character_	F971_7192	C1\kl971.c
+kernel	KL_SHARED_OPERATING_SYSTEM	operating_system	F972_7193	C1\kl972.c
+kernel	KL_SHARED_PLATFORM	platform	F975_7199	C1\kl975.c
+kernel	KL_CHARACTER_ROUTINES	is_digit	F976_7200	C1\kl976.c
+kernel	KL_CHARACTER_ROUTINES	is_hex_digit	F976_7201	C1\kl976.c
+kernel	KL_CHARACTER_ROUTINES	next	F976_7202	C1\kl976.c
+kernel	KL_CHARACTER_ROUTINES	previous	F976_7203	C1\kl976.c
+kernel	KL_CHARACTER_ROUTINES	as_lower	F976_7204	C1\kl976.c
+kernel	KL_CHARACTER_ROUTINES	as_upper	F976_7205	C1\kl976.c
+kernel	UC_UNICODE_CONSTANTS	minimum_unicode_character_code	F977_7206	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	maximum_unicode_character_code	F977_7207	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	minimum_unicode_surrogate_code	F977_7208	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	maximum_unicode_surrogate_code	F977_7209	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	maximum_bmp_character_code	F977_7210	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	minimum_ascii_character_code	F977_7211	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	maximum_ascii_character_code	F977_7212	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	minimum_ascii_character	F977_7213	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	maximum_ascii_character	F977_7214	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	unassigned_other_category	F977_7215	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	uppercase_letter_category	F977_7216	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	lowercase_letter_category	F977_7217	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	titlecase_letter_category	F977_7218	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	modifier_letter_category	F977_7219	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	other_letter_category	F977_7220	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	non_spacing_mark_category	F977_7221	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	spacing_combining_mark_category	F977_7222	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	enclosing_mark_category	F977_7223	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	decimal_digit_number_category	F977_7224	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	letter_number_category	F977_7225	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	other_number_category	F977_7226	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	connector_punctuation_category	F977_7227	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	dash_punctuation_category	F977_7228	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	open_punctuation_category	F977_7229	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	close_punctuation_category	F977_7230	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	initial_quote_punctuation_category	F977_7231	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	final_quote_punctuation_category	F977_7232	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	other_punctuation_category	F977_7233	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	math_symbol_category	F977_7234	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	currency_symbol_category	F977_7235	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	modifier_symbol_category	F977_7236	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	other_symbol_category	F977_7237	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	space_separator_category	F977_7238	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	line_separator_category	F977_7239	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	paragraph_separator_category	F977_7240	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	control_other_category	F977_7241	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	format_other_category	F977_7242	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	surrogate_other_category	F977_7243	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	private_other_category	F977_7244	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	canonical_decomposition_mapping	F977_7245	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	font_decomposition_mapping	F977_7246	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	no_break_decomposition_mapping	F977_7247	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	initial_decomposition_mapping	F977_7248	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	medial_decomposition_mapping	F977_7249	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	final_decomposition_mapping	F977_7250	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	isolated_decomposition_mapping	F977_7251	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	encircled_decomposition_mapping	F977_7252	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	superscript_decomposition_mapping	F977_7253	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	subscript_decomposition_mapping	F977_7254	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	vertical_decomposition_mapping	F977_7255	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	wide_decomposition_mapping	F977_7256	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	narrow_decomposition_mapping	F977_7257	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	small_decomposition_mapping	F977_7258	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	square_decomposition_mapping	F977_7259	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	fraction_decomposition_mapping	F977_7260	C1\uc977.c
+kernel	UC_UNICODE_CONSTANTS	compatibility_decomposition_mapping	F977_7261	C1\uc977.c
+kernel	KL_CELL [CHARACTER_8]	item	F1136_7262	C6\kl1136.c
+kernel	KL_CELL [CHARACTER_8]	put	F1136_7263	C6\kl1136.c
+kernel	KL_CELL [CHARACTER_8]	make	F1136_7264	C6\kl1136.c
+kernel	KL_CELL [G#1]	item	F1144_7262	C6\kl1144.c
+kernel	KL_CELL [G#1]	put	F1144_7263	C6\kl1144.c
+kernel	KL_CELL [G#1]	make	F1144_7264	C6\kl1144.c
+kernel	KL_LINKABLE [CHARACTER_8]	right	F1135_7265	C6\kl1135.c
+kernel	KL_LINKABLE [CHARACTER_8]	put_right	F1135_7266	C6\kl1135.c
+kernel	KL_LINKABLE [CHARACTER_8]	forget_right	F1135_7267	C6\kl1135.c
+kernel	KL_LINKABLE [G#1]	right	F1143_7265	C6\kl1143.c
+kernel	KL_LINKABLE [G#1]	put_right	F1143_7266	C6\kl1143.c
+kernel	KL_LINKABLE [G#1]	forget_right	F1143_7267	C6\kl1143.c
+kernel	KI_BUFFER [CHARACTER_8]	fill_from_stream	F1108_7271	C5\ki1108.c
+kernel	KI_BUFFER [CHARACTER_8]	move_left	F1108_7272	C5\ki1108.c
+kernel	KI_BUFFER [CHARACTER_8]	move_right	F1108_7273	C5\ki1108.c
+kernel	KI_BUFFER [G#1]	fill_from_stream	F1148_7271	C6\ki1148.c
+kernel	KI_BUFFER [G#1]	move_left	F1148_7272	C6\ki1148.c
+kernel	KI_BUFFER [G#1]	move_right	F1148_7273	C6\ki1148.c
+composite	COMPOSITE [G#1]	children	F1146_7275	C6\co1146.c
+composite	COMPOSITE [G#1]	make_empty	F1146_7276	C6\co1146.c
+composite	COMPOSITE [G#1]	add_child	F1146_7277	C6\co1146.c
+parse	YY_PARSER	clear_all	F978_7285	C1\yy978.c
+lexical	YY_BUFFER	make	F979_7294	C1\yy979.c
+lexical	YY_BUFFER	make_from_buffer	F979_7295	C1\yy979.c
+lexical	YY_BUFFER	name	F979_7296	C1\yy979.c
+lexical	YY_BUFFER	content	F979_7297	C1\yy979.c
+lexical	YY_BUFFER	count	F979_7298	C1\yy979.c
+lexical	YY_BUFFER	capacity	F979_7299	C1\yy979.c
+lexical	YY_BUFFER	position	F979_7300	C1\yy979.c
+lexical	YY_BUFFER	line	F979_7301	C1\yy979.c
+lexical	YY_BUFFER	column	F979_7302	C1\yy979.c
+lexical	YY_BUFFER	index	F979_7303	C1\yy979.c
+lexical	YY_BUFFER	beginning_of_line	F979_7304	C1\yy979.c
+lexical	YY_BUFFER	set_string	F979_7305	C1\yy979.c
+lexical	YY_BUFFER	set_position	F979_7306	C1\yy979.c
+lexical	YY_BUFFER	set_index	F979_7307	C1\yy979.c
+lexical	YY_BUFFER	set_beginning_of_line	F979_7308	C1\yy979.c
+lexical	YY_BUFFER	filled	F979_7309	C1\yy979.c
+lexical	YY_BUFFER	interactive	F979_7310	C1\yy979.c
+lexical	YY_BUFFER	set_interactive	F979_7311	C1\yy979.c
+lexical	YY_BUFFER	fill	F979_7312	C1\yy979.c
+lexical	YY_BUFFER	flush	F979_7313	C1\yy979.c
+lexical	YY_BUFFER	wipe_out	F979_7314	C1\yy979.c
+lexical	YY_BUFFER	compact_left	F979_7315	C1\yy979.c
+lexical	YY_BUFFER	compact_right	F979_7316	C1\yy979.c
+lexical	YY_BUFFER	new_default_buffer	F979_7317	C1\yy979.c
+lexical	YY_BUFFER	resize	F979_7318	C1\yy979.c
+lexical	YY_BUFFER	default_capacity	F979_7319	C1\yy979.c
+lexical	YY_BUFFER	end_of_buffer_character	F979_7320	C1\yy979.c
+lexical	YY_BUFFER	name_constant	F979_7321	C1\yy979.c
+lexical	YY_FILE_BUFFER	make	F980_7322	C1\yy980.c
+lexical	YY_FILE_BUFFER	make_with_size	F980_7323	C1\yy980.c
+lexical	YY_FILE_BUFFER	name	F980_7324	C1\yy980.c
+lexical	YY_FILE_BUFFER	file	F980_7325	C1\yy980.c
+lexical	YY_FILE_BUFFER	end_of_file	F980_7326	C1\yy980.c
+lexical	YY_FILE_BUFFER	set_file	F980_7327	C1\yy980.c
+lexical	YY_FILE_BUFFER	set_file_with_size	F980_7328	C1\yy980.c
+lexical	YY_FILE_BUFFER	set_string	F980_7329	C1\yy980.c
+lexical	YY_FILE_BUFFER	set_end_of_file	F980_7330	C1\yy980.c
+lexical	YY_FILE_BUFFER	fill	F980_7331	C1\yy980.c
+lexical	YY_FILE_BUFFER	wipe_out	F980_7332	C1\yy980.c
+lexical	YY_FILE_BUFFER	read_buffer_capacity	F980_7333	C1\yy980.c
+espec	ES_HTML_GEN	make_gen	F981_7334	C1\es981.c
+espec	ES_HTML_GEN	show_error	F981_7335	C1\es981.c
+espec	ES_HTML_GEN	write_summary	F981_7336	C1\es981.c
+espec	ES_HTML_GEN	write_summary_big	F981_7337	C1\es981.c
+espec	ES_HTML_GEN	write_summary_start	F981_7338	C1\es981.c
+espec	ES_HTML_GEN	write_summary_end	F981_7339	C1\es981.c
+espec	ES_HTML_GEN	write_summary_start_big	F981_7340	C1\es981.c
+espec	ES_HTML_GEN	write_summary_end_big	F981_7341	C1\es981.c
+espec	ES_HTML_GEN	write_statistics	F981_7342	C1\es981.c
+espec	ES_HTML_GEN	write_statistics_big	F981_7343	C1\es981.c
+espec	ES_HTML_GEN	write_passed_case	F981_7344	C1\es981.c
+espec	ES_HTML_GEN	write_failed_case	F981_7345	C1\es981.c
+espec	ES_HTML_GEN	wrap_length	F981_7346	C1\es981.c
+espec	ES_HTML_GEN	wrap_line	F981_7347	C1\es981.c
+espec	ES_HTML_GEN	wrap_html_comments	F981_7348	C1\es981.c
+espec	ES_HTML_GEN	write_one_case_details	F981_7349	C1\es981.c
+espec	ES_HTML_GEN	output_file	F981_7352	C1\es981.c
+espec	ES_HTML_GEN	test_name	F981_7353	C1\es981.c
+espec	ES_HTML_GEN	output_file_name	F981_7354	C1\es981.c
+espec	ES_HTML_GEN	output_file1	F981_7355	C1\es981.c
+espec	ES_HTML_GEN	number_of_boolean	F981_7356	C1\es981.c
+espec	ES_HTML_GEN	number_passed_boolean	F981_7357	C1\es981.c
+espec	ES_HTML_GEN	number_of_violation	F981_7358	C1\es981.c
+espec	ES_HTML_GEN	number_passed_violation	F981_7359	C1\es981.c
+espec	ES_HTML_GEN	number_of_tests	F981_7360	C1\es981.c
+espec	ES_HTML_GEN	number_passed_tests	F981_7361	C1\es981.c
+espec	ES_HTML_GEN_SUITE	make	F982_7362	C1\es982.c
+espec	ES_HTML_GEN_SUITE	write_html_report	F982_7363	C1\es982.c
+espec	ES_HTML_GEN_SUITE	get_statistics	F982_7364	C1\es982.c
+espec	ES_HTML_GEN_SUITE	write_summary_details	F982_7365	C1\es982.c
+espec	ES_HTML_GEN_SUITE	test_classes	F982_7366	C1\es982.c
+espec	ES_TESTABLE	run_espec	F983_7367	C1\es983.c
+espec	ES_TESTABLE	show_errors	F983_7368	C1\es983.c
+espec	ES_TESTABLE	show_browser	F983_7369	C1\es983.c
+espec	ES_TESTABLE	set_html_name	F983_7370	C1\es983.c
+espec	ES_TESTABLE	set_error_report	F983_7371	C1\es983.c
+espec	ES_TESTABLE	curr_os_dir_separator	F983_7373	C1\es983.c
+espec	ES_TESTABLE	print_to_screen	F983_7374	C1\es983.c
+espec	ES_TESTABLE	safe_put_string	F983_7375	C1\es983.c
+espec	ES_TESTABLE	check_browser	F983_7376	C1\es983.c
+espec	ES_TESTABLE	get_html_name	F983_7377	C1\es983.c
+espec	ES_TESTABLE	print_console_report	F983_7380	C1\es983.c
+espec	ES_TESTABLE	default_html_name	F983_7381	C1\es983.c
+espec	ES_TESTABLE	number_of_tests	F983_7382	C1\es983.c
+espec	ES_TESTABLE	number_passed_tests	F983_7383	C1\es983.c
+espec	ES_TESTABLE	show_err	F983_7384	C1\es983.c
+espec	ES_TESTABLE	browser	F983_7385	C1\es983.c
+espec	ES_SUITE	add_test	F984_7386	C1\es984.c
+espec	ES_SUITE	add_suite	F984_7387	C1\es984.c
+espec	ES_SUITE	to_html	F984_7388	C1\es984.c
+espec	ES_SUITE	run_es_test	F984_7389	C1\es984.c
+espec	ES_SUITE	passed_cases	F984_7390	C1\es984.c
+espec	ES_SUITE	failed_cases	F984_7391	C1\es984.c
+espec	ES_SUITE	make_test	F984_7392	C1\es984.c
+espec	ES_SUITE	count	F984_7393	C1\es984.c
+espec	ES_SUITE	pass_values	F984_7394	C1\es984.c
+espec	ES_SUITE	name	F984_7395	C1\es984.c
+espec	ES_SUITE	classes	F984_7396	C1\es984.c
+root	ROOT	is_print	F985_7397	C1\ro985.c
+root	ROOT	make	F985_7398	C1\ro985.c
+espec	ES_TEST	add_boolean_case	F986_7399	C1\es986.c
+espec	ES_TEST	add_violation_case_with_tag	F986_7400	C1\es986.c
+espec	ES_TEST	add_violation_case	F986_7401	C1\es986.c
+espec	ES_TEST	setup	F986_7402	C1\es986.c
+espec	ES_TEST	teardown	F986_7403	C1\es986.c
+espec	ES_TEST	comment	F986_7404	C1\es986.c
+espec	ES_TEST	html_start_code	F986_7405	C1\es986.c
+espec	ES_TEST	html_end_code	F986_7406	C1\es986.c
+espec	ES_TEST	space	F986_7407	C1\es986.c
+espec	ES_TEST	sub_comment	F986_7408	C1\es986.c
+espec	ES_TEST	assert_equal	F986_7409	C1\es986.c
+espec	ES_TEST	assert_not_equal	F986_7410	C1\es986.c
+espec	ES_TEST	assert	F986_7411	C1\es986.c
+espec	ES_TEST	failed_cases	F986_7412	C1\es986.c
+espec	ES_TEST	create_case_name	F986_7413	C1\es986.c
+espec	ES_TEST	case_name	F986_7414	C1\es986.c
+espec	ES_TEST	case_name	F986_7414	C1\es986.c
+espec	ES_TEST	passed_cases	F986_7415	C1\es986.c
+espec	ES_TEST	count	F986_7416	C1\es986.c
+espec	ES_TEST	initialize	F986_7417	C1\es986.c
+espec	ES_TEST	to_html	F986_7418	C1\es986.c
+espec	ES_TEST	get_test_name	F986_7419	C1\es986.c
+espec	ES_TEST	run_es_test	F986_7420	C1\es986.c
+espec	ES_TEST	to_message_string	F986_7421	C1\es986.c
+espec	ES_TEST	cases	F986_7422	C1\es986.c
+espec	ES_TEST	name	F986_7423	C1\es986.c
+espec	ES_TEST	descriptions	F986_7424	C1\es986.c
+espec	ES_TEST	class_variable_comment_string	F986_7425	C1\es986.c
+espec	ES_TEST	class_variable_comment_string	F986_7425	C1\es986.c
+tests	STUDENT_TESTS	make	F987_7426	C1\st987.c
+tests	STUDENT_TESTS	t0	F987_7427	C1\st987.c
+tests	STUDENT_TESTS	t1	F987_7428	C1\st987.c
+tests	STUDENT_TESTS	t2	F987_7429	C1\st987.c
+tests	STUDENT_TESTS	t0v	F987_7430	C1\st987.c
+tests	STUDENT_TESTS	t1v	F987_7431	C1\st987.c
+tests	TEST_STACK_ARRAY	stack_type	F988_7432	C1\te988.c
+tests	TEST_STACK_ARRAY	make	F988_7433	C1\te988.c
+tests	TEST_STACK_ARRAY	make_stack	F988_7434	C1\te988.c
+tests	TEST_STACK_ARRAY	t0	F988_7435	C1\te988.c
+tests	TEST_STACK_ARRAY	t1	F988_7436	C1\te988.c
+tests	TEST_STACK_ARRAY	t2	F988_7437	C1\te988.c
+tests	TEST_STACK_LIST	make	F989_7438	C1\te989.c
+tests	TEST_STACK_LIST	t2	F989_7439	C1\te989.c
+tests	TEST_STACK_LIST	t4	F989_7440	C1\te989.c
+tests	TEST_STACK_ARRAY_EVAL	stack_type	F990_7441	C2\te990.c
+tests	TEST_STACK_ARRAY_EVAL	make	F990_7442	C2\te990.c
+tests	TEST_STACK_ARRAY_EVAL	t1	F990_7443	C2\te990.c
+tests	TEST_STACK_ARRAY_EVAL	t2	F990_7444	C2\te990.c
+tests	TEST_STACK_ARRAY_EVAL	t3	F990_7445	C2\te990.c
+tests	TEST_STACK_ARRAY_EVAL	t4	F990_7446	C2\te990.c
+tests	TEST_STACK_ARRAY_EVAL	t5	F990_7447	C2\te990.c
+tests	TEST_STACK_ARRAY_EVAL	t6	F990_7448	C2\te990.c
+tests	TEST_STACK_ARRAY_EVAL	t10	F990_7449	C2\te990.c
+tests	TEST_STACK_ARRAY_EVAL	t11	F990_7450	C2\te990.c
+kernel	UC_IMPORTED_UTF32_ROUTINES	utf32	F993_7451	C2\uc993.c
+kernel	UC_IMPORTED_UTF16_ROUTINES	utf16	F994_7452	C2\uc994.c
+kernel	KI_FILE_SYSTEM_ENTRY	reset	F995_7454	C2\ki995.c
+kernel	KI_FILE_SYSTEM_ENTRY	is_closable	F995_7460	C2\ki995.c
+time	CODE_VALIDITY_CHECKER	is_code	F997_7471	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_day	F997_7472	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_day0	F997_7473	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_day_text	F997_7474	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_year4	F997_7475	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_year2	F997_7476	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_month	F997_7477	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_month0	F997_7478	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_month_text	F997_7479	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_hour	F997_7480	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_hour0	F997_7481	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_hour12	F997_7482	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_hour12_0	F997_7483	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_minute	F997_7484	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_minute0	F997_7485	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_second	F997_7486	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_second0	F997_7487	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_fractional_second	F997_7488	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_colon	F997_7489	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_slash	F997_7490	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_minus	F997_7491	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_comma	F997_7492	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_space	F997_7493	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_dot	F997_7494	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_separator	F997_7495	C2\co997.c
+time	CODE_VALIDITY_CHECKER	is_meridiem	F997_7496	C2\co997.c
+time	TIME_UTILITY	mod	F998_7497	C2\ti998.c
+time	TIME_UTILITY	div	F998_7498	C2\ti998.c
+time	TIME_UTILITY	date_time_tools	F998_7499	C2\ti998.c
+time	TIME_UTILITY	default_format_string	F998_7500	C2\ti998.c
+time	TIME_CONSTANTS	seconds_in_minute	F999_7501	C2\ti999.c
+time	TIME_CONSTANTS	seconds_in_hour	F999_7502	C2\ti999.c
+time	TIME_CONSTANTS	seconds_in_day	F999_7503	C2\ti999.c
+time	TIME_CONSTANTS	minutes_in_hour	F999_7504	C2\ti999.c
+time	TIME_CONSTANTS	hours_in_day	F999_7505	C2\ti999.c
+time	TIME_CONSTANTS	time_default_format_string	F999_7506	C2\ti999.c
+time	TIME_VALUE	hour	F1001_7516	C2\ti1001.c
+time	TIME_VALUE	minute	F1001_7517	C2\ti1001.c
+time	TIME_VALUE	second	F1001_7518	C2\ti1001.c
+time	TIME_VALUE	fractional_second	F1001_7519	C2\ti1001.c
+time	TIME_VALUE	compact_time	F1001_7520	C2\ti1001.c
+time	TIME_VALUE	fine_second	F1001_7521	C2\ti1001.c
+time	TIME_VALUE	milli_second	F1001_7522	C2\ti1001.c
+time	TIME_VALUE	micro_second	F1001_7523	C2\ti1001.c
+time	TIME_VALUE	nano_second	F1001_7524	C2\ti1001.c
+time	TIME_VALUE	set_hour	F1001_7525	C2\ti1001.c
+time	TIME_VALUE	set_minute	F1001_7526	C2\ti1001.c
+time	TIME_VALUE	set_second	F1001_7527	C2\ti1001.c
+time	TIME_VALUE	set_fine_second	F1001_7528	C2\ti1001.c
+time	TIME_VALUE	set_fractionals	F1001_7529	C2\ti1001.c
+time	TIME_VALUE	hour_mask	F1001_7530	C2\ti1001.c
+time	TIME_VALUE	minute_mask	F1001_7531	C2\ti1001.c
+time	TIME_VALUE	second_mask	F1001_7532	C2\ti1001.c
+time	TIME_VALUE	hour_shift	F1001_7533	C2\ti1001.c
+time	TIME_VALUE	minute_shift	F1001_7534	C2\ti1001.c
+time	DATE_CONSTANTS	days_in_week	F1002_7535	C2\da1002.c
+time	DATE_CONSTANTS	max_weeks_in_year	F1002_7536	C2\da1002.c
+time	DATE_CONSTANTS	months_in_year	F1002_7537	C2\da1002.c
+time	DATE_CONSTANTS	days_in_leap_year	F1002_7538	C2\da1002.c
+time	DATE_CONSTANTS	days_in_non_leap_year	F1002_7539	C2\da1002.c
+time	DATE_CONSTANTS	days_in_i_th_month	F1002_7540	C2\da1002.c
+time	DATE_CONSTANTS	date_default_format_string	F1002_7541	C2\da1002.c
+time	DATE_CONSTANTS	days_text	F1002_7542	C2\da1002.c
+time	DATE_CONSTANTS	months_text	F1002_7543	C2\da1002.c
+time	DATE_CONSTANTS	long_days_text	F1002_7544	C2\da1002.c
+time	DATE_CONSTANTS	long_months_text	F1002_7545	C2\da1002.c
+time	DATE_CONSTANTS	i_th_leap_year	F1002_7546	C2\da1002.c
+time	DATE_CONSTANTS	is_leap_year	F1002_7547	C2\da1002.c
+time	DATE_CONSTANTS	days_in_months	F1002_7548	C2\da1002.c
+time	DATE_TIME_MEASUREMENT	year	F1003_7551	C2\da1003.c
+time	DATE_TIME_MEASUREMENT	month	F1003_7552	C2\da1003.c
+time	DATE_TIME_MEASUREMENT	day	F1003_7553	C2\da1003.c
+time	DATE_TIME_MEASUREMENT	hour	F1003_7554	C2\da1003.c
+time	DATE_TIME_MEASUREMENT	minute	F1003_7555	C2\da1003.c
+time	DATE_TIME_MEASUREMENT	second	F1003_7556	C2\da1003.c
+time	DATE_TIME_MEASUREMENT	fine_second	F1003_7557	C2\da1003.c
+time	DATE_TIME_VALUE	date	F1004_7558	C2\da1004.c
+time	DATE_TIME_VALUE	time	F1004_7559	C2\da1004.c
+time	DATE_TIME_VALUE	fractional_second	F1004_7560	C2\da1004.c
+time	DATE_MEASUREMENT	days_in_month	F1005_7568	C2\da1005.c
+kernel	KI_INPUT_STREAM [CHARACTER_8]	read_to_buffer	F1109_7571	C5\ki1109.c
+kernel	KI_INPUT_STREAM [CHARACTER_8]	is_closable	F1109_7572	C5\ki1109.c
+kernel	KI_INPUT_STREAM [CHARACTER_8]	is_rewindable	F1109_7574	C5\ki1109.c
+kernel	KI_INPUT_STREAM [CHARACTER_8]	close	F1109_7579	C5\ki1109.c
+kernel	KI_INPUT_STREAM [CHARACTER_8]	rewind	F1109_7580	C5\ki1109.c
+kernel	KI_INPUT_STREAM [G#1]	read_to_buffer	F1147_7571	C6\ki1147.c
+kernel	KI_INPUT_STREAM [G#1]	is_closable	F1147_7572	C6\ki1147.c
+kernel	KI_INPUT_STREAM [G#1]	is_rewindable	F1147_7574	C6\ki1147.c
+kernel	KI_INPUT_STREAM [G#1]	close	F1147_7579	C6\ki1147.c
+kernel	KI_INPUT_STREAM [G#1]	rewind	F1147_7580	C6\ki1147.c
+kernel	KL_IMPORTED_SPECIAL_ROUTINES	special_any_	F1006_7581	C2\kl1006.c
+kernel	KL_IMPORTED_SPECIAL_ROUTINES	special_boolean_	F1006_7582	C2\kl1006.c
+kernel	KL_IMPORTED_SPECIAL_ROUTINES	special_character_	F1006_7583	C2\kl1006.c
+kernel	KL_IMPORTED_SPECIAL_ROUTINES	special_integer_	F1006_7584	C2\kl1006.c
+kernel	KL_IMPORTED_SPECIAL_ROUTINES	special_string_	F1006_7585	C2\kl1006.c
+kernel	KL_SHARED_STANDARD_FILES	std	F1007_7586	C2\kl1007.c
+model	ABSTRACT_STACK [G#1]	is_equal	F1116_7588	C5\ab1116.c
+model	ABSTRACT_STACK [G#1]	count	F1116_7589	C5\ab1116.c
+model	ABSTRACT_STACK [G#1]	comment	F1116_7593	C5\ab1116.c
+model	ABSTRACT_STACK [REAL_32]	is_equal	F1127_7588	C6\ab1127.c
+model	ABSTRACT_STACK [REAL_32]	count	F1127_7589	C6\ab1127.c
+model	ABSTRACT_STACK [REAL_32]	comment	F1127_7593	C6\ab1127.c
+model	ABSTRACT_STACK [INTEGER_32]	is_equal	F1132_7588	C6\ab1132.c
+model	ABSTRACT_STACK [INTEGER_32]	count	F1132_7589	C6\ab1132.c
+model	ABSTRACT_STACK [INTEGER_32]	comment	F1132_7593	C6\ab1132.c
+espec	ES_TEST_CASE	set_bookmark_name	F1008_7597	C2\es1008.c
+espec	ES_TEST_CASE	set_case_name	F1008_7598	C2\es1008.c
+espec	ES_TEST_CASE	passed	F1008_7599	C2\es1008.c
+espec	ES_TEST_CASE	contract_violated	F1008_7600	C2\es1008.c
+espec	ES_TEST_CASE	case_name	F1008_7601	C2\es1008.c
+espec	ES_TEST_CASE	bookmark_name	F1008_7602	C2\es1008.c
+espec	ES_TEST_CASE	violation_tag	F1008_7603	C2\es1008.c
+espec	ES_TEST_CASE	violation_type	F1008_7604	C2\es1008.c
+espec	ES_TEST_CASE	case	F1008_7605	C2\es1008.c
+espec	ES_VIOLATION_CASE	make	F1009_7606	C2\es1009.c
+espec	ES_VIOLATION_CASE	make_with_tag	F1009_7607	C2\es1009.c
+espec	ES_VIOLATION_CASE	run	F1009_7608	C2\es1009.c
+espec	ES_VIOLATION_CASE	is_violation_case	F1009_7609	C2\es1009.c
+espec	ES_VIOLATION_CASE	expected_tag_name	F1009_7610	C2\es1009.c
+espec	ES_BOOLEAN_TEST_CASE	make	F1010_7611	C2\es1010.c
+espec	ES_BOOLEAN_TEST_CASE	run	F1010_7612	C2\es1010.c
+espec	ES_BOOLEAN_TEST_CASE	is_violation_case	F1010_7613	C2\es1010.c
+espec	ES_BOOLEAN_TEST_CASE	case	F1010_7614	C2\es1010.c
+kernel	KL_EQUALITY_TESTER [G#1]	test	F1149_7615	C6\kl1149.c
+kernel	KL_STRING_EQUALITY_TESTER	test	F1011_7616	C2\kl1011.c
+kernel	KL_PLATFORM	boolean_bits	F1012_7617	C2\kl1012.c
+kernel	KL_PLATFORM	character_bits	F1012_7618	C2\kl1012.c
+kernel	KL_PLATFORM	double_bits	F1012_7619	C2\kl1012.c
+kernel	KL_PLATFORM	integer_bits	F1012_7620	C2\kl1012.c
+kernel	KL_PLATFORM	pointer_bits	F1012_7621	C2\kl1012.c
+kernel	KL_PLATFORM	real_bits	F1012_7622	C2\kl1012.c
+kernel	KL_PLATFORM	boolean_bytes	F1012_7623	C2\kl1012.c
+kernel	KL_PLATFORM	character_bytes	F1012_7624	C2\kl1012.c
+kernel	KL_PLATFORM	double_bytes	F1012_7625	C2\kl1012.c
+kernel	KL_PLATFORM	integer_bytes	F1012_7626	C2\kl1012.c
+kernel	KL_PLATFORM	pointer_bytes	F1012_7627	C2\kl1012.c
+kernel	KL_PLATFORM	real_bytes	F1012_7628	C2\kl1012.c
+kernel	KL_PLATFORM	minimum_character_code	F1012_7629	C2\kl1012.c
+kernel	KL_PLATFORM	maximum_character_code	F1012_7630	C2\kl1012.c
+kernel	KL_PLATFORM	minimum_integer	F1012_7631	C2\kl1012.c
+kernel	KL_PLATFORM	maximum_integer	F1012_7632	C2\kl1012.c
+kernel	KL_PLATFORM	minimum_integer_64	F1012_7633	C2\kl1012.c
+kernel	KL_PLATFORM	maximum_integer_64	F1012_7634	C2\kl1012.c
+time	INTERVAL [G#1]	make	F1107_7635	C5\in1107.c
+time	INTERVAL [G#1]	start_bound	F1107_7636	C5\in1107.c
+time	INTERVAL [G#1]	end_bound	F1107_7637	C5\in1107.c
+time	INTERVAL [G#1]	duration	F1107_7638	C5\in1107.c
+time	INTERVAL [G#1]	is_equal	F1107_7639	C5\in1107.c
+time	INTERVAL [G#1]	intersects	F1107_7640	C5\in1107.c
+time	INTERVAL [G#1]	is_less	F1107_7641	C5\in1107.c
+time	INTERVAL [G#1]	is_less_equal	F1107_7642	C5\in1107.c
+time	INTERVAL [G#1]	is_greater	F1107_7643	C5\in1107.c
+time	INTERVAL [G#1]	is_greater_equal	F1107_7644	C5\in1107.c
+time	INTERVAL [G#1]	is_strict_included_by	F1107_7645	C5\in1107.c
+time	INTERVAL [G#1]	strict_includes	F1107_7646	C5\in1107.c
+time	INTERVAL [G#1]	is_included_by	F1107_7647	C5\in1107.c
+time	INTERVAL [G#1]	includes	F1107_7648	C5\in1107.c
+time	INTERVAL [G#1]	overlaps	F1107_7649	C5\in1107.c
+time	INTERVAL [G#1]	is_overlapped_by	F1107_7650	C5\in1107.c
+time	INTERVAL [G#1]	meets	F1107_7651	C5\in1107.c
+time	INTERVAL [G#1]	is_met_by	F1107_7652	C5\in1107.c
+time	INTERVAL [G#1]	empty	F1107_7653	C5\in1107.c
+time	INTERVAL [G#1]	has	F1107_7654	C5\in1107.c
+time	INTERVAL [G#1]	strict_before	F1107_7655	C5\in1107.c
+time	INTERVAL [G#1]	strict_after	F1107_7656	C5\in1107.c
+time	INTERVAL [G#1]	before	F1107_7657	C5\in1107.c
+time	INTERVAL [G#1]	after	F1107_7658	C5\in1107.c
+time	INTERVAL [G#1]	set_start_bound	F1107_7659	C5\in1107.c
+time	INTERVAL [G#1]	set_end_bound	F1107_7660	C5\in1107.c
+time	INTERVAL [G#1]	union	F1107_7661	C5\in1107.c
+time	INTERVAL [G#1]	intersection	F1107_7662	C5\in1107.c
+time	INTERVAL [G#1]	gather	F1107_7663	C5\in1107.c
+time	INTERVAL [G#1]	out	F1107_7664	C5\in1107.c
+time	DURATION	is_negative	F1013_7674	C2\du1013.c
+time	DURATION	is_zero	F1013_7675	C2\du1013.c
+time	DURATION	identity	F1013_7676	C2\du1013.c
+time	DURATION	minus	F1013_7677	C2\du1013.c
+time	DATE_TIME_DURATION	make	F1014_7678	C2\da1014.c
+time	DATE_TIME_DURATION	make_definite	F1014_7679	C2\da1014.c
+time	DATE_TIME_DURATION	make_fine	F1014_7680	C2\da1014.c
+time	DATE_TIME_DURATION	make_by_date_time	F1014_7681	C2\da1014.c
+time	DATE_TIME_DURATION	make_by_date	F1014_7682	C2\da1014.c
+time	DATE_TIME_DURATION	date	F1014_7683	C2\da1014.c
+time	DATE_TIME_DURATION	time	F1014_7684	C2\da1014.c
+time	DATE_TIME_DURATION	origin_date_time	F1014_7685	C2\da1014.c
+time	DATE_TIME_DURATION	zero	F1014_7686	C2\da1014.c
+time	DATE_TIME_DURATION	seconds_count	F1014_7687	C2\da1014.c
+time	DATE_TIME_DURATION	fine_seconds_count	F1014_7688	C2\da1014.c
+time	DATE_TIME_DURATION	is_less	F1014_7689	C2\da1014.c
+time	DATE_TIME_DURATION	is_equal	F1014_7690	C2\da1014.c
+time	DATE_TIME_DURATION	definite	F1014_7691	C2\da1014.c
+time	DATE_TIME_DURATION	canonical	F1014_7692	C2\da1014.c
+time	DATE_TIME_DURATION	is_positive	F1014_7693	C2\da1014.c
+time	DATE_TIME_DURATION	has_origin_date_time	F1014_7694	C2\da1014.c
+time	DATE_TIME_DURATION	set_origin_date_time	F1014_7695	C2\da1014.c
+time	DATE_TIME_DURATION	set_date	F1014_7696	C2\da1014.c
+time	DATE_TIME_DURATION	set_time	F1014_7697	C2\da1014.c
+time	DATE_TIME_DURATION	plus	F1014_7698	C2\da1014.c
+time	DATE_TIME_DURATION	opposite	F1014_7699	C2\da1014.c
+time	DATE_TIME_DURATION	day_add	F1014_7700	C2\da1014.c
+time	DATE_TIME_DURATION	to_canonical	F1014_7701	C2\da1014.c
+time	DATE_TIME_DURATION	time_to_canonical	F1014_7702	C2\da1014.c
+time	TIME_DURATION	make	F1015_7703	C2\ti1015.c
+time	TIME_DURATION	make_fine	F1015_7704	C2\ti1015.c
+time	TIME_DURATION	make_by_seconds	F1015_7705	C2\ti1015.c
+time	TIME_DURATION	make_by_fine_seconds	F1015_7706	C2\ti1015.c
+time	TIME_DURATION	fine_seconds_count	F1015_7707	C2\ti1015.c
+time	TIME_DURATION	seconds_count	F1015_7708	C2\ti1015.c
+time	TIME_DURATION	zero	F1015_7709	C2\ti1015.c
+time	TIME_DURATION	hour	F1015_7710	C2\ti1015.c
+time	TIME_DURATION	minute	F1015_7711	C2\ti1015.c
+time	TIME_DURATION	second	F1015_7712	C2\ti1015.c
+time	TIME_DURATION	fine_second	F1015_7713	C2\ti1015.c
+time	TIME_DURATION	fractional_second	F1015_7714	C2\ti1015.c
+time	TIME_DURATION	is_less	F1015_7715	C2\ti1015.c
+time	TIME_DURATION	is_equal	F1015_7716	C2\ti1015.c
+time	TIME_DURATION	canonical	F1015_7717	C2\ti1015.c
+time	TIME_DURATION	is_positive	F1015_7718	C2\ti1015.c
+time	TIME_DURATION	set_second	F1015_7719	C2\ti1015.c
+time	TIME_DURATION	set_fine_second	F1015_7720	C2\ti1015.c
+time	TIME_DURATION	set_fractionals	F1015_7721	C2\ti1015.c
+time	TIME_DURATION	set_minute	F1015_7722	C2\ti1015.c
+time	TIME_DURATION	set_hour	F1015_7723	C2\ti1015.c
+time	TIME_DURATION	second_add	F1015_7724	C2\ti1015.c
+time	TIME_DURATION	fine_second_add	F1015_7725	C2\ti1015.c
+time	TIME_DURATION	minute_add	F1015_7726	C2\ti1015.c
+time	TIME_DURATION	hour_add	F1015_7727	C2\ti1015.c
+time	TIME_DURATION	plus	F1015_7728	C2\ti1015.c
+time	TIME_DURATION	opposite	F1015_7729	C2\ti1015.c
+time	TIME_DURATION	to_canonical	F1015_7730	C2\ti1015.c
+time	TIME_DURATION	to_days	F1015_7731	C2\ti1015.c
+time	TIME_DURATION	time_modulo_day	F1015_7732	C2\ti1015.c
+time	TIME_DURATION	tolerance	F1015_7733	C2\ti1015.c
+time	DATE_DURATION	make	F1016_7734	C2\da1016.c
+time	DATE_DURATION	make_by_days	F1016_7735	C2\da1016.c
+time	DATE_DURATION	zero	F1016_7736	C2\da1016.c
+time	DATE_DURATION	day	F1016_7737	C2\da1016.c
+time	DATE_DURATION	month	F1016_7738	C2\da1016.c
+time	DATE_DURATION	year	F1016_7739	C2\da1016.c
+time	DATE_DURATION	origin_date	F1016_7740	C2\da1016.c
+time	DATE_DURATION	days_count	F1016_7741	C2\da1016.c
+time	DATE_DURATION	is_less	F1016_7742	C2\da1016.c
+time	DATE_DURATION	is_equal	F1016_7743	C2\da1016.c
+time	DATE_DURATION	definite	F1016_7744	C2\da1016.c
+time	DATE_DURATION	canonical	F1016_7745	C2\da1016.c
+time	DATE_DURATION	is_positive	F1016_7746	C2\da1016.c
+time	DATE_DURATION	has_origin_date	F1016_7747	C2\da1016.c
+time	DATE_DURATION	set_origin_date	F1016_7748	C2\da1016.c
+time	DATE_DURATION	set_day	F1016_7749	C2\da1016.c
+time	DATE_DURATION	set_month	F1016_7750	C2\da1016.c
+time	DATE_DURATION	set_year	F1016_7751	C2\da1016.c
+time	DATE_DURATION	set_date	F1016_7752	C2\da1016.c
+time	DATE_DURATION	day_add	F1016_7753	C2\da1016.c
+time	DATE_DURATION	month_add	F1016_7754	C2\da1016.c
+time	DATE_DURATION	year_add	F1016_7755	C2\da1016.c
+time	DATE_DURATION	plus	F1016_7756	C2\da1016.c
+time	DATE_DURATION	opposite	F1016_7757	C2\da1016.c
+time	DATE_DURATION	to_canonical	F1016_7758	C2\da1016.c
+time	DATE_DURATION	to_definite	F1016_7759	C2\da1016.c
+time	DATE_DURATION	to_date_time	F1016_7760	C2\da1016.c
+time	ABSOLUTE	is_less	F1018_7763	C2\ab1018.c
+time	ABSOLUTE	minus	F1018_7764	C2\ab1018.c
+elks	CELL [REAL_32]	item	F1121_1898	C5\ce1121.c
+elks	CELL [REAL_32]	put	F1121_1899	C5\ce1121.c
+elks	CELL [REAL_32]	replace	F1121_1900	C5\ce1121.c
+elks	LINKABLE [REAL_32]	right	F1120_1901	C5\li1120.c
+elks	LINKABLE [REAL_32]	put_right	F1120_1902	C5\li1120.c
+elks	LINKABLE [REAL_32]	forget_right	F1120_1903	C5\li1120.c
+kernel	UC_IMPORTED_UNICODE_ROUTINES	unicode	F1019_7766	C2\uc1019.c
+elks	LINKED_LIST_CURSOR [REAL_32]	make	F1119_3016	C5\li1119.c
+elks	LINKED_LIST_CURSOR [REAL_32]	active	F1119_3017	C5\li1119.c
+elks	LINKED_LIST_CURSOR [REAL_32]	after	F1119_3018	C5\li1119.c
+elks	LINKED_LIST_CURSOR [REAL_32]	before	F1119_3019	C5\li1119.c
+kernel	KL_IMPORTED_ARRAY_ROUTINES	any_array_	F1020_7767	C2\kl1020.c
+kernel	KL_IMPORTED_ARRAY_ROUTINES	integer_array_	F1020_7768	C2\kl1020.c
+kernel	KL_IMPORTED_ARRAY_ROUTINES	boolean_array_	F1020_7769	C2\kl1020.c
+kernel	KL_IMPORTED_ARRAY_ROUTINES	string_array_	F1020_7770	C2\kl1020.c
+kernel	KL_IMPORTED_ARRAY_ROUTINES	string_array_routines	F1020_7771	C2\kl1020.c
+kernel	KL_IMPORTED_ARRAY_ROUTINES	detachable_string_array_routines	F1020_7772	C2\kl1020.c
+kernel	KL_IMPORTED_ARRAY_ROUTINES	array_special_integer_	F1020_7773	C2\kl1020.c
+kernel	KI_DIRECTORY	valid_unread_entry	F1021_7778	C2\ki1021.c
+time	DATE_VALUE	day	F1022_7789	C2\da1022.c
+time	DATE_VALUE	month	F1022_7790	C2\da1022.c
+time	DATE_VALUE	year	F1022_7791	C2\da1022.c
+time	DATE_VALUE	compact_date	F1022_7792	C2\da1022.c
+time	DATE_VALUE	ordered_compact_date	F1022_7793	C2\da1022.c
+time	DATE_VALUE	set_date	F1022_7794	C2\da1022.c
+time	DATE_VALUE	set_day	F1022_7795	C2\da1022.c
+time	DATE_VALUE	set_month	F1022_7796	C2\da1022.c
+time	DATE_VALUE	set_year	F1022_7797	C2\da1022.c
+time	DATE_VALUE	set_internal_compact_date	F1022_7798	C2\da1022.c
+time	DATE_VALUE	set_internal_ordered_compact_date	F1022_7799	C2\da1022.c
+time	DATE_VALUE	correct_mismatch	F1022_7800	C2\da1022.c
+time	DATE_VALUE	day_mask	F1022_7801	C2\da1022.c
+time	DATE_VALUE	month_mask	F1022_7802	C2\da1022.c
+time	DATE_VALUE	year_mask	F1022_7803	C2\da1022.c
+time	DATE_VALUE	year_shift	F1022_7804	C2\da1022.c
+time	DATE_VALUE	month_shift	F1022_7805	C2\da1022.c
+time	DATE_VALUE	day_shift	F1022_7806	C2\da1022.c
+time	DATE_VALUE	compact_date_attribute_name	F1022_7807	C2\da1022.c
+time	DATE_VALUE	set_private_internal_compact_date	F1022_7808	C2\da1022.c
+elks	LINKED_LIST_ITERATION_CURSOR [REAL_32]	item	F1122_3131	C6\li1122.c
+elks	LINKED_LIST_ITERATION_CURSOR [REAL_32]	after	F1122_3132	C6\li1122.c
+elks	LINKED_LIST_ITERATION_CURSOR [REAL_32]	start	F1122_3133	C6\li1122.c
+elks	LINKED_LIST_ITERATION_CURSOR [REAL_32]	forth	F1122_3134	C6\li1122.c
+elks	LINKED_LIST_ITERATION_CURSOR [REAL_32]	target	F1122_3135	C6\li1122.c
+elks	LINKED_LIST_ITERATION_CURSOR [REAL_32]	active	F1122_3136	C6\li1122.c
+composite	VALUE_CONSTANT	new_cursor	F1024_7809	C3\va1024.c
+composite	VALUE_CONSTANT	make	F1024_7810	C3\va1024.c
+composite	VALUE_CONSTANT	value	F1024_7811	C3\va1024.c
+composite	BINARY_EXPRESSION	new_cursor	F1025_7812	C3\bi1025.c
+composite	BINARY_EXPRESSION	left	F1025_7814	C3\bi1025.c
+composite	BINARY_EXPRESSION	right	F1025_7815	C3\bi1025.c
+composite	BINARY_EXPRESSION	make	F1025_7816	C3\bi1025.c
+composite	DIVISION	operator	F1026_7817	C3\di1026.c
+composite	MULTIPLICATION	operator	F1027_7818	C3\mu1027.c
+composite	SUBTRACTION	operator	F1028_7819	C3\su1028.c
+composite	ADDITION	operator	F1029_7820	C3\ad1029.c
+kernel	KL_ARRAY [G#1]	new_rebase	F1106_7821	C5\kl1106.c
+kernel	KL_ARRAY [CHARACTER_8]	new_rebase	F1139_7821	C6\kl1139.c
+kernel	KL_ARRAY [BOOLEAN]	new_rebase	F1142_7821	C6\kl1142.c
+kernel	KL_ARRAY [INTEGER_32]	new_rebase	F1153_7821	C6\kl1153.c
+elks	LINKED_LIST [REAL_32]	make	F1118_3558	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	item	F1118_3559	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	first	F1118_3560	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	last	F1118_3561	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	index	F1118_3562	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	cursor	F1118_3563	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	new_cursor	F1118_3564	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	first_element	F1118_3565	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	count	F1118_3566	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	readable	F1118_3567	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	after	F1118_3568	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	before	F1118_3569	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	off	F1118_3570	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	isfirst	F1118_3571	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	islast	F1118_3572	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	valid_cursor	F1118_3573	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	full	F1118_3574	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	is_inserted	F1118_3575	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	start	F1118_3576	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	finish	F1118_3577	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	forth	F1118_3578	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	back	F1118_3579	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	move	F1118_3580	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	go_i_th	F1118_3581	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	go_to	F1118_3582	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	put_front	F1118_3583	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	extend	F1118_3584	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	put_left	F1118_3585	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	put_right	F1118_3586	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	replace	F1118_3587	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	merge_left	F1118_3588	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	merge_right	F1118_3589	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	remove	F1118_3590	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	remove_left	F1118_3591	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	remove_right	F1118_3592	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	wipe_out	F1118_3593	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	copy	F1118_3594	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	new_chain	F1118_3595	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	new_cell	F1118_3596	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	previous	F1118_3597	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	next	F1118_3598	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	active	F1118_3599	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	last_element	F1118_3600	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	cleanup_after_remove	F1118_3601	C5\li1118.c
+elks	LINKED_LIST [REAL_32]	internal_wipe_out	F1118_3602	C5\li1118.c
+kernel	KL_IMPORTED_INTEGER_ROUTINES	integer_	F1030_7822	C3\kl1030.c
+kernel	KL_IMPORTED_STRING_ROUTINES	string_	F1031_7823	C3\kl1031.c
+kernel	UC_STRING_EQUALITY_TESTER	test	F1032_7824	C3\uc1032.c
+kernel	KL_CASE_INSENSITIVE_STRING_EQUALITY_TESTER	test	F1033_7825	C3\kl1033.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_substring	F1034_7827	C3\ki1034.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_integer	F1034_7828	C3\ki1034.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_integer_8	F1034_7829	C3\ki1034.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_integer_16	F1034_7830	C3\ki1034.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_integer_32	F1034_7831	C3\ki1034.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_integer_64	F1034_7832	C3\ki1034.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_natural_8	F1034_7833	C3\ki1034.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_natural_16	F1034_7834	C3\ki1034.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_natural_32	F1034_7835	C3\ki1034.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_natural_64	F1034_7836	C3\ki1034.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	put_boolean	F1034_7837	C3\ki1034.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	append	F1034_7838	C3\ki1034.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	true_constant	F1034_7840	C3\ki1034.c
+kernel	KI_CHARACTER_OUTPUT_STREAM	false_constant	F1034_7841	C3\ki1034.c
+kernel	KI_TEXT_OUTPUT_STREAM	put_line	F1037_7845	C3\ki1037.c
+kernel	KI_TEXT_OUTPUT_STREAM	put_new_line	F1037_7846	C3\ki1037.c
+kernel	KL_NULL_TEXT_OUTPUT_STREAM	make	F1038_7848	C3\kl1038.c
+kernel	KL_NULL_TEXT_OUTPUT_STREAM	put_character	F1038_7849	C3\kl1038.c
+kernel	KL_NULL_TEXT_OUTPUT_STREAM	put_string	F1038_7850	C3\kl1038.c
+kernel	KL_NULL_TEXT_OUTPUT_STREAM	is_open_write	F1038_7851	C3\kl1038.c
+kernel	KL_NULL_TEXT_OUTPUT_STREAM	name	F1038_7852	C3\kl1038.c
+kernel	KL_NULL_TEXT_OUTPUT_STREAM	eol	F1038_7853	C3\kl1038.c
+kernel	KL_NULL_TEXT_OUTPUT_STREAM	flush	F1038_7854	C3\kl1038.c
+kernel	KL_STDOUT_FILE	make	F1039_7855	C3\kl1039.c
+kernel	KL_STDOUT_FILE	name	F1039_7856	C3\kl1039.c
+kernel	KL_STDOUT_FILE	eol	F1039_7857	C3\kl1039.c
+kernel	KL_STDOUT_FILE	is_open_write	F1039_7858	C3\kl1039.c
+kernel	KL_STDOUT_FILE	put_character	F1039_7859	C3\kl1039.c
+kernel	KL_STDOUT_FILE	put_string	F1039_7860	C3\kl1039.c
+kernel	KL_STDOUT_FILE	flush	F1039_7861	C3\kl1039.c
+kernel	KL_STDOUT_FILE	console	F1039_7862	C3\kl1039.c
+kernel	KL_STDERR_FILE	make	F1040_7863	C3\kl1040.c
+kernel	KL_STDERR_FILE	name	F1040_7864	C3\kl1040.c
+kernel	KL_STDERR_FILE	eol	F1040_7865	C3\kl1040.c
+kernel	KL_STDERR_FILE	is_open_write	F1040_7866	C3\kl1040.c
+kernel	KL_STDERR_FILE	put_character	F1040_7867	C3\kl1040.c
+kernel	KL_STDERR_FILE	put_string	F1040_7868	C3\kl1040.c
+kernel	KL_STDERR_FILE	flush	F1040_7869	C3\kl1040.c
+kernel	KL_STDERR_FILE	console	F1040_7870	C3\kl1040.c
+time	DATE_TIME_CODE	make	F1042_7871	C3\da1042.c
+time	DATE_TIME_CODE	is_separator_code	F1042_7872	C3\da1042.c
+time	DATE_TIME_CODE	is_text	F1042_7873	C3\da1042.c
+time	DATE_TIME_CODE	is_numeric	F1042_7874	C3\da1042.c
+time	DATE_TIME_CODE	set_value	F1042_7875	C3\da1042.c
+time	DATE_TIME_CODE	value	F1042_7876	C3\da1042.c
+time	DATE_TIME_CODE	count_max	F1042_7877	C3\da1042.c
+time	DATE_TIME_CODE	count_min	F1042_7878	C3\da1042.c
+time	DATE_TIME_CODE	name	F1042_7879	C3\da1042.c
+time	DATE_TIME_CODE	value_max	F1042_7880	C3\da1042.c
+time	DATE_TIME_CODE	value_min	F1042_7881	C3\da1042.c
+time	DATE_TIME_CODE	type	F1042_7882	C3\da1042.c
+time	DATE_TIME_CODE	debug_output	F1042_7883	C3\da1042.c
+time	DATE_TIME_CODE	day_numeric_type_code	F1042_7884	C3\da1042.c
+time	DATE_TIME_CODE	day_numeric_on_2_digits_type_code	F1042_7885	C3\da1042.c
+time	DATE_TIME_CODE	day_text_type_code	F1042_7886	C3\da1042.c
+time	DATE_TIME_CODE	year_on_4_digits_type_code	F1042_7887	C3\da1042.c
+time	DATE_TIME_CODE	year_on_2_digits_type_code	F1042_7888	C3\da1042.c
+time	DATE_TIME_CODE	month_numeric_type_code	F1042_7889	C3\da1042.c
+time	DATE_TIME_CODE	month_numeric_on_2_digits_type_code	F1042_7890	C3\da1042.c
+time	DATE_TIME_CODE	month_text_type_code	F1042_7891	C3\da1042.c
+time	DATE_TIME_CODE	hour_numeric_type_code	F1042_7892	C3\da1042.c
+time	DATE_TIME_CODE	hour_numeric_on_2_digits_type_code	F1042_7893	C3\da1042.c
+time	DATE_TIME_CODE	hour_12_clock_scale_type_code	F1042_7894	C3\da1042.c
+time	DATE_TIME_CODE	hour_12_clock_scale_on_2_digits_type_code	F1042_7895	C3\da1042.c
+time	DATE_TIME_CODE	minute_numeric_type_code	F1042_7896	C3\da1042.c
+time	DATE_TIME_CODE	minute_numeric_on_2_digits_type_code	F1042_7897	C3\da1042.c
+time	DATE_TIME_CODE	second_numeric_type_code	F1042_7898	C3\da1042.c
+time	DATE_TIME_CODE	second_numeric_on_2_digits_type_code	F1042_7899	C3\da1042.c
+time	DATE_TIME_CODE	fractional_second_numeric_type_code	F1042_7900	C3\da1042.c
+time	DATE_TIME_CODE	colon_type_code	F1042_7901	C3\da1042.c
+time	DATE_TIME_CODE	slash_type_code	F1042_7902	C3\da1042.c
+time	DATE_TIME_CODE	minus_type_code	F1042_7903	C3\da1042.c
+time	DATE_TIME_CODE	comma_type_code	F1042_7904	C3\da1042.c
+time	DATE_TIME_CODE	space_type_code	F1042_7905	C3\da1042.c
+time	DATE_TIME_CODE	dot_type_code	F1042_7906	C3\da1042.c
+time	DATE_TIME_CODE	meridiem_type_code	F1042_7907	C3\da1042.c
+mathmodels	SET [G#1]	imp	F1112_7908	C5\se1112.c
+mathmodels	SET [G#1]	item_imp	F1112_7909	C5\se1112.c
+mathmodels	SET [G#1]	set_imp	F1112_7910	C5\se1112.c
+mathmodels	SET [G#1]	void_item	F1112_7911	C5\se1112.c
+mathmodels	SET [G#1]	make_empty	F1112_7912	C5\se1112.c
+mathmodels	SET [G#1]	make_one	F1112_7913	C5\se1112.c
+mathmodels	SET [G#1]	make_from_array	F1112_7914	C5\se1112.c
+mathmodels	SET [G#1]	as_array	F1112_7915	C5\se1112.c
+mathmodels	SET [G#1]	new_cursor	F1112_7916	C5\se1112.c
+mathmodels	SET [G#1]	chosen	F1112_7917	C5\se1112.c
+mathmodels	SET [G#1]	item	F1112_7918	C5\se1112.c
+mathmodels	SET [G#1]	choose_item	F1112_7919	C5\se1112.c
+mathmodels	SET [G#1]	remove_item	F1112_7920	C5\se1112.c
+mathmodels	SET [G#1]	extend	F1112_7921	C5\se1112.c
+mathmodels	SET [G#1]	union	F1112_7922	C5\se1112.c
+mathmodels	SET [G#1]	subtract	F1112_7923	C5\se1112.c
+mathmodels	SET [G#1]	difference	F1112_7924	C5\se1112.c
+mathmodels	SET [G#1]	intersect	F1112_7925	C5\se1112.c
+mathmodels	SET [G#1]	count	F1112_7926	C5\se1112.c
+mathmodels	SET [G#1]	is_empty	F1112_7927	C5\se1112.c
+mathmodels	SET [G#1]	has	F1112_7928	C5\se1112.c
+mathmodels	SET [G#1]	is_subset_of	F1112_7929	C5\se1112.c
+mathmodels	SET [G#1]	extended	F1112_7930	C5\se1112.c
+mathmodels	SET [G#1]	unioned	F1112_7931	C5\se1112.c
+mathmodels	SET [G#1]	subtracted	F1112_7932	C5\se1112.c
+mathmodels	SET [G#1]	differenced	F1112_7933	C5\se1112.c
+mathmodels	SET [G#1]	intersected	F1112_7934	C5\se1112.c
+mathmodels	SET [G#1]	hold_count	F1112_7935	C5\se1112.c
+mathmodels	SET [G#1]	comprehension	F1112_7936	C5\se1112.c
+mathmodels	SET [G#1]	is_equal	F1112_7937	C5\se1112.c
+mathmodels	SET [G#1]	g_to_true	F1112_7938	C5\se1112.c
+mathmodels	SET [G#1]	eq	F1112_7939	C5\se1112.c
+mathmodels	SET [G#1]	in_either_set	F1112_7940	C5\se1112.c
+mathmodels	SET [G#1]	in_both_set	F1112_7941	C5\se1112.c
+mathmodels	SET [G#1]	debug_output	F1112_7942	C5\se1112.c
+mathmodels	SET [G#1]	out	F1112_7943	C5\se1112.c
+mathmodels	SET [INTEGER_32]	imp	F1114_7908	C5\se1114.c
+mathmodels	SET [INTEGER_32]	item_imp	F1114_7909	C5\se1114.c
+mathmodels	SET [INTEGER_32]	set_imp	F1114_7910	C5\se1114.c
+mathmodels	SET [INTEGER_32]	void_item	F1114_7911	C5\se1114.c
+mathmodels	SET [INTEGER_32]	make_empty	F1114_7912	C5\se1114.c
+mathmodels	SET [INTEGER_32]	make_one	F1114_7913	C5\se1114.c
+mathmodels	SET [INTEGER_32]	make_from_array	F1114_7914	C5\se1114.c
+mathmodels	SET [INTEGER_32]	as_array	F1114_7915	C5\se1114.c
+mathmodels	SET [INTEGER_32]	new_cursor	F1114_7916	C5\se1114.c
+mathmodels	SET [INTEGER_32]	chosen	F1114_7917	C5\se1114.c
+mathmodels	SET [INTEGER_32]	item	F1114_7918	C5\se1114.c
+mathmodels	SET [INTEGER_32]	choose_item	F1114_7919	C5\se1114.c
+mathmodels	SET [INTEGER_32]	remove_item	F1114_7920	C5\se1114.c
+mathmodels	SET [INTEGER_32]	extend	F1114_7921	C5\se1114.c
+mathmodels	SET [INTEGER_32]	union	F1114_7922	C5\se1114.c
+mathmodels	SET [INTEGER_32]	subtract	F1114_7923	C5\se1114.c
+mathmodels	SET [INTEGER_32]	difference	F1114_7924	C5\se1114.c
+mathmodels	SET [INTEGER_32]	intersect	F1114_7925	C5\se1114.c
+mathmodels	SET [INTEGER_32]	count	F1114_7926	C5\se1114.c
+mathmodels	SET [INTEGER_32]	is_empty	F1114_7927	C5\se1114.c
+mathmodels	SET [INTEGER_32]	has	F1114_7928	C5\se1114.c
+mathmodels	SET [INTEGER_32]	is_subset_of	F1114_7929	C5\se1114.c
+mathmodels	SET [INTEGER_32]	extended	F1114_7930	C5\se1114.c
+mathmodels	SET [INTEGER_32]	unioned	F1114_7931	C5\se1114.c
+mathmodels	SET [INTEGER_32]	subtracted	F1114_7932	C5\se1114.c
+mathmodels	SET [INTEGER_32]	differenced	F1114_7933	C5\se1114.c
+mathmodels	SET [INTEGER_32]	intersected	F1114_7934	C5\se1114.c
+mathmodels	SET [INTEGER_32]	hold_count	F1114_7935	C5\se1114.c
+mathmodels	SET [INTEGER_32]	comprehension	F1114_7936	C5\se1114.c
+mathmodels	SET [INTEGER_32]	is_equal	F1114_7937	C5\se1114.c
+mathmodels	SET [INTEGER_32]	g_to_true	F1114_7938	C5\se1114.c
+mathmodels	SET [INTEGER_32]	eq	F1114_7939	C5\se1114.c
+mathmodels	SET [INTEGER_32]	in_either_set	F1114_7940	C5\se1114.c
+mathmodels	SET [INTEGER_32]	in_both_set	F1114_7941	C5\se1114.c
+mathmodels	SET [INTEGER_32]	debug_output	F1114_7942	C5\se1114.c
+mathmodels	SET [INTEGER_32]	out	F1114_7943	C5\se1114.c
+mathmodels	SET [REAL_32]	imp	F1124_7908	C6\se1124.c
+mathmodels	SET [REAL_32]	item_imp	F1124_7909	C6\se1124.c
+mathmodels	SET [REAL_32]	set_imp	F1124_7910	C6\se1124.c
+mathmodels	SET [REAL_32]	void_item	F1124_7911	C6\se1124.c
+mathmodels	SET [REAL_32]	make_empty	F1124_7912	C6\se1124.c
+mathmodels	SET [REAL_32]	make_one	F1124_7913	C6\se1124.c
+mathmodels	SET [REAL_32]	make_from_array	F1124_7914	C6\se1124.c
+mathmodels	SET [REAL_32]	as_array	F1124_7915	C6\se1124.c
+mathmodels	SET [REAL_32]	new_cursor	F1124_7916	C6\se1124.c
+mathmodels	SET [REAL_32]	chosen	F1124_7917	C6\se1124.c
+mathmodels	SET [REAL_32]	item	F1124_7918	C6\se1124.c
+mathmodels	SET [REAL_32]	choose_item	F1124_7919	C6\se1124.c
+mathmodels	SET [REAL_32]	remove_item	F1124_7920	C6\se1124.c
+mathmodels	SET [REAL_32]	extend	F1124_7921	C6\se1124.c
+mathmodels	SET [REAL_32]	union	F1124_7922	C6\se1124.c
+mathmodels	SET [REAL_32]	subtract	F1124_7923	C6\se1124.c
+mathmodels	SET [REAL_32]	difference	F1124_7924	C6\se1124.c
+mathmodels	SET [REAL_32]	intersect	F1124_7925	C6\se1124.c
+mathmodels	SET [REAL_32]	count	F1124_7926	C6\se1124.c
+mathmodels	SET [REAL_32]	is_empty	F1124_7927	C6\se1124.c
+mathmodels	SET [REAL_32]	has	F1124_7928	C6\se1124.c
+mathmodels	SET [REAL_32]	is_subset_of	F1124_7929	C6\se1124.c
+mathmodels	SET [REAL_32]	extended	F1124_7930	C6\se1124.c
+mathmodels	SET [REAL_32]	unioned	F1124_7931	C6\se1124.c
+mathmodels	SET [REAL_32]	subtracted	F1124_7932	C6\se1124.c
+mathmodels	SET [REAL_32]	differenced	F1124_7933	C6\se1124.c
+mathmodels	SET [REAL_32]	intersected	F1124_7934	C6\se1124.c
+mathmodels	SET [REAL_32]	hold_count	F1124_7935	C6\se1124.c
+mathmodels	SET [REAL_32]	comprehension	F1124_7936	C6\se1124.c
+mathmodels	SET [REAL_32]	is_equal	F1124_7937	C6\se1124.c
+mathmodels	SET [REAL_32]	g_to_true	F1124_7938	C6\se1124.c
+mathmodels	SET [REAL_32]	eq	F1124_7939	C6\se1124.c
+mathmodels	SET [REAL_32]	in_either_set	F1124_7940	C6\se1124.c
+mathmodels	SET [REAL_32]	in_both_set	F1124_7941	C6\se1124.c
+mathmodels	SET [REAL_32]	debug_output	F1124_7942	C6\se1124.c
+mathmodels	SET [REAL_32]	out	F1124_7943	C6\se1124.c
+mathmodels	FUN [INTEGER_32, G#2]	make_empty	F1113_7944	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	has_duplicates	F1113_7945	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	make_from_array	F1113_7946	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	dom	F1113_7947	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	ran	F1113_7948	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	new_cursor	F1113_7949	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	extend	F1113_7950	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	union	F1113_7951	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	subtract	F1113_7952	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	difference	F1113_7953	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	intersect	F1113_7954	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	domain_restrict	F1113_7955	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	domain_restrict_by	F1113_7956	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	range_restrict	F1113_7957	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	range_restrict_by	F1113_7958	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	domain_subtract	F1113_7959	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	domain_subtract_by	F1113_7960	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	range_subtract	F1113_7961	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	range_subtract_by	F1113_7962	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	override	F1113_7963	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	override_by	F1113_7964	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	put	F1113_7965	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	count	F1113_7966	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	is_empty	F1113_7967	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	has	F1113_7968	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	is_subset_of	F1113_7969	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	extended	F1113_7970	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	unioned	F1113_7971	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	subtracted	F1113_7972	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	differenced	F1113_7973	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	intersected	F1113_7974	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	is_function	F1113_7975	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	is_injection	F1113_7976	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	domain	F1113_7977	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	range	F1113_7978	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	item	F1113_7979	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	domain_restricted	F1113_7980	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	domain_restricted_by	F1113_7981	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	range_restricted	F1113_7982	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	range_restricted_by	F1113_7983	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	domain_subtracted	F1113_7984	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	domain_subtracted_by	F1113_7985	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	range_subtracted	F1113_7986	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	range_subtracted_by	F1113_7987	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	overriden	F1113_7988	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	overriden_by	F1113_7989	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	hold_count	F1113_7990	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	comprehension	F1113_7991	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	as_set	F1113_7992	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	as_array	F1113_7993	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	is_equal	F1113_7994	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	set_imp	F1113_7995	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	singleton_g	F1113_7996	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	singleton_h	F1113_7997	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	singleton_gh	F1113_7998	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	in_domain	F1113_7999	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	in_range	F1113_8000	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	in_either_fun	F1113_8001	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	in_both_fun	F1113_8002	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	debug_output	F1113_8003	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, G#2]	out	F1113_8004	C5\fu1113.c
+mathmodels	FUN [INTEGER_32, REAL_32]	make_empty	F1125_7944	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	has_duplicates	F1125_7945	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	make_from_array	F1125_7946	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	dom	F1125_7947	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	ran	F1125_7948	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	new_cursor	F1125_7949	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	extend	F1125_7950	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	union	F1125_7951	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	subtract	F1125_7952	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	difference	F1125_7953	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	intersect	F1125_7954	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	domain_restrict	F1125_7955	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	domain_restrict_by	F1125_7956	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	range_restrict	F1125_7957	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	range_restrict_by	F1125_7958	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	domain_subtract	F1125_7959	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	domain_subtract_by	F1125_7960	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	range_subtract	F1125_7961	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	range_subtract_by	F1125_7962	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	override	F1125_7963	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	override_by	F1125_7964	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	put	F1125_7965	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	count	F1125_7966	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	is_empty	F1125_7967	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	has	F1125_7968	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	is_subset_of	F1125_7969	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	extended	F1125_7970	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	unioned	F1125_7971	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	subtracted	F1125_7972	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	differenced	F1125_7973	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	intersected	F1125_7974	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	is_function	F1125_7975	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	is_injection	F1125_7976	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	domain	F1125_7977	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	range	F1125_7978	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	item	F1125_7979	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	domain_restricted	F1125_7980	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	domain_restricted_by	F1125_7981	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	range_restricted	F1125_7982	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	range_restricted_by	F1125_7983	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	domain_subtracted	F1125_7984	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	domain_subtracted_by	F1125_7985	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	range_subtracted	F1125_7986	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	range_subtracted_by	F1125_7987	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	overriden	F1125_7988	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	overriden_by	F1125_7989	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	hold_count	F1125_7990	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	comprehension	F1125_7991	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	as_set	F1125_7992	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	as_array	F1125_7993	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	is_equal	F1125_7994	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	set_imp	F1125_7995	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	singleton_g	F1125_7996	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	singleton_h	F1125_7997	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	singleton_gh	F1125_7998	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	in_domain	F1125_7999	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	in_range	F1125_8000	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	in_either_fun	F1125_8001	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	in_both_fun	F1125_8002	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	debug_output	F1125_8003	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, REAL_32]	out	F1125_8004	C6\fu1125.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	make_empty	F1130_7944	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	has_duplicates	F1130_7945	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	make_from_array	F1130_7946	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	dom	F1130_7947	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	ran	F1130_7948	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	new_cursor	F1130_7949	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	extend	F1130_7950	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	union	F1130_7951	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	subtract	F1130_7952	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	difference	F1130_7953	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	intersect	F1130_7954	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	domain_restrict	F1130_7955	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	domain_restrict_by	F1130_7956	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	range_restrict	F1130_7957	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	range_restrict_by	F1130_7958	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	domain_subtract	F1130_7959	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	domain_subtract_by	F1130_7960	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	range_subtract	F1130_7961	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	range_subtract_by	F1130_7962	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	override	F1130_7963	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	override_by	F1130_7964	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	put	F1130_7965	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	count	F1130_7966	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	is_empty	F1130_7967	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	has	F1130_7968	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	is_subset_of	F1130_7969	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	extended	F1130_7970	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	unioned	F1130_7971	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	subtracted	F1130_7972	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	differenced	F1130_7973	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	intersected	F1130_7974	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	is_function	F1130_7975	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	is_injection	F1130_7976	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	domain	F1130_7977	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	range	F1130_7978	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	item	F1130_7979	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	domain_restricted	F1130_7980	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	domain_restricted_by	F1130_7981	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	range_restricted	F1130_7982	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	range_restricted_by	F1130_7983	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	domain_subtracted	F1130_7984	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	domain_subtracted_by	F1130_7985	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	range_subtracted	F1130_7986	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	range_subtracted_by	F1130_7987	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	overriden	F1130_7988	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	overriden_by	F1130_7989	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	hold_count	F1130_7990	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	comprehension	F1130_7991	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	as_set	F1130_7992	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	as_array	F1130_7993	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	is_equal	F1130_7994	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	set_imp	F1130_7995	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	singleton_g	F1130_7996	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	singleton_h	F1130_7997	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	singleton_gh	F1130_7998	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	in_domain	F1130_7999	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	in_range	F1130_8000	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	in_either_fun	F1130_8001	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	in_both_fun	F1130_8002	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	debug_output	F1130_8003	C6\fu1130.c
+mathmodels	FUN [INTEGER_32, INTEGER_32]	out	F1130_8004	C6\fu1130.c
+mathmodels	SEQ [G#1]	twin2	F1111_8005	C5\se1111.c
+mathmodels	SEQ [G#1]	make_empty	F1111_8006	C5\se1111.c
+mathmodels	SEQ [G#1]	make_from_array	F1111_8007	C5\se1111.c
+mathmodels	SEQ [G#1]	new_cursor	F1111_8008	C5\se1111.c
+mathmodels	SEQ [G#1]	count	F1111_8009	C5\se1111.c
+mathmodels	SEQ [G#1]	lower	F1111_8010	C5\se1111.c
+mathmodels	SEQ [G#1]	upper	F1111_8011	C5\se1111.c
+mathmodels	SEQ [G#1]	is_empty	F1111_8012	C5\se1111.c
+mathmodels	SEQ [G#1]	has	F1111_8013	C5\se1111.c
+mathmodels	SEQ [G#1]	first	F1111_8014	C5\se1111.c
+mathmodels	SEQ [G#1]	front	F1111_8015	C5\se1111.c
+mathmodels	SEQ [G#1]	last	F1111_8016	C5\se1111.c
+mathmodels	SEQ [G#1]	tail	F1111_8017	C5\se1111.c
+mathmodels	SEQ [G#1]	item	F1111_8018	C5\se1111.c
+mathmodels	SEQ [G#1]	is_subsequence_of	F1111_8019	C5\se1111.c
+mathmodels	SEQ [G#1]	is_contiguous_subseq_of	F1111_8020	C5\se1111.c
+mathmodels	SEQ [G#1]	append	F1111_8021	C5\se1111.c
+mathmodels	SEQ [G#1]	prepend	F1111_8022	C5\se1111.c
+mathmodels	SEQ [G#1]	subsequence	F1111_8023	C5\se1111.c
+mathmodels	SEQ [G#1]	concatenate	F1111_8024	C5\se1111.c
+mathmodels	SEQ [G#1]	override	F1111_8025	C5\se1111.c
+mathmodels	SEQ [G#1]	insert	F1111_8026	C5\se1111.c
+mathmodels	SEQ [G#1]	remove	F1111_8027	C5\se1111.c
+mathmodels	SEQ [G#1]	reverse	F1111_8028	C5\se1111.c
+mathmodels	SEQ [G#1]	appended	F1111_8029	C5\se1111.c
+mathmodels	SEQ [G#1]	prepended	F1111_8030	C5\se1111.c
+mathmodels	SEQ [G#1]	subsequenced	F1111_8031	C5\se1111.c
+mathmodels	SEQ [G#1]	concatenated	F1111_8032	C5\se1111.c
+mathmodels	SEQ [G#1]	overriden	F1111_8033	C5\se1111.c
+mathmodels	SEQ [G#1]	inserted	F1111_8034	C5\se1111.c
+mathmodels	SEQ [G#1]	removed	F1111_8035	C5\se1111.c
+mathmodels	SEQ [G#1]	reversed	F1111_8036	C5\se1111.c
+mathmodels	SEQ [G#1]	slice	F1111_8037	C5\se1111.c
+mathmodels	SEQ [G#1]	hold_count	F1111_8038	C5\se1111.c
+mathmodels	SEQ [G#1]	comprehension	F1111_8039	C5\se1111.c
+mathmodels	SEQ [G#1]	is_equal	F1111_8040	C5\se1111.c
+mathmodels	SEQ [G#1]	out	F1111_8041	C5\se1111.c
+mathmodels	SEQ [G#1]	debug_output	F1111_8042	C5\se1111.c
+mathmodels	SEQ [G#1]	as_array	F1111_8043	C5\se1111.c
+mathmodels	SEQ [G#1]	as_function	F1111_8044	C5\se1111.c
+mathmodels	SEQ [G#1]	valid_position	F1111_8045	C5\se1111.c
+mathmodels	SEQ [G#1]	is_augmented_subseq_of	F1111_8046	C5\se1111.c
+mathmodels	SEQ [G#1]	augmented_with_collapsed_rep	F1111_8047	C5\se1111.c
+mathmodels	SEQ [G#1]	augmented_without_collapsed_rep	F1111_8048	C5\se1111.c
+mathmodels	SEQ [G#1]	imp	F1111_8049	C5\se1111.c
+mathmodels	SEQ [G#1]	set_imp	F1111_8050	C5\se1111.c
+mathmodels	SEQ [REAL_32]	twin2	F1123_8005	C6\se1123.c
+mathmodels	SEQ [REAL_32]	make_empty	F1123_8006	C6\se1123.c
+mathmodels	SEQ [REAL_32]	make_from_array	F1123_8007	C6\se1123.c
+mathmodels	SEQ [REAL_32]	new_cursor	F1123_8008	C6\se1123.c
+mathmodels	SEQ [REAL_32]	count	F1123_8009	C6\se1123.c
+mathmodels	SEQ [REAL_32]	lower	F1123_8010	C6\se1123.c
+mathmodels	SEQ [REAL_32]	upper	F1123_8011	C6\se1123.c
+mathmodels	SEQ [REAL_32]	is_empty	F1123_8012	C6\se1123.c
+mathmodels	SEQ [REAL_32]	has	F1123_8013	C6\se1123.c
+mathmodels	SEQ [REAL_32]	first	F1123_8014	C6\se1123.c
+mathmodels	SEQ [REAL_32]	front	F1123_8015	C6\se1123.c
+mathmodels	SEQ [REAL_32]	last	F1123_8016	C6\se1123.c
+mathmodels	SEQ [REAL_32]	tail	F1123_8017	C6\se1123.c
+mathmodels	SEQ [REAL_32]	item	F1123_8018	C6\se1123.c
+mathmodels	SEQ [REAL_32]	is_subsequence_of	F1123_8019	C6\se1123.c
+mathmodels	SEQ [REAL_32]	is_contiguous_subseq_of	F1123_8020	C6\se1123.c
+mathmodels	SEQ [REAL_32]	append	F1123_8021	C6\se1123.c
+mathmodels	SEQ [REAL_32]	prepend	F1123_8022	C6\se1123.c
+mathmodels	SEQ [REAL_32]	subsequence	F1123_8023	C6\se1123.c
+mathmodels	SEQ [REAL_32]	concatenate	F1123_8024	C6\se1123.c
+mathmodels	SEQ [REAL_32]	override	F1123_8025	C6\se1123.c
+mathmodels	SEQ [REAL_32]	insert	F1123_8026	C6\se1123.c
+mathmodels	SEQ [REAL_32]	remove	F1123_8027	C6\se1123.c
+mathmodels	SEQ [REAL_32]	reverse	F1123_8028	C6\se1123.c
+mathmodels	SEQ [REAL_32]	appended	F1123_8029	C6\se1123.c
+mathmodels	SEQ [REAL_32]	prepended	F1123_8030	C6\se1123.c
+mathmodels	SEQ [REAL_32]	subsequenced	F1123_8031	C6\se1123.c
+mathmodels	SEQ [REAL_32]	concatenated	F1123_8032	C6\se1123.c
+mathmodels	SEQ [REAL_32]	overriden	F1123_8033	C6\se1123.c
+mathmodels	SEQ [REAL_32]	inserted	F1123_8034	C6\se1123.c
+mathmodels	SEQ [REAL_32]	removed	F1123_8035	C6\se1123.c
+mathmodels	SEQ [REAL_32]	reversed	F1123_8036	C6\se1123.c
+mathmodels	SEQ [REAL_32]	slice	F1123_8037	C6\se1123.c
+mathmodels	SEQ [REAL_32]	hold_count	F1123_8038	C6\se1123.c
+mathmodels	SEQ [REAL_32]	comprehension	F1123_8039	C6\se1123.c
+mathmodels	SEQ [REAL_32]	is_equal	F1123_8040	C6\se1123.c
+mathmodels	SEQ [REAL_32]	out	F1123_8041	C6\se1123.c
+mathmodels	SEQ [REAL_32]	debug_output	F1123_8042	C6\se1123.c
+mathmodels	SEQ [REAL_32]	as_array	F1123_8043	C6\se1123.c
+mathmodels	SEQ [REAL_32]	as_function	F1123_8044	C6\se1123.c
+mathmodels	SEQ [REAL_32]	valid_position	F1123_8045	C6\se1123.c
+mathmodels	SEQ [REAL_32]	is_augmented_subseq_of	F1123_8046	C6\se1123.c
+mathmodels	SEQ [REAL_32]	augmented_with_collapsed_rep	F1123_8047	C6\se1123.c
+mathmodels	SEQ [REAL_32]	augmented_without_collapsed_rep	F1123_8048	C6\se1123.c
+mathmodels	SEQ [REAL_32]	imp	F1123_8049	C6\se1123.c
+mathmodels	SEQ [REAL_32]	set_imp	F1123_8050	C6\se1123.c
+mathmodels	SEQ [INTEGER_32]	twin2	F1129_8005	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	make_empty	F1129_8006	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	make_from_array	F1129_8007	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	new_cursor	F1129_8008	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	count	F1129_8009	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	lower	F1129_8010	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	upper	F1129_8011	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	is_empty	F1129_8012	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	has	F1129_8013	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	first	F1129_8014	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	front	F1129_8015	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	last	F1129_8016	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	tail	F1129_8017	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	item	F1129_8018	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	is_subsequence_of	F1129_8019	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	is_contiguous_subseq_of	F1129_8020	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	append	F1129_8021	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	prepend	F1129_8022	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	subsequence	F1129_8023	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	concatenate	F1129_8024	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	override	F1129_8025	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	insert	F1129_8026	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	remove	F1129_8027	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	reverse	F1129_8028	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	appended	F1129_8029	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	prepended	F1129_8030	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	subsequenced	F1129_8031	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	concatenated	F1129_8032	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	overriden	F1129_8033	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	inserted	F1129_8034	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	removed	F1129_8035	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	reversed	F1129_8036	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	slice	F1129_8037	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	hold_count	F1129_8038	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	comprehension	F1129_8039	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	is_equal	F1129_8040	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	out	F1129_8041	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	debug_output	F1129_8042	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	as_array	F1129_8043	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	as_function	F1129_8044	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	valid_position	F1129_8045	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	is_augmented_subseq_of	F1129_8046	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	augmented_with_collapsed_rep	F1129_8047	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	augmented_without_collapsed_rep	F1129_8048	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	imp	F1129_8049	C6\se1129.c
+mathmodels	SEQ [INTEGER_32]	set_imp	F1129_8050	C6\se1129.c
+kernel	KL_IMPORTED_ANY_ROUTINES	any_	F1043_8051	C3\kl1043.c
+kernel	UC_UTF8_ROUTINES	valid_utf8	F1044_8052	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	is_encoded_first_byte	F1044_8053	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	is_encoded_next_byte	F1044_8054	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	is_encoded_second_byte	F1044_8055	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	is_endian_detection_character	F1044_8056	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	is_endian_detection_character_start	F1044_8057	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	encoded_first_value	F1044_8058	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	encoded_next_value	F1044_8059	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	encoded_byte_count	F1044_8060	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	substring_byte_count	F1044_8061	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	code_byte_count	F1044_8062	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	character_byte_count	F1044_8063	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	to_utf8	F1044_8064	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	append_code_to_utf8	F1044_8065	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	code_3	F1044_8066	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	code_7	F1044_8067	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	code_15	F1044_8068	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	code_31	F1044_8069	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_127	F1044_8070	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	code_127	F1044_8071	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_143	F1044_8072	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_159	F1044_8073	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_191	F1044_8074	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	code_191	F1044_8075	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_194	F1044_8076	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_223	F1044_8077	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	code_223	F1044_8078	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_224	F1044_8079	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_237	F1044_8080	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_239	F1044_8081	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	code_239	F1044_8082	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_240	F1044_8083	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_244	F1044_8084	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_247	F1044_8085	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	code_247	F1044_8086	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_251	F1044_8087	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	code_251	F1044_8088	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_253	F1044_8089	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	code_253	F1044_8090	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_255	F1044_8091	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_ef	F1044_8092	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_bb	F1044_8093	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	byte_bf	F1044_8094	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	dummy_string	F1044_8095	C3\uc1044.c
+kernel	UC_UTF8_ROUTINES	dummy_uc_string	F1044_8096	C3\uc1044.c
+kernel	UC_UTF32_ROUTINES	valid_utf32	F1045_8097	C3\uc1045.c
+kernel	UC_UTF32_ROUTINES	bom_be	F1045_8098	C3\uc1045.c
+kernel	UC_UTF32_ROUTINES	bom_le	F1045_8099	C3\uc1045.c
+kernel	UC_UTF32_ROUTINES	is_endian_detection_character_most_first	F1045_8100	C3\uc1045.c
+kernel	UC_UTF32_ROUTINES	is_endian_detection_character_least_first	F1045_8101	C3\uc1045.c
+kernel	UC_UTF32_ROUTINES	is_byte	F1045_8102	C3\uc1045.c
+kernel	UC_UTF32_ROUTINES	code	F1045_8103	C3\uc1045.c
+kernel	UC_UTF32_ROUTINES	hex_100	F1045_8104	C3\uc1045.c
+kernel	UC_UTF32_ROUTINES	hex_fe	F1045_8105	C3\uc1045.c
+kernel	UC_UTF32_ROUTINES	hex_ff	F1045_8106	C3\uc1045.c
+kernel	UC_UTF32_ROUTINES	two_byte_offset	F1045_8107	C3\uc1045.c
+kernel	UC_UTF32_ROUTINES	three_byte_offset	F1045_8108	C3\uc1045.c
+kernel	UC_UTF16_ROUTINES	valid_utf16	F1046_8109	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	valid_utf16be	F1046_8110	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	valid_utf16le	F1046_8111	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	bom_be	F1046_8112	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	bom_le	F1046_8113	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	is_endian_detection_character_most_first	F1046_8114	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	is_endian_detection_character_least_first	F1046_8115	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	is_endian_detection_character	F1046_8116	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	is_surrogate	F1046_8117	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	is_high_surrogate	F1046_8118	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	is_low_surrogate	F1046_8119	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	least_10_bits	F1046_8120	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	surrogate	F1046_8121	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	surrogate_from_bytes	F1046_8122	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	is_byte	F1046_8123	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	supplementary_to_high_surrogate	F1046_8124	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	supplementary_to_low_surrogate	F1046_8125	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	hex_400	F1046_8126	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	hex_100	F1046_8127	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	hex_fe	F1046_8128	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	hex_ff	F1046_8129	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	hex_d8	F1046_8130	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	hex_dc	F1046_8131	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	hex_e0	F1046_8132	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	hex_10000	F1046_8133	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	hex_d7c0	F1046_8134	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	hex_3ff	F1046_8135	C3\uc1046.c
+kernel	UC_UTF16_ROUTINES	hex_dc00	F1046_8136	C3\uc1046.c
+kernel	KL_INTEGER_ROUTINES	to_character	F1047_8137	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	to_hexadecimal	F1047_8138	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	to_decimal	F1047_8139	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	to_octal	F1047_8140	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	to_integer	F1047_8141	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	to_integer_8	F1047_8142	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	append_decimal_integer	F1047_8143	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	append_octal_integer	F1047_8144	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	append_hexadecimal_integer	F1047_8145	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	div	F1047_8146	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	mod	F1047_8147	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	power	F1047_8148	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	bit_and	F1047_8149	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	bit_or	F1047_8150	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	bit_xor	F1047_8151	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	bit_not	F1047_8152	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	bit_shift_left	F1047_8153	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	bit_shift_right	F1047_8154	C3\kl1047.c
+kernel	KL_INTEGER_ROUTINES	is_even	F1047_8155	C3\kl1047.c
+kernel	KL_STRING_ROUTINES	make_from_string	F1048_8156	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	make_buffer	F1048_8157	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	has_substring	F1048_8158	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	is_decimal	F1048_8159	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	is_integer_64	F1048_8160	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	is_hexadecimal	F1048_8161	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	is_base64	F1048_8162	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	new_empty_string	F1048_8163	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	to_utf16_be	F1048_8164	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	to_utf16_le	F1048_8165	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	to_utf32_be	F1048_8166	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	to_utf32_le	F1048_8167	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	substring_index	F1048_8168	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	case_insensitive_hash_code	F1048_8169	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	concat	F1048_8170	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	elks_same_string	F1048_8171	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	same_string	F1048_8172	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	same_case_insensitive	F1048_8173	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	is_less	F1048_8174	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	three_way_comparison	F1048_8175	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	three_way_case_insensitive_comparison	F1048_8176	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	three_way_lower_case_comparison	F1048_8177	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	three_way_upper_case_comparison	F1048_8178	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	cloned_string	F1048_8179	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	appended_string	F1048_8180	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	appended_substring	F1048_8181	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	replaced_substring	F1048_8182	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	append_substring_to_string	F1048_8183	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	replaced_all_substrings	F1048_8184	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	replaced_first_substring	F1048_8185	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	as_string	F1048_8186	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	hexadecimal_to_integer	F1048_8187	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	left_adjust	F1048_8188	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	right_adjust	F1048_8189	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	wipe_out	F1048_8190	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	prune_all_trailing	F1048_8191	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	resize_buffer	F1048_8192	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	to_integer_64	F1048_8193	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	dummy_string	F1048_8194	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	max_integer_64_digits	F1048_8195	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	min_negative_integer_64_digits	F1048_8196	C3\kl1048.c
+kernel	KL_STRING_ROUTINES	code_zero	F1048_8197	C3\kl1048.c
+kernel	KL_ARRAY_ROUTINES [G#1]	make_from_array	F1105_8198	C5\kl1105.c
+kernel	KL_ARRAY_ROUTINES [G#1]	make_empty_with_lower	F1105_8199	C5\kl1105.c
+kernel	KL_ARRAY_ROUTINES [G#1]	has	F1105_8200	C5\kl1105.c
+kernel	KL_ARRAY_ROUTINES [G#1]	has_void	F1105_8201	C5\kl1105.c
+kernel	KL_ARRAY_ROUTINES [G#1]	subarray	F1105_8202	C5\kl1105.c
+kernel	KL_ARRAY_ROUTINES [G#1]	cloned_array	F1105_8203	C5\kl1105.c
+kernel	KL_ARRAY_ROUTINES [G#1]	subcopy	F1105_8204	C5\kl1105.c
+kernel	KL_ARRAY_ROUTINES [G#1]	resize	F1105_8205	C5\kl1105.c
+kernel	KL_ARRAY_ROUTINES [G#1]	resize_with_default	F1105_8206	C5\kl1105.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	make_from_array	F1138_8198	C6\kl1138.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	make_empty_with_lower	F1138_8199	C6\kl1138.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	has	F1138_8200	C6\kl1138.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	has_void	F1138_8201	C6\kl1138.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	subarray	F1138_8202	C6\kl1138.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	cloned_array	F1138_8203	C6\kl1138.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	subcopy	F1138_8204	C6\kl1138.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	resize	F1138_8205	C6\kl1138.c
+kernel	KL_ARRAY_ROUTINES [CHARACTER_8]	resize_with_default	F1138_8206	C6\kl1138.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	make_from_array	F1141_8198	C6\kl1141.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	make_empty_with_lower	F1141_8199	C6\kl1141.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	has	F1141_8200	C6\kl1141.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	has_void	F1141_8201	C6\kl1141.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	subarray	F1141_8202	C6\kl1141.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	cloned_array	F1141_8203	C6\kl1141.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	subcopy	F1141_8204	C6\kl1141.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	resize	F1141_8205	C6\kl1141.c
+kernel	KL_ARRAY_ROUTINES [BOOLEAN]	resize_with_default	F1141_8206	C6\kl1141.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	make_from_array	F1152_8198	C6\kl1152.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	make_empty_with_lower	F1152_8199	C6\kl1152.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	has	F1152_8200	C6\kl1152.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	has_void	F1152_8201	C6\kl1152.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	subarray	F1152_8202	C6\kl1152.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	cloned_array	F1152_8203	C6\kl1152.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	subcopy	F1152_8204	C6\kl1152.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	resize	F1152_8205	C6\kl1152.c
+kernel	KL_ARRAY_ROUTINES [INTEGER_32]	resize_with_default	F1152_8206	C6\kl1152.c
+kernel	KI_CHARACTER_BUFFER	make_from_string	F1049_8208	C3\ki1049.c
+kernel	KI_CHARACTER_BUFFER	to_text	F1049_8210	C3\ki1049.c
+kernel	KI_CHARACTER_BUFFER	as_special	F1049_8211	C3\ki1049.c
+kernel	KI_CHARACTER_BUFFER	append_substring_to_string	F1049_8212	C3\ki1049.c
+kernel	KI_CHARACTER_BUFFER	fill_from_string	F1049_8213	C3\ki1049.c
+kernel	KI_CHARACTER_BUFFER	fill_from_stream	F1049_8214	C3\ki1049.c
+kernel	KI_CHARACTER_BUFFER	dummy_string	F1049_8215	C3\ki1049.c
+kernel	KI_CHARACTER_INPUT_STREAM	read_to_string	F1050_8217	C3\ki1050.c
+kernel	KI_CHARACTER_INPUT_STREAM	valid_unread_character	F1050_8219	C3\ki1050.c
+kernel	KL_STRING_INPUT_STREAM	make	F1052_8223	C3\kl1052.c
+kernel	KL_STRING_INPUT_STREAM	is_open_read	F1052_8224	C3\kl1052.c
+kernel	KL_STRING_INPUT_STREAM	end_of_input	F1052_8225	C3\kl1052.c
+kernel	KL_STRING_INPUT_STREAM	valid_unread_character	F1052_8226	C3\kl1052.c
+kernel	KL_STRING_INPUT_STREAM	name	F1052_8227	C3\kl1052.c
+kernel	KL_STRING_INPUT_STREAM	last_character	F1052_8228	C3\kl1052.c
+kernel	KL_STRING_INPUT_STREAM	last_string	F1052_8229	C3\kl1052.c
+kernel	KL_STRING_INPUT_STREAM	eol	F1052_8230	C3\kl1052.c
+kernel	KL_STRING_INPUT_STREAM	read_character	F1052_8231	C3\kl1052.c
+kernel	KL_STRING_INPUT_STREAM	unread_character	F1052_8232	C3\kl1052.c
+kernel	KL_STRING_INPUT_STREAM	read_string	F1052_8233	C3\kl1052.c
+kernel	KL_STRING_INPUT_STREAM	read_line	F1052_8234	C3\kl1052.c
+kernel	KL_STRING_INPUT_STREAM	read_new_line	F1052_8235	C3\kl1052.c
+kernel	KL_STRING_INPUT_STREAM	string	F1052_8236	C3\kl1052.c
+kernel	KL_STRING_INPUT_STREAM	location	F1052_8237	C3\kl1052.c
+kernel	KL_STDIN_FILE	make	F1053_8238	C3\kl1053.c
+kernel	KL_STDIN_FILE	name	F1053_8239	C3\kl1053.c
+kernel	KL_STDIN_FILE	last_character	F1053_8240	C3\kl1053.c
+kernel	KL_STDIN_FILE	last_string	F1053_8241	C3\kl1053.c
+kernel	KL_STDIN_FILE	eol	F1053_8242	C3\kl1053.c
+kernel	KL_STDIN_FILE	is_open_read	F1053_8243	C3\kl1053.c
+kernel	KL_STDIN_FILE	end_of_file	F1053_8244	C3\kl1053.c
+kernel	KL_STDIN_FILE	read_character	F1053_8245	C3\kl1053.c
+kernel	KL_STDIN_FILE	unread_character	F1053_8246	C3\kl1053.c
+kernel	KL_STDIN_FILE	read_string	F1053_8247	C3\kl1053.c
+kernel	KL_STDIN_FILE	read_line	F1053_8248	C3\kl1053.c
+kernel	KL_STDIN_FILE	read_new_line	F1053_8249	C3\kl1053.c
+kernel	KL_STDIN_FILE	read_to_string	F1053_8250	C3\kl1053.c
+kernel	KL_STDIN_FILE	read_to_buffer	F1053_8251	C3\kl1053.c
+kernel	KL_STDIN_FILE	character_buffer	F1053_8252	C3\kl1053.c
+kernel	KL_STDIN_FILE	dummy_string	F1053_8253	C3\kl1053.c
+kernel	KL_STDIN_FILE	console	F1053_8254	C3\kl1053.c
+kernel	KI_INPUT_FILE	end_of_input	F1054_8256	C3\ki1054.c
+kernel	KI_INPUT_FILE	valid_unread_character	F1054_8257	C3\ki1054.c
+kernel	KL_CHARACTER_BUFFER	make	F1057_8260	C4\kl1057.c
+kernel	KL_CHARACTER_BUFFER	item	F1057_8261	C4\kl1057.c
+kernel	KL_CHARACTER_BUFFER	substring	F1057_8262	C4\kl1057.c
+kernel	KL_CHARACTER_BUFFER	count	F1057_8263	C4\kl1057.c
+kernel	KL_CHARACTER_BUFFER	as_special	F1057_8264	C4\kl1057.c
+kernel	KL_CHARACTER_BUFFER	put	F1057_8265	C4\kl1057.c
+kernel	KL_CHARACTER_BUFFER	append_substring_to_string	F1057_8266	C4\kl1057.c
+kernel	KL_CHARACTER_BUFFER	fill_from_string	F1057_8267	C4\kl1057.c
+kernel	KL_CHARACTER_BUFFER	fill_from_stream	F1057_8268	C4\kl1057.c
+kernel	KL_CHARACTER_BUFFER	move_left	F1057_8269	C4\kl1057.c
+kernel	KL_CHARACTER_BUFFER	move_right	F1057_8270	C4\kl1057.c
+kernel	KL_CHARACTER_BUFFER	resize	F1057_8271	C4\kl1057.c
+kernel	KL_CHARACTER_BUFFER	area	F1057_8272	C4\kl1057.c
+kernel	UC_CHARACTER	make_from_character	F1058_8273	C4\uc1058.c
+kernel	UC_CHARACTER	make_from_code	F1058_8274	C4\uc1058.c
+kernel	UC_CHARACTER	code	F1058_8275	C4\uc1058.c
+kernel	UC_CHARACTER	hash_code	F1058_8276	C4\uc1058.c
+kernel	UC_CHARACTER	is_ascii	F1058_8277	C4\uc1058.c
+kernel	UC_CHARACTER	is_less	F1058_8278	C4\uc1058.c
+kernel	UC_CHARACTER	as_lower	F1058_8279	C4\uc1058.c
+kernel	UC_CHARACTER	to_lower	F1058_8280	C4\uc1058.c
+kernel	UC_CHARACTER	as_upper	F1058_8281	C4\uc1058.c
+kernel	UC_CHARACTER	to_upper	F1058_8282	C4\uc1058.c
+kernel	UC_CHARACTER	to_character	F1058_8283	C4\uc1058.c
+kernel	UC_CHARACTER	out	F1058_8284	C4\uc1058.c
+mathmodels	PAIR [INTEGER_32, G#2]	first	F1115_8285	C5\pa1115.c
+mathmodels	PAIR [INTEGER_32, G#2]	second	F1115_8286	C5\pa1115.c
+mathmodels	PAIR [INTEGER_32, G#2]	make	F1115_8287	C5\pa1115.c
+mathmodels	PAIR [INTEGER_32, G#2]	make_from_tuple	F1115_8288	C5\pa1115.c
+mathmodels	PAIR [INTEGER_32, G#2]	as_tuple	F1115_8289	C5\pa1115.c
+mathmodels	PAIR [INTEGER_32, G#2]	is_equal	F1115_8290	C5\pa1115.c
+mathmodels	PAIR [INTEGER_32, G#2]	debug_output	F1115_8291	C5\pa1115.c
+mathmodels	PAIR [INTEGER_32, G#2]	out	F1115_8292	C5\pa1115.c
+mathmodels	PAIR [INTEGER_32, REAL_32]	first	F1126_8285	C6\pa1126.c
+mathmodels	PAIR [INTEGER_32, REAL_32]	second	F1126_8286	C6\pa1126.c
+mathmodels	PAIR [INTEGER_32, REAL_32]	make	F1126_8287	C6\pa1126.c
+mathmodels	PAIR [INTEGER_32, REAL_32]	make_from_tuple	F1126_8288	C6\pa1126.c
+mathmodels	PAIR [INTEGER_32, REAL_32]	as_tuple	F1126_8289	C6\pa1126.c
+mathmodels	PAIR [INTEGER_32, REAL_32]	is_equal	F1126_8290	C6\pa1126.c
+mathmodels	PAIR [INTEGER_32, REAL_32]	debug_output	F1126_8291	C6\pa1126.c
+mathmodels	PAIR [INTEGER_32, REAL_32]	out	F1126_8292	C6\pa1126.c
+mathmodels	PAIR [INTEGER_32, INTEGER_32]	first	F1131_8285	C6\pa1131.c
+mathmodels	PAIR [INTEGER_32, INTEGER_32]	second	F1131_8286	C6\pa1131.c
+mathmodels	PAIR [INTEGER_32, INTEGER_32]	make	F1131_8287	C6\pa1131.c
+mathmodels	PAIR [INTEGER_32, INTEGER_32]	make_from_tuple	F1131_8288	C6\pa1131.c
+mathmodels	PAIR [INTEGER_32, INTEGER_32]	as_tuple	F1131_8289	C6\pa1131.c
+mathmodels	PAIR [INTEGER_32, INTEGER_32]	is_equal	F1131_8290	C6\pa1131.c
+mathmodels	PAIR [INTEGER_32, INTEGER_32]	debug_output	F1131_8291	C6\pa1131.c
+mathmodels	PAIR [INTEGER_32, INTEGER_32]	out	F1131_8292	C6\pa1131.c
+model	STACK_ARRAY [INTEGER_32]	implementation	F1128_8293	C6\st1128.c
+model	STACK_ARRAY [INTEGER_32]	make	F1128_8294	C6\st1128.c
+model	STACK_ARRAY [INTEGER_32]	model	F1128_8295	C6\st1128.c
+model	STACK_ARRAY [INTEGER_32]	count	F1128_8296	C6\st1128.c
+model	STACK_ARRAY [INTEGER_32]	top	F1128_8297	C6\st1128.c
+model	STACK_ARRAY [INTEGER_32]	push	F1128_8298	C6\st1128.c
+model	STACK_ARRAY [INTEGER_32]	pop	F1128_8299	C6\st1128.c
+model	STACK_ARRAY [REAL_32]	implementation	F1133_8293	C6\st1133.c
+model	STACK_ARRAY [REAL_32]	make	F1133_8294	C6\st1133.c
+model	STACK_ARRAY [REAL_32]	model	F1133_8295	C6\st1133.c
+model	STACK_ARRAY [REAL_32]	count	F1133_8296	C6\st1133.c
+model	STACK_ARRAY [REAL_32]	top	F1133_8297	C6\st1133.c
+model	STACK_ARRAY [REAL_32]	push	F1133_8298	C6\st1133.c
+model	STACK_ARRAY [REAL_32]	pop	F1133_8299	C6\st1133.c
+model	STACK_ARRAY [G#1]	implementation	F1134_8293	C6\st1134.c
+model	STACK_ARRAY [G#1]	make	F1134_8294	C6\st1134.c
+model	STACK_ARRAY [G#1]	model	F1134_8295	C6\st1134.c
+model	STACK_ARRAY [G#1]	count	F1134_8296	C6\st1134.c
+model	STACK_ARRAY [G#1]	top	F1134_8297	C6\st1134.c
+model	STACK_ARRAY [G#1]	push	F1134_8298	C6\st1134.c
+model	STACK_ARRAY [G#1]	pop	F1134_8299	C6\st1134.c
+kernel	UC_V510_CTYPE_TITLECASE	major_version	F1060_8300	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	minor_version	F1060_8301	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	update_version	F1060_8302	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_0	F1060_8303	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_1	F1060_8304	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_2	F1060_8305	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_3	F1060_8306	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_4	F1060_8307	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_5	F1060_8308	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	empty_title_code_segment	F1060_8309	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_29	F1060_8310	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_30	F1060_8311	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_31	F1060_8312	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_33	F1060_8313	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_36	F1060_8314	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_44	F1060_8315	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_45	F1060_8316	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_166	F1060_8317	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_167	F1060_8318	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0_segment_255	F1060_8319	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_0	F1060_8320	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_1_segment_4	F1060_8321	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_code_plane_1	F1060_8322	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	empty_title_code_plane	F1060_8323	C4\uc1060.c
+kernel	UC_V510_CTYPE_TITLECASE	title_codes	F1060_8324	C4\uc1060.c
+kernel	UC_V510_CTYPE_UPPERCASE	major_version	F1061_8325	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	minor_version	F1061_8326	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	update_version	F1061_8327	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_0	F1061_8328	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_1	F1061_8329	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_2	F1061_8330	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_3	F1061_8331	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_4	F1061_8332	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_5	F1061_8333	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	empty_upper_code_segment	F1061_8334	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_29	F1061_8335	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_30	F1061_8336	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_31	F1061_8337	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_33	F1061_8338	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_36	F1061_8339	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_44	F1061_8340	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_45	F1061_8341	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_166	F1061_8342	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_167	F1061_8343	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0_segment_255	F1061_8344	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_0	F1061_8345	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_1_segment_4	F1061_8346	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_code_plane_1	F1061_8347	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	empty_upper_code_plane	F1061_8348	C4\uc1061.c
+kernel	UC_V510_CTYPE_UPPERCASE	upper_codes	F1061_8349	C4\uc1061.c
+kernel	UC_V510_CTYPE_LOWERCASE	major_version	F1062_8350	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	minor_version	F1062_8351	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	update_version	F1062_8352	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_0	F1062_8353	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_1	F1062_8354	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_2	F1062_8355	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_3	F1062_8356	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_4	F1062_8357	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_5	F1062_8358	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	empty_lower_code_segment	F1062_8359	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_16	F1062_8360	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_30	F1062_8361	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_31	F1062_8362	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_33	F1062_8363	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_36	F1062_8364	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_44	F1062_8365	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_166	F1062_8366	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_167	F1062_8367	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0_segment_255	F1062_8368	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_0	F1062_8369	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_1_segment_4	F1062_8370	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_code_plane_1	F1062_8371	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	empty_lower_code_plane	F1062_8372	C4\uc1062.c
+kernel	UC_V510_CTYPE_LOWERCASE	lower_codes	F1062_8373	C4\uc1062.c
+kernel	UC_V510_CTYPE	valid_code	F1063_8374	C4\uc1063.c
+kernel	UC_V510_CTYPE	lower_code	F1063_8375	C4\uc1063.c
+kernel	UC_V510_CTYPE	upper_code	F1063_8376	C4\uc1063.c
+kernel	UC_V510_CTYPE	title_code	F1063_8377	C4\uc1063.c
+kernel	KL_CLONABLE	cloned_object	F1065_8378	C4\kl1065.c
+lexical	YY_SCANNER	make	F1066_8379	C4\yy1066.c
+lexical	YY_SCANNER	make_with_file	F1066_8380	C4\yy1066.c
+lexical	YY_SCANNER	make_with_buffer	F1066_8381	C4\yy1066.c
+lexical	YY_SCANNER	reset_with_file	F1066_8383	C4\yy1066.c
+lexical	YY_SCANNER	reset_with_string	F1066_8384	C4\yy1066.c
+lexical	YY_SCANNER	last_token	F1066_8386	C4\yy1066.c
+lexical	YY_SCANNER	end_of_file	F1066_8396	C4\yy1066.c
+lexical	YY_SCANNER	scanning_error	F1066_8397	C4\yy1066.c
+lexical	YY_SCANNER	set_last_token	F1066_8399	C4\yy1066.c
+lexical	YY_SCANNER	scan	F1066_8403	C4\yy1066.c
+lexical	YY_SCANNER	append_text_to_string	F1066_8405	C4\yy1066.c
+lexical	YY_SCANNER	append_text_substring_to_string	F1066_8406	C4\yy1066.c
+lexical	YY_SCANNER	terminate	F1066_8407	C4\yy1066.c
+lexical	YY_SCANNER	wrap	F1066_8408	C4\yy1066.c
+lexical	YY_SCANNER	last_character	F1066_8413	C4\yy1066.c
+lexical	YY_SCANNER	input_buffer	F1066_8414	C4\yy1066.c
+lexical	YY_SCANNER	set_input_buffer	F1066_8415	C4\yy1066.c
+lexical	YY_SCANNER	flush_input_buffer	F1066_8416	C4\yy1066.c
+lexical	YY_SCANNER	new_file_buffer	F1066_8417	C4\yy1066.c
+lexical	YY_SCANNER	new_string_buffer	F1066_8418	C4\yy1066.c
+lexical	YY_SCANNER	empty_buffer	F1066_8419	C4\yy1066.c
+lexical	YY_SCANNER	output	F1066_8420	C4\yy1066.c
+lexical	YY_SCANNER	echo	F1066_8421	C4\yy1066.c
+lexical	YY_SCANNER	pre_action	F1066_8422	C4\yy1066.c
+lexical	YY_SCANNER	post_action	F1066_8423	C4\yy1066.c
+lexical	YY_SCANNER	pre_eof_action	F1066_8424	C4\yy1066.c
+lexical	YY_SCANNER	post_eof_action	F1066_8425	C4\yy1066.c
+lexical	YY_SCANNER	default_action	F1066_8426	C4\yy1066.c
+lexical	YY_SCANNER	fatal_error	F1066_8427	C4\yy1066.c
+lexical	YY_SCANNER	yyeof_token	F1066_8429	C4\yy1066.c
+lexical	YY_SCANNER	yyerror_token	F1066_8430	C4\yy1066.c
+lexical	YY_SCANNER	yyunknown_token	F1066_8431	C4\yy1066.c
+lexical	YY_SCANNER_SKELETON	make_with_buffer	F1067_8432	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_initialize	F1067_8433	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	reset	F1067_8434	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	reset_start_condition	F1067_8435	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	text	F1067_8436	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	text_item	F1067_8437	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	text_substring	F1067_8438	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	start_condition	F1067_8439	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	text_count	F1067_8440	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	line	F1067_8441	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	column	F1067_8442	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	position	F1067_8443	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	pushed_start_condition_count	F1067_8444	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	set_start_condition	F1067_8445	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	push_start_condition	F1067_8446	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	pop_start_condition	F1067_8447	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	append_text_to_string	F1067_8448	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	append_text_substring_to_string	F1067_8449	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	more	F1067_8450	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	less	F1067_8451	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	unread_character	F1067_8452	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	read_character	F1067_8453	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	set_input_buffer	F1067_8454	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	flush_input_buffer	F1067_8455	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	print_last_token	F1067_8456	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_load_input_buffer	F1067_8457	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_refill_input_buffer	F1067_8458	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_set_content	F1067_8459	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_fixed_array	F1067_8461	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_array_subcopy	F1067_8462	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_at_beginning_of_line	F1067_8465	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_set_beginning_of_line	F1067_8466	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_set_line	F1067_8467	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_set_column	F1067_8468	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_set_line_column	F1067_8469	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_start_state	F1067_8472	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_content	F1067_8473	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_content_area	F1067_8474	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_end	F1067_8475	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_start	F1067_8476	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_line	F1067_8477	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_column	F1067_8478	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_position	F1067_8479	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_more_flag	F1067_8480	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_more_len	F1067_8481	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_last_accepting_state	F1067_8482	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_last_accepting_cpos	F1067_8483	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_pushed_start_conditions	F1067_8484	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yyinitial_pushed_start_conditions_capacity	F1067_8485	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yybuffer_capacity	F1067_8486	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yyend_of_buffer_character	F1067_8487	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yyend_of_file_character	F1067_8488	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yynew_line_character	F1067_8489	C4\yy1067.c
+lexical	YY_SCANNER_SKELETON	yy_dummy	F1067_8495	C4\yy1067.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_initialize	F1068_8496	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	reset	F1068_8497	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	read_token	F1068_8498	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	reject	F1068_8499	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_nxt	F1068_8500	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_chk	F1068_8501	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_base	F1068_8502	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_def	F1068_8503	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_ec	F1068_8504	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_meta	F1068_8505	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_accept	F1068_8506	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_acclist	F1068_8507	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_set_content	F1068_8508	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_previous_state	F1068_8510	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_null_trans_state	F1068_8511	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_rejected	F1068_8512	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_state_stack	F1068_8513	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_state_count	F1068_8514	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_full_match	F1068_8515	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_lp	F1068_8516	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_looking_for_trail_begin	F1068_8517	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_full_lp	F1068_8518	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yy_full_state	F1068_8519	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yybacking_up	F1068_8526	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yynext_token	F1068_8528	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yymatch	F1068_8529	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yyfind_action	F1068_8530	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yydo_action	F1068_8531	C4\yy1068.c
+lexical	YY_COMPRESSED_SCANNER_SKELETON	yyfind_rule	F1068_8532	C4\yy1068.c
+model	STACK_LIST [G#1]	implementation	F1110_8533	C5\st1110.c
+model	STACK_LIST [G#1]	make	F1110_8534	C5\st1110.c
+model	STACK_LIST [G#1]	model	F1110_8535	C5\st1110.c
+model	STACK_LIST [G#1]	count	F1110_8536	C5\st1110.c
+model	STACK_LIST [G#1]	top	F1110_8537	C5\st1110.c
+model	STACK_LIST [G#1]	push	F1110_8538	C5\st1110.c
+model	STACK_LIST [G#1]	pop	F1110_8539	C5\st1110.c
+model	STACK_LIST [REAL_32]	implementation	F1117_8533	C5\st1117.c
+model	STACK_LIST [REAL_32]	make	F1117_8534	C5\st1117.c
+model	STACK_LIST [REAL_32]	model	F1117_8535	C5\st1117.c
+model	STACK_LIST [REAL_32]	count	F1117_8536	C5\st1117.c
+model	STACK_LIST [REAL_32]	top	F1117_8537	C5\st1117.c
+model	STACK_LIST [REAL_32]	push	F1117_8538	C5\st1117.c
+model	STACK_LIST [REAL_32]	pop	F1117_8539	C5\st1117.c
+tests	BAD_STACK_LIST [G#1]	push	F1150_8540	C6\ba1150.c
+kernel	KL_SHARED_FILE_SYSTEM	file_system	F1069_8541	C4\kl1069.c
+kernel	KL_SHARED_FILE_SYSTEM	windows_file_system	F1069_8542	C4\kl1069.c
+kernel	KL_SHARED_FILE_SYSTEM	windows_backslash_only_file_system	F1069_8543	C4\kl1069.c
+kernel	KL_SHARED_FILE_SYSTEM	unix_file_system	F1069_8544	C4\kl1069.c
+kernel	KL_DIRECTORY	make	F1070_8545	C4\kl1070.c
+kernel	KL_DIRECTORY	name	F1070_8546	C4\kl1070.c
+kernel	KL_DIRECTORY	last_entry	F1070_8547	C4\kl1070.c
+kernel	KL_DIRECTORY	filenames	F1070_8548	C4\kl1070.c
+kernel	KL_DIRECTORY	directory_names	F1070_8549	C4\kl1070.c
+kernel	KL_DIRECTORY	is_open_read	F1070_8550	C4\kl1070.c
+kernel	KL_DIRECTORY	end_of_input	F1070_8551	C4\kl1070.c
+kernel	KL_DIRECTORY	exists	F1070_8552	C4\kl1070.c
+kernel	KL_DIRECTORY	is_readable	F1070_8553	C4\kl1070.c
+kernel	KL_DIRECTORY	is_empty	F1070_8554	C4\kl1070.c
+kernel	KL_DIRECTORY	open_read	F1070_8555	C4\kl1070.c
+kernel	KL_DIRECTORY	close	F1070_8556	C4\kl1070.c
+kernel	KL_DIRECTORY	create_directory	F1070_8557	C4\kl1070.c
+kernel	KL_DIRECTORY	recursive_create_directory	F1070_8558	C4\kl1070.c
+kernel	KL_DIRECTORY	delete	F1070_8559	C4\kl1070.c
+kernel	KL_DIRECTORY	recursive_delete	F1070_8560	C4\kl1070.c
+kernel	KL_DIRECTORY	recursive_copy_directory	F1070_8561	C4\kl1070.c
+kernel	KL_DIRECTORY	do_all	F1070_8562	C4\kl1070.c
+kernel	KL_DIRECTORY	do_if	F1070_8563	C4\kl1070.c
+kernel	KL_DIRECTORY	there_exists	F1070_8564	C4\kl1070.c
+kernel	KL_DIRECTORY	for_all	F1070_8565	C4\kl1070.c
+kernel	KL_DIRECTORY	read_entry	F1070_8566	C4\kl1070.c
+kernel	KL_DIRECTORY	unread_entry	F1070_8567	C4\kl1070.c
+kernel	KL_DIRECTORY	entry_buffer	F1070_8568	C4\kl1070.c
+kernel	KL_DIRECTORY	valid_entry_buffer	F1070_8569	C4\kl1070.c
+kernel	KL_DIRECTORY	old_end_of_input	F1070_8570	C4\kl1070.c
+kernel	KL_DIRECTORY	string_name	F1070_8571	C4\kl1070.c
+kernel	KL_DIRECTORY	tmp_file	F1070_8572	C4\kl1070.c
+kernel	KL_DIRECTORY	tmp_directory	F1070_8573	C4\kl1070.c
+kernel	KL_DIRECTORY	dummy_name	F1070_8574	C4\kl1070.c
+kernel	KL_DIRECTORY	dummy_entry	F1070_8575	C4\kl1070.c
+kernel	KL_DIRECTORY	empty_name	F1070_8576	C4\kl1070.c
+kernel	KL_FILE	make	F1071_8577	C4\kl1071.c
+kernel	KL_FILE	name	F1071_8578	C4\kl1071.c
+kernel	KL_FILE	time_stamp	F1071_8579	C4\kl1071.c
+kernel	KL_FILE	count	F1071_8580	C4\kl1071.c
+kernel	KL_FILE	exists	F1071_8581	C4\kl1071.c
+kernel	KL_FILE	is_readable	F1071_8582	C4\kl1071.c
+kernel	KL_FILE	is_closed	F1071_8583	C4\kl1071.c
+kernel	KL_FILE	same_physical_file	F1071_8584	C4\kl1071.c
+kernel	KL_FILE	close	F1071_8585	C4\kl1071.c
+kernel	KL_FILE	change_name	F1071_8586	C4\kl1071.c
+kernel	KL_FILE	copy_file	F1071_8587	C4\kl1071.c
+kernel	KL_FILE	concat	F1071_8588	C4\kl1071.c
+kernel	KL_FILE	delete	F1071_8589	C4\kl1071.c
+kernel	KL_FILE	change_mode	F1071_8590	C4\kl1071.c
+kernel	KL_FILE	empty_name	F1071_8591	C4\kl1071.c
+kernel	KL_FILE	tmp_file1	F1071_8592	C4\kl1071.c
+kernel	KL_FILE	dummy_name	F1071_8593	C4\kl1071.c
+kernel	KL_OUTPUT_FILE	is_open_write	F1072_8607	C4\kl1072.c
+kernel	KL_OUTPUT_FILE	put_character	F1072_8608	C4\kl1072.c
+kernel	KL_OUTPUT_FILE	put_string	F1072_8609	C4\kl1072.c
+kernel	KL_OUTPUT_FILE	open_write	F1072_8610	C4\kl1072.c
+kernel	KL_OUTPUT_FILE	open_append	F1072_8611	C4\kl1072.c
+kernel	KL_OUTPUT_FILE	recursive_open_write	F1072_8612	C4\kl1072.c
+kernel	KL_OUTPUT_FILE	recursive_open_append	F1072_8613	C4\kl1072.c
+kernel	KL_OUTPUT_FILE	flush	F1072_8614	C4\kl1072.c
+kernel	KL_WINDOWS_OUTPUT_FILE	eol	F1074_8623	C4\kl1074.c
+kernel	KL_UNIX_OUTPUT_FILE	eol	F1075_8624	C4\kl1075.c
+kernel	KL_INPUT_FILE	make	F1076_8625	C4\kl1076.c
+kernel	KL_INPUT_FILE	last_character	F1076_8626	C4\kl1076.c
+kernel	KL_INPUT_FILE	last_string	F1076_8627	C4\kl1076.c
+kernel	KL_INPUT_FILE	is_open_read	F1076_8628	C4\kl1076.c
+kernel	KL_INPUT_FILE	end_of_file	F1076_8629	C4\kl1076.c
+kernel	KL_INPUT_FILE	read_character	F1076_8630	C4\kl1076.c
+kernel	KL_INPUT_FILE	unread_character	F1076_8631	C4\kl1076.c
+kernel	KL_INPUT_FILE	read_string	F1076_8632	C4\kl1076.c
+kernel	KL_INPUT_FILE	read_to_string	F1076_8633	C4\kl1076.c
+kernel	KL_INPUT_FILE	read_to_buffer	F1076_8634	C4\kl1076.c
+kernel	KL_INPUT_FILE	open_read	F1076_8635	C4\kl1076.c
+kernel	KL_INPUT_FILE	close	F1076_8636	C4\kl1076.c
+kernel	KL_INPUT_FILE	character_buffer	F1076_8637	C4\kl1076.c
+kernel	KL_INPUT_FILE	file_readable	F1076_8638	C4\kl1076.c
+kernel	KL_INPUT_FILE	dummy_string	F1076_8640	C4\kl1076.c
+kernel	KL_INPUT_FILE	dummy_kl_character_buffer	F1076_8641	C4\kl1076.c
+kernel	KL_TEXT_INPUT_FILE	last_character	F1077_8647	C4\kl1077.c
+kernel	KL_TEXT_INPUT_FILE	last_string	F1077_8648	C4\kl1077.c
+kernel	KL_TEXT_INPUT_FILE	eol	F1077_8649	C4\kl1077.c
+kernel	KL_TEXT_INPUT_FILE	read_line	F1077_8650	C4\kl1077.c
+kernel	KL_TEXT_INPUT_FILE	read_new_line	F1077_8651	C4\kl1077.c
+kernel	KL_BINARY_INPUT_FILE	last_character	F1078_8652	C4\kl1078.c
+kernel	KL_BINARY_INPUT_FILE	last_string	F1078_8653	C4\kl1078.c
+kernel	KL_WINDOWS_INPUT_FILE	read_line	F1079_8654	C4\kl1079.c
+kernel	KL_WINDOWS_INPUT_FILE	read_new_line	F1079_8655	C4\kl1079.c
+kernel	KL_WINDOWS_INPUT_FILE	eol	F1079_8656	C4\kl1079.c
+kernel	KL_UNIX_INPUT_FILE	read_line	F1080_8657	C4\kl1080.c
+kernel	KL_UNIX_INPUT_FILE	read_new_line	F1080_8658	C4\kl1080.c
+kernel	KL_UNIX_INPUT_FILE	eol	F1080_8659	C4\kl1080.c
+kernel	KI_FILE_SYSTEM	make	F1081_8660	C4\ki1081.c
+kernel	KI_FILE_SYSTEM	same_canonical_pathnames	F1081_8692	C4\ki1081.c
+kernel	KI_FILE_SYSTEM	same_canonical_absolute_pathnames	F1081_8693	C4\ki1081.c
+kernel	KI_FILE_SYSTEM	is_canonical_subpathname	F1081_8695	C4\ki1081.c
+kernel	KI_FILE_SYSTEM	is_canonical_absolute_subpathname	F1081_8696	C4\ki1081.c
+kernel	KI_FILE_SYSTEM	canonical_pathname	F1081_8702	C4\ki1081.c
+kernel	KI_FILE_SYSTEM	pathname_from_file_system	F1081_8711	C4\ki1081.c
+kernel	KL_FILE_SYSTEM	is_current_file_system	F1082_8715	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	is_file_readable	F1082_8716	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	file_exists	F1082_8717	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	file_count	F1082_8718	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	file_time_stamp	F1082_8719	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	same_physical_file	F1082_8720	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	same_text_files	F1082_8721	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	same_binary_files	F1082_8722	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	rename_file	F1082_8723	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	copy_file	F1082_8724	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	concat_files	F1082_8725	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	delete_file	F1082_8726	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	is_directory_readable	F1082_8727	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	directory_exists	F1082_8728	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	is_directory_empty	F1082_8729	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	create_directory	F1082_8730	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	recursive_create_directory	F1082_8731	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	delete_directory	F1082_8732	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	recursive_delete_directory	F1082_8733	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	recursive_copy_directory	F1082_8734	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	cwd	F1082_8735	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	current_working_directory	F1082_8736	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	cd	F1082_8737	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	set_current_working_directory	F1082_8738	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	tmp_file	F1082_8739	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	tmp_directory	F1082_8740	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	dummy_name	F1082_8741	C4\kl1082.c
+kernel	KL_FILE_SYSTEM	execution_environment	F1082_8742	C4\kl1082.c
+kernel	KL_WINDOWS_FILE_SYSTEM	make	F1083_8743	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	make_backslash_only	F1083_8744	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	new_input_file	F1083_8745	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	new_output_file	F1083_8746	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	eol	F1083_8747	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	is_absolute_pathname	F1083_8748	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	is_relative_pathname	F1083_8749	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	is_root_directory	F1083_8750	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	same_pathnames	F1083_8751	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	same_canonical_pathnames	F1083_8752	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	is_subpathname	F1083_8753	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	is_canonical_subpathname	F1083_8754	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	basename	F1083_8755	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	dirname	F1083_8756	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	pathname	F1083_8757	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	append_pathname_to_string	F1083_8758	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	nested_pathname	F1083_8759	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	relative_current_directory	F1083_8760	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	relative_parent_directory	F1083_8761	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	root_directory	F1083_8762	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	absolute_pathname	F1083_8763	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	absolute_parent_directory	F1083_8764	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	absolute_root_directory	F1083_8765	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	string_to_pathname	F1083_8766	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	pathname_to_string	F1083_8767	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	has_extension	F1083_8768	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	extension	F1083_8769	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	exe_extension	F1083_8770	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	is_directory_separator	F1083_8771	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	directory_separator	F1083_8772	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	secondary_directory_separator	F1083_8773	C4\kl1083.c
+kernel	KL_WINDOWS_FILE_SYSTEM	current_drive	F1083_8774	C4\kl1083.c
+kernel	KL_UNIX_FILE_SYSTEM	new_input_file	F1084_8775	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	new_output_file	F1084_8776	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	eol	F1084_8777	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	is_absolute_pathname	F1084_8778	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	is_relative_pathname	F1084_8779	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	is_root_directory	F1084_8780	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	same_pathnames	F1084_8781	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	same_canonical_pathnames	F1084_8782	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	is_subpathname	F1084_8783	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	is_canonical_subpathname	F1084_8784	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	basename	F1084_8785	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	dirname	F1084_8786	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	pathname	F1084_8787	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	append_pathname_to_string	F1084_8788	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	nested_pathname	F1084_8789	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	relative_current_directory	F1084_8790	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	relative_parent_directory	F1084_8791	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	root_directory	F1084_8792	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	absolute_pathname	F1084_8793	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	absolute_parent_directory	F1084_8794	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	absolute_root_directory	F1084_8795	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	string_to_pathname	F1084_8796	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	pathname_to_string	F1084_8797	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	has_extension	F1084_8798	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	extension	F1084_8799	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	exe_extension	F1084_8800	C4\kl1084.c
+kernel	KL_UNIX_FILE_SYSTEM	directory_separator	F1084_8801	C4\kl1084.c
+time	FIND_SEPARATOR_FACILITY	separator_characters	F1085_8802	C4\fi1085.c
+time	FIND_SEPARATOR_FACILITY	find_separator	F1085_8803	C4\fi1085.c
+time	FIND_SEPARATOR_FACILITY	extracted_substrings	F1085_8804	C4\fi1085.c
+time	FIND_SEPARATOR_FACILITY	has_separators	F1085_8805	C4\fi1085.c
+time	DATE_TIME_CODE_STRING	make	F1086_8806	C4\da1086.c
+time	DATE_TIME_CODE_STRING	value	F1086_8807	C4\da1086.c
+time	DATE_TIME_CODE_STRING	name	F1086_8808	C4\da1086.c
+time	DATE_TIME_CODE_STRING	base_century	F1086_8809	C4\da1086.c
+time	DATE_TIME_CODE_STRING	is_date	F1086_8810	C4\da1086.c
+time	DATE_TIME_CODE_STRING	is_time	F1086_8811	C4\da1086.c
+time	DATE_TIME_CODE_STRING	is_date_time	F1086_8812	C4\da1086.c
+time	DATE_TIME_CODE_STRING	is_value_valid	F1086_8813	C4\da1086.c
+time	DATE_TIME_CODE_STRING	separators_used	F1086_8814	C4\da1086.c
+time	DATE_TIME_CODE_STRING	set_base_century	F1086_8815	C4\da1086.c
+time	DATE_TIME_CODE_STRING	correspond	F1086_8816	C4\da1086.c
+time	DATE_TIME_CODE_STRING	create_string	F1086_8817	C4\da1086.c
+time	DATE_TIME_CODE_STRING	create_date_string	F1086_8818	C4\da1086.c
+time	DATE_TIME_CODE_STRING	create_time_string	F1086_8819	C4\da1086.c
+time	DATE_TIME_CODE_STRING	create_date_time	F1086_8820	C4\da1086.c
+time	DATE_TIME_CODE_STRING	create_date	F1086_8821	C4\da1086.c
+time	DATE_TIME_CODE_STRING	create_time	F1086_8822	C4\da1086.c
+time	DATE_TIME_CODE_STRING	precise	F1086_8823	C4\da1086.c
+time	DATE_TIME_CODE_STRING	precise_date	F1086_8824	C4\da1086.c
+time	DATE_TIME_CODE_STRING	precise_time	F1086_8825	C4\da1086.c
+time	DATE_TIME_CODE_STRING	days	F1086_8826	C4\da1086.c
+time	DATE_TIME_CODE_STRING	months	F1086_8827	C4\da1086.c
+time	DATE_TIME_CODE_STRING	right_day_text	F1086_8828	C4\da1086.c
+time	DATE_TIME_CODE_STRING	parser	F1086_8829	C4\da1086.c
+time	DATE_TIME_CODE_STRING	internal_parser	F1086_8830	C4\da1086.c
+time	TIME_VALIDITY_CHECKER	time_valid	F1087_8831	C4\ti1087.c
+time	TIME_VALIDITY_CHECKER	compact_time_valid	F1087_8832	C4\ti1087.c
+time	TIME_VALIDITY_CHECKER	is_correct_time	F1087_8833	C4\ti1087.c
+time	TIME	make	F1088_8834	C4\ti1088.c
+time	TIME	make_fine	F1088_8835	C4\ti1088.c
+time	TIME	make_now	F1088_8836	C4\ti1088.c
+time	TIME	make_now_utc	F1088_8837	C4\ti1088.c
+time	TIME	make_by_seconds	F1088_8838	C4\ti1088.c
+time	TIME	make_by_fine_seconds	F1088_8839	C4\ti1088.c
+time	TIME	make_from_string_default	F1088_8840	C4\ti1088.c
+time	TIME	make_from_string	F1088_8841	C4\ti1088.c
+time	TIME	make_by_compact_time	F1088_8842	C4\ti1088.c
+time	TIME	origin	F1088_8843	C4\ti1088.c
+time	TIME	is_less	F1088_8844	C4\ti1088.c
+time	TIME	duration	F1088_8845	C4\ti1088.c
+time	TIME	seconds	F1088_8846	C4\ti1088.c
+time	TIME	fine_seconds	F1088_8847	C4\ti1088.c
+time	TIME	plus	F1088_8848	C4\ti1088.c
+time	TIME	relative_duration	F1088_8849	C4\ti1088.c
+time	TIME	second_add	F1088_8850	C4\ti1088.c
+time	TIME	fine_second_add	F1088_8851	C4\ti1088.c
+time	TIME	minute_add	F1088_8852	C4\ti1088.c
+time	TIME	hour_add	F1088_8853	C4\ti1088.c
+time	TIME	second_forth	F1088_8854	C4\ti1088.c
+time	TIME	second_back	F1088_8855	C4\ti1088.c
+time	TIME	minute_forth	F1088_8856	C4\ti1088.c
+time	TIME	minute_back	F1088_8857	C4\ti1088.c
+time	TIME	hour_forth	F1088_8858	C4\ti1088.c
+time	TIME	hour_back	F1088_8859	C4\ti1088.c
+time	TIME	debug_output	F1088_8860	C4\ti1088.c
+time	TIME	out	F1088_8861	C4\ti1088.c
+time	TIME	formatted_out	F1088_8862	C4\ti1088.c
+time	DATE_VALIDITY_CHECKER	date_valid	F1089_8863	C5\da1089.c
+time	DATE_VALIDITY_CHECKER	date_valid_with_base	F1089_8864	C5\da1089.c
+time	DATE_VALIDITY_CHECKER	date_valid_default	F1089_8865	C5\da1089.c
+time	DATE_VALIDITY_CHECKER	date_valid_default_with_base	F1089_8866	C5\da1089.c
+time	DATE_VALIDITY_CHECKER	compact_date_valid	F1089_8867	C5\da1089.c
+time	DATE_VALIDITY_CHECKER	ordered_compact_date_valid	F1089_8868	C5\da1089.c
+time	DATE_VALIDITY_CHECKER	is_correct_date	F1089_8869	C5\da1089.c
+time	DATE	make	F1090_8870	C5\da1090.c
+time	DATE	make_month_day_year	F1090_8871	C5\da1090.c
+time	DATE	make_day_month_year	F1090_8872	C5\da1090.c
+time	DATE	make_now	F1090_8873	C5\da1090.c
+time	DATE	make_now_utc	F1090_8874	C5\da1090.c
+time	DATE	make_by_days	F1090_8875	C5\da1090.c
+time	DATE	make_from_string_default	F1090_8876	C5\da1090.c
+time	DATE	make_from_string_default_with_base	F1090_8877	C5\da1090.c
+time	DATE	make_from_string	F1090_8878	C5\da1090.c
+time	DATE	make_from_string_with_base	F1090_8879	C5\da1090.c
+time	DATE	make_by_compact_date	F1090_8880	C5\da1090.c
+time	DATE	make_by_ordered_compact_date	F1090_8881	C5\da1090.c
+time	DATE	origin	F1090_8882	C5\da1090.c
+time	DATE	is_less	F1090_8883	C5\da1090.c
+time	DATE	duration	F1090_8884	C5\da1090.c
+time	DATE	days	F1090_8885	C5\da1090.c
+time	DATE	leap_year	F1090_8886	C5\da1090.c
+time	DATE	days_at_month	F1090_8887	C5\da1090.c
+time	DATE	year_day	F1090_8888	C5\da1090.c
+time	DATE	week_of_year	F1090_8889	C5\da1090.c
+time	DATE	days_in_year	F1090_8890	C5\da1090.c
+time	DATE	day_of_the_week	F1090_8891	C5\da1090.c
+time	DATE	day_of_january_1st	F1090_8892	C5\da1090.c
+time	DATE	days_from	F1090_8893	C5\da1090.c
+time	DATE	to_date_time	F1090_8894	C5\da1090.c
+time	DATE	plus	F1090_8895	C5\da1090.c
+time	DATE	add	F1090_8896	C5\da1090.c
+time	DATE	relative_duration	F1090_8897	C5\da1090.c
+time	DATE	day_forth	F1090_8898	C5\da1090.c
+time	DATE	day_back	F1090_8899	C5\da1090.c
+time	DATE	day_add	F1090_8900	C5\da1090.c
+time	DATE	month_forth	F1090_8901	C5\da1090.c
+time	DATE	month_back	F1090_8902	C5\da1090.c
+time	DATE	month_add	F1090_8903	C5\da1090.c
+time	DATE	year_forth	F1090_8904	C5\da1090.c
+time	DATE	year_back	F1090_8905	C5\da1090.c
+time	DATE	year_add	F1090_8906	C5\da1090.c
+time	DATE	year_month_add	F1090_8907	C5\da1090.c
+time	DATE	debug_output	F1090_8908	C5\da1090.c
+time	DATE	out	F1090_8909	C5\da1090.c
+time	DATE	formatted_out	F1090_8910	C5\da1090.c
+time	DATE	days_at_months	F1090_8911	C5\da1090.c
+time	DATE_TIME_VALIDITY_CHECKER	date_time_valid	F1091_8912	C5\da1091.c
+time	DATE_TIME_VALIDITY_CHECKER	date_time_valid_with_base	F1091_8913	C5\da1091.c
+time	DATE_TIME_VALIDITY_CHECKER	is_correct_date_time	F1091_8914	C5\da1091.c
+time	DATE_TIME_PARSER	make	F1092_8915	C5\da1092.c
+time	DATE_TIME_PARSER	source_string	F1092_8916	C5\da1092.c
+time	DATE_TIME_PARSER	year	F1092_8917	C5\da1092.c
+time	DATE_TIME_PARSER	month	F1092_8918	C5\da1092.c
+time	DATE_TIME_PARSER	day	F1092_8919	C5\da1092.c
+time	DATE_TIME_PARSER	hour	F1092_8920	C5\da1092.c
+time	DATE_TIME_PARSER	minute	F1092_8921	C5\da1092.c
+time	DATE_TIME_PARSER	fine_second	F1092_8922	C5\da1092.c
+time	DATE_TIME_PARSER	day_text	F1092_8923	C5\da1092.c
+time	DATE_TIME_PARSER	parsed	F1092_8924	C5\da1092.c
+time	DATE_TIME_PARSER	is_set_up	F1092_8925	C5\da1092.c
+time	DATE_TIME_PARSER	is_date	F1092_8926	C5\da1092.c
+time	DATE_TIME_PARSER	is_time	F1092_8927	C5\da1092.c
+time	DATE_TIME_PARSER	is_date_time	F1092_8928	C5\da1092.c
+time	DATE_TIME_PARSER	is_value_valid	F1092_8929	C5\da1092.c
+time	DATE_TIME_PARSER	set_source_string	F1092_8930	C5\da1092.c
+time	DATE_TIME_PARSER	set_day_array	F1092_8931	C5\da1092.c
+time	DATE_TIME_PARSER	set_month_array	F1092_8932	C5\da1092.c
+time	DATE_TIME_PARSER	set_base_century	F1092_8933	C5\da1092.c
+time	DATE_TIME_PARSER	parse	F1092_8934	C5\da1092.c
+time	DATE_TIME_PARSER	year_val	F1092_8935	C5\da1092.c
+time	DATE_TIME_PARSER	month_val	F1092_8936	C5\da1092.c
+time	DATE_TIME_PARSER	day_val	F1092_8937	C5\da1092.c
+time	DATE_TIME_PARSER	hour_val	F1092_8938	C5\da1092.c
+time	DATE_TIME_PARSER	minute_val	F1092_8939	C5\da1092.c
+time	DATE_TIME_PARSER	fine_second_val	F1092_8940	C5\da1092.c
+time	DATE_TIME_PARSER	day_text_val	F1092_8941	C5\da1092.c
+time	DATE_TIME_PARSER	code	F1092_8942	C5\da1092.c
+time	DATE_TIME_PARSER	months	F1092_8943	C5\da1092.c
+time	DATE_TIME_PARSER	days	F1092_8944	C5\da1092.c
+time	DATE_TIME_PARSER	base_century	F1092_8945	C5\da1092.c
+time	DATE_TIME	make	F1093_8946	C5\da1093.c
+time	DATE_TIME	make_fine	F1093_8947	C5\da1093.c
+time	DATE_TIME	make_by_date_time	F1093_8948	C5\da1093.c
+time	DATE_TIME	make_by_date	F1093_8949	C5\da1093.c
+time	DATE_TIME	make_now	F1093_8950	C5\da1093.c
+time	DATE_TIME	make_now_utc	F1093_8951	C5\da1093.c
+time	DATE_TIME	make_from_string_default	F1093_8952	C5\da1093.c
+time	DATE_TIME	make_from_string_default_with_base	F1093_8953	C5\da1093.c
+time	DATE_TIME	make_from_string	F1093_8954	C5\da1093.c
+time	DATE_TIME	make_from_string_with_base	F1093_8955	C5\da1093.c
+time	DATE_TIME	make_from_epoch	F1093_8956	C5\da1093.c
+time	DATE_TIME	date	F1093_8957	C5\da1093.c
+time	DATE_TIME	time	F1093_8958	C5\da1093.c
+time	DATE_TIME	origin	F1093_8959	C5\da1093.c
+time	DATE_TIME	date_duration	F1093_8960	C5\da1093.c
+time	DATE_TIME	days	F1093_8961	C5\da1093.c
+time	DATE_TIME	time_duration	F1093_8962	C5\da1093.c
+time	DATE_TIME	seconds	F1093_8963	C5\da1093.c
+time	DATE_TIME	is_less	F1093_8964	C5\da1093.c
+time	DATE_TIME	is_equal	F1093_8965	C5\da1093.c
+time	DATE_TIME	duration	F1093_8966	C5\da1093.c
+time	DATE_TIME	set_date	F1093_8967	C5\da1093.c
+time	DATE_TIME	set_time	F1093_8968	C5\da1093.c
+time	DATE_TIME	copy	F1093_8969	C5\da1093.c
+time	DATE_TIME	plus	F1093_8970	C5\da1093.c
+time	DATE_TIME	add	F1093_8971	C5\da1093.c
+time	DATE_TIME	relative_duration	F1093_8972	C5\da1093.c
+time	DATE_TIME	definite_duration	F1093_8973	C5\da1093.c
+time	DATE_TIME	day_add	F1093_8974	C5\da1093.c
+time	DATE_TIME	hour_add	F1093_8975	C5\da1093.c
+time	DATE_TIME	minute_add	F1093_8976	C5\da1093.c
+time	DATE_TIME	second_add	F1093_8977	C5\da1093.c
+time	DATE_TIME	fine_second_add	F1093_8978	C5\da1093.c
+time	DATE_TIME	debug_output	F1093_8979	C5\da1093.c
+time	DATE_TIME	out	F1093_8980	C5\da1093.c
+time	DATE_TIME	formatted_out	F1093_8981	C5\da1093.c
+kernel	UC_UNICODE_ROUTINES	valid_non_surrogate_code	F1094_8982	C5\uc1094.c
+kernel	UC_UNICODE_ROUTINES	is_bmp_code	F1094_8983	C5\uc1094.c
+kernel	UC_UNICODE_ROUTINES	valid_ascii_code	F1094_8984	C5\uc1094.c
+kernel	UC_UNICODE_ROUTINES	is_ascii_string	F1094_8985	C5\uc1094.c
+kernel	UC_UNICODE_ROUTINES	code_to_string	F1094_8986	C5\uc1094.c
+parse	YY_PARSER_TOKENS	yy_character_token_name	F1095_8988	C5\yy1095.c
+parsing	CALC_TOKENS	last_detachable_any_value	F1096_8989	C5\ca1096.c
+parsing	CALC_TOKENS	last_string_value	F1096_8990	C5\ca1096.c
+parsing	CALC_TOKENS	token_name	F1096_8991	C5\ca1096.c
+parsing	CALC_TOKENS	number	F1096_8992	C5\ca1096.c
+parsing	CALC_TOKENS	real	F1096_8993	C5\ca1096.c
+parsing	CALC_TOKENS	eol	F1096_8994	C5\ca1096.c
+parsing	CALC_TOKENS	tk_plus	F1096_8995	C5\ca1096.c
+parsing	CALC_TOKENS	tk_minus	F1096_8996	C5\ca1096.c
+parsing	CALC_TOKENS	tk_times	F1096_8997	C5\ca1096.c
+parsing	CALC_TOKENS	tk_divide	F1096_8998	C5\ca1096.c
+parsing	CALC_TOKENS	tk_lparen	F1096_8999	C5\ca1096.c
+parsing	CALC_TOKENS	tk_rparen	F1096_9000	C5\ca1096.c
+parsing	CALC_SCANNER	valid_start_condition	F1097_9001	C5\ca1097.c
+parsing	CALC_SCANNER	yy_build_tables	F1097_9002	C5\ca1097.c
+parsing	CALC_SCANNER	yy_execute_action	F1097_9003	C5\ca1097.c
+parsing	CALC_SCANNER	yy_execute_eof_action	F1097_9004	C5\ca1097.c
+parsing	CALC_SCANNER	yy_nxt_template	F1097_9005	C5\ca1097.c
+parsing	CALC_SCANNER	yy_chk_template	F1097_9006	C5\ca1097.c
+parsing	CALC_SCANNER	yy_base_template	F1097_9007	C5\ca1097.c
+parsing	CALC_SCANNER	yy_def_template	F1097_9008	C5\ca1097.c
+parsing	CALC_SCANNER	yy_ec_template	F1097_9009	C5\ca1097.c
+parsing	CALC_SCANNER	yy_ec_template_1	F1097_9010	C5\ca1097.c
+parsing	CALC_SCANNER	yy_ec_template_2	F1097_9011	C5\ca1097.c
+parsing	CALC_SCANNER	yy_meta_template	F1097_9012	C5\ca1097.c
+parsing	CALC_SCANNER	yy_accept_template	F1097_9013	C5\ca1097.c
+parsing	CALC_SCANNER	yyjam_base	F1097_9014	C5\ca1097.c
+parsing	CALC_SCANNER	yyjam_state	F1097_9015	C5\ca1097.c
+parsing	CALC_SCANNER	yytemplate_mark	F1097_9016	C5\ca1097.c
+parsing	CALC_SCANNER	yynull_equiv_class	F1097_9017	C5\ca1097.c
+parsing	CALC_SCANNER	yyreject_used	F1097_9018	C5\ca1097.c
+parsing	CALC_SCANNER	yyvariable_trail_context	F1097_9019	C5\ca1097.c
+parsing	CALC_SCANNER	yyreject_or_variable_trail_context	F1097_9020	C5\ca1097.c
+parsing	CALC_SCANNER	yynb_rules	F1097_9021	C5\ca1097.c
+parsing	CALC_SCANNER	yyend_of_buffer	F1097_9022	C5\ca1097.c
+parsing	CALC_SCANNER	yyline_used	F1097_9023	C5\ca1097.c
+parsing	CALC_SCANNER	yyposition_used	F1097_9024	C5\ca1097.c
+parsing	CALC_SCANNER	initial	F1097_9025	C5\ca1097.c
+parsing	CALC_SCANNER	make	F1097_9026	C5\ca1097.c
+parsing	CALC_SCANNER	reset	F1097_9027	C5\ca1097.c
+parse	YY_PARSER_SKELETON	make	F1098_9028	C5\yy1098.c
+parse	YY_PARSER_SKELETON	parse	F1098_9029	C5\yy1098.c
+parse	YY_PARSER_SKELETON	syntax_error	F1098_9030	C5\yy1098.c
+parse	YY_PARSER_SKELETON	is_suspended	F1098_9031	C5\yy1098.c
+parse	YY_PARSER_SKELETON	error_count	F1098_9032	C5\yy1098.c
+parse	YY_PARSER_SKELETON	accept	F1098_9033	C5\yy1098.c
+parse	YY_PARSER_SKELETON	abort	F1098_9034	C5\yy1098.c
+parse	YY_PARSER_SKELETON	clear_all	F1098_9035	C5\yy1098.c
+parse	YY_PARSER_SKELETON	clear_stacks	F1098_9036	C5\yy1098.c
+parse	YY_PARSER_SKELETON	suspend	F1098_9037	C5\yy1098.c
+parse	YY_PARSER_SKELETON	raise_error	F1098_9038	C5\yy1098.c
+parse	YY_PARSER_SKELETON	recover	F1098_9039	C5\yy1098.c
+parse	YY_PARSER_SKELETON	report_error	F1098_9040	C5\yy1098.c
+parse	YY_PARSER_SKELETON	report_eof_expected_error	F1098_9041	C5\yy1098.c
+parse	YY_PARSER_SKELETON	clear_token	F1098_9042	C5\yy1098.c
+parse	YY_PARSER_SKELETON	is_recovering	F1098_9043	C5\yy1098.c
+parse	YY_PARSER_SKELETON	is_expected_token	F1098_9044	C5\yy1098.c
+parse	YY_PARSER_SKELETON	expected_tokens	F1098_9045	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yytranslate	F1098_9046	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyr1	F1098_9047	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yydefact	F1098_9048	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yydefgoto	F1098_9049	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yypact	F1098_9050	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yypgoto	F1098_9051	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yytable	F1098_9052	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yycheck	F1098_9053	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yytypes1	F1098_9054	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yytypes2	F1098_9055	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yy_suspended_yystacksize	F1098_9056	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yy_suspended_yystate	F1098_9057	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yy_suspended_yyn	F1098_9058	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yy_suspended_yychar1	F1098_9059	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yy_suspended_index	F1098_9060	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yy_suspended_yyss_top	F1098_9061	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yy_suspended_yy_goto	F1098_9062	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyfixed_array	F1098_9072	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyarray_subcopy	F1098_9073	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyss	F1098_9074	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyssp	F1098_9075	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yy_lookahead_needed	F1098_9076	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyerrstatus	F1098_9077	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yy_parsing_status	F1098_9078	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yy_clear_all	F1098_9079	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yynewstate	F1098_9081	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yydefault	F1098_9082	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyreduce	F1098_9083	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyerrlab	F1098_9084	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyerrhandle	F1098_9085	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyerrpop	F1098_9086	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyaccepted	F1098_9087	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyaborted	F1098_9088	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyerror_raised	F1098_9089	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yycontinue	F1098_9090	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yysuspended	F1098_9091	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyterror	F1098_9092	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyeof	F1098_9093	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyinitial_stack_size	F1098_9100	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yyinitial_yyvs_size	F1098_9101	C5\yy1098.c
+parse	YY_PARSER_SKELETON	yydummy	F1098_9102	C5\yy1098.c
+parsing	CALC_PARSER	yy_build_parser_tables	F1099_9103	C5\ca1099.c
+parsing	CALC_PARSER	yy_create_value_stacks	F1099_9104	C5\ca1099.c
+parsing	CALC_PARSER	yy_init_value_stacks	F1099_9105	C5\ca1099.c
+parsing	CALC_PARSER	yy_clear_value_stacks	F1099_9106	C5\ca1099.c
+parsing	CALC_PARSER	yy_push_last_value	F1099_9107	C5\ca1099.c
+parsing	CALC_PARSER	yy_push_error_value	F1099_9108	C5\ca1099.c
+parsing	CALC_PARSER	yy_pop_last_value	F1099_9109	C5\ca1099.c
+parsing	CALC_PARSER	yy_run_geyacc	F1099_9110	C5\ca1099.c
+parsing	CALC_PARSER	yy_do_action	F1099_9111	C5\ca1099.c
+parsing	CALC_PARSER	yy_do_error_action	F1099_9112	C5\ca1099.c
+parsing	CALC_PARSER	yytranslate_template	F1099_9113	C5\ca1099.c
+parsing	CALC_PARSER	yytranslate_template_1	F1099_9114	C5\ca1099.c
+parsing	CALC_PARSER	yytranslate_template_2	F1099_9115	C5\ca1099.c
+parsing	CALC_PARSER	yyr1_template	F1099_9116	C5\ca1099.c
+parsing	CALC_PARSER	yytypes1_template	F1099_9117	C5\ca1099.c
+parsing	CALC_PARSER	yytypes2_template	F1099_9118	C5\ca1099.c
+parsing	CALC_PARSER	yydefact_template	F1099_9119	C5\ca1099.c
+parsing	CALC_PARSER	yydefgoto_template	F1099_9120	C5\ca1099.c
+parsing	CALC_PARSER	yypact_template	F1099_9121	C5\ca1099.c
+parsing	CALC_PARSER	yypgoto_template	F1099_9122	C5\ca1099.c
+parsing	CALC_PARSER	yytable_template	F1099_9123	C5\ca1099.c
+parsing	CALC_PARSER	yycheck_template	F1099_9124	C5\ca1099.c
+parsing	CALC_PARSER	yyvs1	F1099_9125	C5\ca1099.c
+parsing	CALC_PARSER	yyvsc1	F1099_9126	C5\ca1099.c
+parsing	CALC_PARSER	yyvsp1	F1099_9127	C5\ca1099.c
+parsing	CALC_PARSER	yyspecial_routines1	F1099_9128	C5\ca1099.c
+parsing	CALC_PARSER	yyvs2	F1099_9129	C5\ca1099.c
+parsing	CALC_PARSER	yyvsc2	F1099_9130	C5\ca1099.c
+parsing	CALC_PARSER	yyvsp2	F1099_9131	C5\ca1099.c
+parsing	CALC_PARSER	yyspecial_routines2	F1099_9132	C5\ca1099.c
+parsing	CALC_PARSER	yyvs3	F1099_9133	C5\ca1099.c
+parsing	CALC_PARSER	yyvsc3	F1099_9134	C5\ca1099.c
+parsing	CALC_PARSER	yyvsp3	F1099_9135	C5\ca1099.c
+parsing	CALC_PARSER	yyspecial_routines3	F1099_9136	C5\ca1099.c
+parsing	CALC_PARSER	yyfinal	F1099_9137	C5\ca1099.c
+parsing	CALC_PARSER	yyflag	F1099_9138	C5\ca1099.c
+parsing	CALC_PARSER	yyntbase	F1099_9139	C5\ca1099.c
+parsing	CALC_PARSER	yylast	F1099_9140	C5\ca1099.c
+parsing	CALC_PARSER	yymax_token	F1099_9141	C5\ca1099.c
+parsing	CALC_PARSER	yynsyms	F1099_9142	C5\ca1099.c
+parsing	CALC_PARSER	make	F1099_9143	C5\ca1099.c
+parsing	CALC_PARSER	expression	F1099_9144	C5\ca1099.c
+parsing	CALC_PARSER	last_error	F1099_9145	C5\ca1099.c
+parsing	CALC_PARSER	report_error	F1099_9146	C5\ca1099.c
+parsing	CALC_PARSER	parse_string	F1099_9147	C5\ca1099.c
+parsing	CALC_PARSER	parse_file	F1099_9148	C5\ca1099.c
+kernel	KI_PATHNAME	is_canonical	F1100_9152	C5\ki1100.c
+kernel	KI_PATHNAME	trailing_items	F1100_9157	C5\ki1100.c
+kernel	KI_PATHNAME	same_pathname	F1100_9160	C5\ki1100.c
+kernel	KI_PATHNAME	same_case_insensitive	F1100_9161	C5\ki1100.c
+kernel	KI_PATHNAME	is_subpathname	F1100_9162	C5\ki1100.c
+kernel	KI_PATHNAME	is_case_insensitive_subpathname	F1100_9163	C5\ki1100.c
+kernel	KI_PATHNAME	is_equal	F1100_9164	C5\ki1100.c
+kernel	KL_PATHNAME	make	F1101_9165	C5\kl1101.c
+kernel	KL_PATHNAME	is_relative	F1101_9166	C5\kl1101.c
+kernel	KL_PATHNAME	is_current	F1101_9167	C5\kl1101.c
+kernel	KL_PATHNAME	is_parent	F1101_9168	C5\kl1101.c
+kernel	KL_PATHNAME	item	F1101_9169	C5\kl1101.c
+kernel	KL_PATHNAME	drive	F1101_9170	C5\kl1101.c
+kernel	KL_PATHNAME	hostname	F1101_9171	C5\kl1101.c
+kernel	KL_PATHNAME	sharename	F1101_9172	C5\kl1101.c
+kernel	KL_PATHNAME	count	F1101_9173	C5\kl1101.c
+kernel	KL_PATHNAME	set_relative	F1101_9174	C5\kl1101.c
+kernel	KL_PATHNAME	set_drive	F1101_9175	C5\kl1101.c
+kernel	KL_PATHNAME	set_hostname	F1101_9176	C5\kl1101.c
+kernel	KL_PATHNAME	set_sharename	F1101_9177	C5\kl1101.c
+kernel	KL_PATHNAME	append_name	F1101_9178	C5\kl1101.c
+kernel	KL_PATHNAME	append_names	F1101_9179	C5\kl1101.c
+kernel	KL_PATHNAME	append_current	F1101_9180	C5\kl1101.c
+kernel	KL_PATHNAME	append_parent	F1101_9181	C5\kl1101.c
+kernel	KL_PATHNAME	set_canonical	F1101_9182	C5\kl1101.c
+kernel	KL_PATHNAME	copy	F1101_9183	C5\kl1101.c
+kernel	KL_PATHNAME	components	F1101_9184	C5\kl1101.c
+kernel	KL_PATHNAME	initial_components_capacity	F1101_9185	C5\kl1101.c
+kernel	KL_PATHNAME	current_directory	F1101_9186	C5\kl1101.c
+kernel	KL_PATHNAME	parent_directory	F1101_9187	C5\kl1101.c
+kernel	UC_STRING	make	F1102_9188	C5\uc1102.c
+kernel	UC_STRING	make_from_string	F1102_9189	C5\uc1102.c
+kernel	UC_STRING	make_empty	F1102_9190	C5\uc1102.c
+kernel	UC_STRING	make_from_string_general	F1102_9191	C5\uc1102.c
+kernel	UC_STRING	make_from_substring	F1102_9192	C5\uc1102.c
+kernel	UC_STRING	make_from_substring_general	F1102_9193	C5\uc1102.c
+kernel	UC_STRING	make_filled_unicode	F1102_9194	C5\uc1102.c
+kernel	UC_STRING	make_filled_code	F1102_9195	C5\uc1102.c
+kernel	UC_STRING	make_filled	F1102_9196	C5\uc1102.c
+kernel	UC_STRING	make_from_utf8	F1102_9197	C5\uc1102.c
+kernel	UC_STRING	make_from_utf16	F1102_9198	C5\uc1102.c
+kernel	UC_STRING	make_from_utf16le	F1102_9199	C5\uc1102.c
+kernel	UC_STRING	make_from_utf16be	F1102_9200	C5\uc1102.c
+kernel	UC_STRING	unicode_item	F1102_9201	C5\uc1102.c
+kernel	UC_STRING	item_code	F1102_9202	C5\uc1102.c
+kernel	UC_STRING	item	F1102_9203	C5\uc1102.c
+kernel	UC_STRING	at	F1102_9204	C5\uc1102.c
+kernel	UC_STRING	substring	F1102_9205	C5\uc1102.c
+kernel	UC_STRING	unicode_substring_index	F1102_9206	C5\uc1102.c
+kernel	UC_STRING	substring_index	F1102_9207	C5\uc1102.c
+kernel	UC_STRING	string	F1102_9208	C5\uc1102.c
+kernel	UC_STRING	plus	F1102_9209	C5\uc1102.c
+kernel	UC_STRING	prefixed_string	F1102_9210	C5\uc1102.c
+kernel	UC_STRING	index_of_unicode	F1102_9211	C5\uc1102.c
+kernel	UC_STRING	index_of_item_code	F1102_9212	C5\uc1102.c
+kernel	UC_STRING	index_of	F1102_9213	C5\uc1102.c
+kernel	UC_STRING	hash_code	F1102_9214	C5\uc1102.c
+kernel	UC_STRING	new_empty_string	F1102_9215	C5\uc1102.c
+kernel	UC_STRING	unicode_occurrences	F1102_9216	C5\uc1102.c
+kernel	UC_STRING	code_occurrences	F1102_9217	C5\uc1102.c
+kernel	UC_STRING	occurrences	F1102_9218	C5\uc1102.c
+kernel	UC_STRING	count	F1102_9219	C5\uc1102.c
+kernel	UC_STRING	byte_count	F1102_9220	C5\uc1102.c
+kernel	UC_STRING	byte_capacity	F1102_9221	C5\uc1102.c
+kernel	UC_STRING	has_unicode	F1102_9222	C5\uc1102.c
+kernel	UC_STRING	has_item_code	F1102_9223	C5\uc1102.c
+kernel	UC_STRING	has	F1102_9224	C5\uc1102.c
+kernel	UC_STRING	has_unicode_substring	F1102_9225	C5\uc1102.c
+kernel	UC_STRING	has_substring	F1102_9226	C5\uc1102.c
+kernel	UC_STRING	is_empty	F1102_9227	C5\uc1102.c
+kernel	UC_STRING	is_ascii	F1102_9228	C5\uc1102.c
+kernel	UC_STRING	is_equal	F1102_9229	C5\uc1102.c
+kernel	UC_STRING	is_less	F1102_9230	C5\uc1102.c
+kernel	UC_STRING	same_string	F1102_9231	C5\uc1102.c
+kernel	UC_STRING	same_string_general	F1102_9232	C5\uc1102.c
+kernel	UC_STRING	same_unicode_string	F1102_9233	C5\uc1102.c
+kernel	UC_STRING	three_way_comparison	F1102_9234	C5\uc1102.c
+kernel	UC_STRING	three_way_unicode_comparison	F1102_9235	C5\uc1102.c
+kernel	UC_STRING	put_unicode	F1102_9236	C5\uc1102.c
+kernel	UC_STRING	put_item_code	F1102_9237	C5\uc1102.c
+kernel	UC_STRING	put	F1102_9238	C5\uc1102.c
+kernel	UC_STRING	prepend	F1102_9239	C5\uc1102.c
+kernel	UC_STRING	prepend_string	F1102_9240	C5\uc1102.c
+kernel	UC_STRING	append_string_general	F1102_9241	C5\uc1102.c
+kernel	UC_STRING	append_unicode_character	F1102_9242	C5\uc1102.c
+kernel	UC_STRING	append_item_code	F1102_9243	C5\uc1102.c
+kernel	UC_STRING	append_character	F1102_9244	C5\uc1102.c
+kernel	UC_STRING	append_string	F1102_9245	C5\uc1102.c
+kernel	UC_STRING	put_string	F1102_9246	C5\uc1102.c
+kernel	UC_STRING	append	F1102_9247	C5\uc1102.c
+kernel	UC_STRING	gobo_append_substring	F1102_9248	C5\uc1102.c
+kernel	UC_STRING	put_substring	F1102_9249	C5\uc1102.c
+kernel	UC_STRING	append_utf8	F1102_9250	C5\uc1102.c
+kernel	UC_STRING	append_utf16	F1102_9251	C5\uc1102.c
+kernel	UC_STRING	append_utf16be	F1102_9252	C5\uc1102.c
+kernel	UC_STRING	append_utf16le	F1102_9253	C5\uc1102.c
+kernel	UC_STRING	fill_with_unicode	F1102_9254	C5\uc1102.c
+kernel	UC_STRING	fill_with_code	F1102_9255	C5\uc1102.c
+kernel	UC_STRING	fill_with	F1102_9256	C5\uc1102.c
+kernel	UC_STRING	insert_unicode_character	F1102_9257	C5\uc1102.c
+kernel	UC_STRING	insert_code	F1102_9258	C5\uc1102.c
+kernel	UC_STRING	insert_character	F1102_9259	C5\uc1102.c
+kernel	UC_STRING	insert	F1102_9260	C5\uc1102.c
+kernel	UC_STRING	insert_string	F1102_9261	C5\uc1102.c
+kernel	UC_STRING	replace_substring	F1102_9262	C5\uc1102.c
+kernel	UC_STRING	replace_substring_by_string	F1102_9263	C5\uc1102.c
+kernel	UC_STRING	replace_substring_all	F1102_9264	C5\uc1102.c
+kernel	UC_STRING	keep_head	F1102_9265	C5\uc1102.c
+kernel	UC_STRING	keep_tail	F1102_9266	C5\uc1102.c
+kernel	UC_STRING	remove_head	F1102_9267	C5\uc1102.c
+kernel	UC_STRING	remove_tail	F1102_9268	C5\uc1102.c
+kernel	UC_STRING	remove	F1102_9269	C5\uc1102.c
+kernel	UC_STRING	remove_substring	F1102_9270	C5\uc1102.c
+kernel	UC_STRING	wipe_out	F1102_9271	C5\uc1102.c
+kernel	UC_STRING	copy	F1102_9272	C5\uc1102.c
+kernel	UC_STRING	cloned_string	F1102_9273	C5\uc1102.c
+kernel	UC_STRING	out	F1102_9274	C5\uc1102.c
+kernel	UC_STRING	debug_output	F1102_9275	C5\uc1102.c
+kernel	UC_STRING	as_lower	F1102_9276	C5\uc1102.c
+kernel	UC_STRING	as_upper	F1102_9277	C5\uc1102.c
+kernel	UC_STRING	to_lower	F1102_9278	C5\uc1102.c
+kernel	UC_STRING	to_upper	F1102_9279	C5\uc1102.c
+kernel	UC_STRING	to_utf8	F1102_9280	C5\uc1102.c
+kernel	UC_STRING	to_utf16_be	F1102_9281	C5\uc1102.c
+kernel	UC_STRING	to_utf16_le	F1102_9282	C5\uc1102.c
+kernel	UC_STRING	to_utf32_be	F1102_9283	C5\uc1102.c
+kernel	UC_STRING	to_utf32_le	F1102_9284	C5\uc1102.c
+kernel	UC_STRING	as_string	F1102_9285	C5\uc1102.c
+kernel	UC_STRING	name	F1102_9286	C5\uc1102.c
+kernel	UC_STRING	eol	F1102_9287	C5\uc1102.c
+kernel	UC_STRING	is_open_write	F1102_9288	C5\uc1102.c
+kernel	UC_STRING	flush	F1102_9289	C5\uc1102.c
+kernel	UC_STRING	item_code_at_byte_index	F1102_9290	C5\uc1102.c
+kernel	UC_STRING	character_item_at_byte_index	F1102_9291	C5\uc1102.c
+kernel	UC_STRING	next_byte_index	F1102_9292	C5\uc1102.c
+kernel	UC_STRING	shifted_byte_index	F1102_9293	C5\uc1102.c
+kernel	UC_STRING	byte_index	F1102_9294	C5\uc1102.c
+kernel	UC_STRING	is_encoded_first_byte	F1102_9295	C5\uc1102.c
+kernel	UC_STRING	last_byte_index_input	F1102_9296	C5\uc1102.c
+kernel	UC_STRING	last_byte_index_result	F1102_9297	C5\uc1102.c
+kernel	UC_STRING	reset_byte_index_cache	F1102_9298	C5\uc1102.c
+kernel	UC_STRING	current_string	F1102_9299	C5\uc1102.c
+kernel	UC_STRING	byte_item	F1102_9300	C5\uc1102.c
+kernel	UC_STRING	put_byte	F1102_9301	C5\uc1102.c
+kernel	UC_STRING	resize_byte_storage	F1102_9302	C5\uc1102.c
+kernel	UC_STRING	move_bytes_right	F1102_9303	C5\uc1102.c
+kernel	UC_STRING	move_bytes_left	F1102_9304	C5\uc1102.c
+kernel	UC_STRING	set_byte_count	F1102_9305	C5\uc1102.c
+kernel	UC_STRING	set_count	F1102_9306	C5\uc1102.c
+kernel	UC_STRING	put_code_at_byte_index	F1102_9307	C5\uc1102.c
+kernel	UC_STRING	put_character_at_byte_index	F1102_9308	C5\uc1102.c
+kernel	UC_STRING	put_substring_at_byte_index	F1102_9309	C5\uc1102.c
+kernel	UC_STRING	dummy_string	F1102_9310	C5\uc1102.c
+kernel	UC_STRING	dummy_uc_string	F1102_9311	C5\uc1102.c
+kernel	UC_STRING	old_wipe_out	F1102_9312	C5\uc1102.c
+kernel	UC_STRING	old_clear_all	F1102_9313	C5\uc1102.c
+kernel	UC_STRING	old_left_adjust	F1102_9314	C5\uc1102.c
+kernel	UC_STRING	old_right_adjust	F1102_9315	C5\uc1102.c
+kernel	UC_STRING	code	F1102_9316	C5\uc1102.c
+kernel	UC_STRING	index_of_code	F1102_9317	C5\uc1102.c
+kernel	UC_STRING	put_code	F1102_9318	C5\uc1102.c
+kernel	UC_STRING	append_code	F1102_9319	C5\uc1102.c
+kernel	UC_STRING	has_code	F1102_9320	C5\uc1102.c

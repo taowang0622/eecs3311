@@ -1,0 +1,72 @@
+INCLUDE_PATH =  -I"D:\Program Files\aiffelstudio\library\time\spec\include" -I"D:\Program Files\aiffelstudio\library\vision2\spec\include" -I"D:\Program Files\aiffelstudio\library\wel\spec\windows\include"
+SHELL = /bin/sh
+CC = "D:\Program Files\aiffelstudio/gcc/win64/mingw/bin/gcc"
+CPP = "D:\Program Files\aiffelstudio/gcc/win64/mingw/bin/gcc"
+CFLAGS = -O0 -pipe -imacros eif_config.mingw.h -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_UNICODE -DUNICODE -DWIN32_LEAN_AND_MEAN  -DEIF_THREADS  -DEIF_IEEE_BEHAVIOR -DWORKBENCH -I"D:\Program Files\aiffelstudio/studio/spec/win64/include" -I. $(INCLUDE_PATH)
+CPPFLAGS = -O0 -pipe -imacros eif_config.mingw.h -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_UNICODE -DUNICODE -DWIN32_LEAN_AND_MEAN  -DEIF_THREADS  -DWORKBENCH -I"D:\Program Files\aiffelstudio/studio/spec/win64/include" -I. $(INCLUDE_PATH)
+LDFLAGS = 
+CCLDFLAGS =   -mwindows
+LDSHAREDFLAGS =  
+EIFLIB = "D:\Program Files\aiffelstudio/studio/spec/win64/lib/mingw/mtwkbench.a"
+EIFTEMPLATES = D:\Program Files\aiffelstudio/studio/config/win64/templates
+LIBS = 
+MAKE = "D:\Program Files\aiffelstudio/gcc/win64/msys/1.0/bin/make.exe"
+AR = "D:\Program Files\aiffelstudio/gcc/win64/mingw/bin/ar"
+LD = "D:\Program Files\aiffelstudio/gcc/win64/mingw/bin/ld"
+MKDEP =   --
+MV = "D:\Program Files\aiffelstudio/gcc/win64/msys/1.0/bin/cp"
+CP = "D:\Program Files\aiffelstudio/gcc/win64/msys/1.0/bin/cp"
+RANLIB = "D:\Program Files\aiffelstudio/gcc/win64/mingw/bin/ranlib.exe"
+RM = "D:\Program Files\aiffelstudio/gcc/win64/msys/1.0/bin/rm" -f
+FILE_EXIST = 
+RMDIR = "D:\Program Files\aiffelstudio/gcc/win64/msys/1.0/bin/rd"
+X2C = "D:\Program Files\aiffelstudio/studio/spec/win64/bin/x2c.exe"
+SHAREDLINK = "D:\Program Files\aiffelstudio/gcc/win64/mingw/bin/dllwrap"
+SHAREDLIBS = -luser32 -lws2_32 -ladvapi32 -lgdi32 -lshell32 -lmsimg32 -lcomdlg32 -luuid -lole32 -loleaut32 -lcomctl32 -lmpr -lshlwapi -lwinspool -lstdc++ 
+SHARED_SUFFIX = .dll
+COMMAND_MAKEFILE = 
+START_TEST = if [ ! -f finished ] ; then 
+END_TEST = ; fi 
+CREATE_TEST = "D:\Program Files\aiffelstudio/gcc/win64/msys/1.0/bin/touch" finished
+PATH := D:\Program Files\aiffelstudio/gcc/win64/mingw/libexec/gcc/mingw32/3.4.2;C:\Program Files\Docker\Docker\Resources\bin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\apache-maven-3.3.9\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 5.7\bin;E:\Program Files\putty\;D:\Program Files\svn\bin;C:\Users\taowang\AppData\Local\Microsoft\WindowsApps;C:\Users\taowang\AppData\Roaming\npm;;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Docker Toolbox 
+SYSTEM_IN_DYNAMIC_LIB = registry.dll 
+
+.SUFFIXES:.cpp .o 
+
+.c.o:
+	$(CC) $(CFLAGS) -c $<
+
+.cpp.o:
+	$(CPP) $(CPPFLAGS) -c $<
+
+OBJECTS = big_file_C26_c.o 
+
+OLDOBJECTS =  kl1786.o kl1786d.o kl1785.o kl1785d.o ev1812.o ev1812d.o ev1792.o \
+	ev1792d.o we1790.o we1790d.o we1814.o we1814d.o kl1782.o kl1782d.o \
+	kl1787.o kl1787d.o ev1813.o ev1813d.o we1791.o we1791d.o ev1811.o \
+	ev1811d.o kl1809.o kl1809d.o kl1807.o kl1807d.o kl1808.o kl1808d.o \
+	we1794.o we1794d.o we1810.o we1810d.o ev1793.o ev1793d.o we1805.o \
+	we1805d.o kl1789.o kl1789d.o kl1784.o kl1784d.o ki1806.o ki1806d.o \
+	kl1783.o kl1783d.o kl1788.o kl1788d.o we1804.o we1804d.o we1803.o \
+	we1803d.o we1802.o we1802d.o we1801.o we1801d.o we1800.o we1800d.o \
+	we1799.o we1799d.o we1798.o we1798d.o we1797.o we1797d.o we1796.o \
+	we1796d.o we1795.o we1795d.o 
+
+all::  Cobj26.o
+
+Cobj26.o: $(OBJECTS) Makefile
+	$(RM) $@
+	$(LD) -r -o $@ $(OBJECTS)
+	$(CREATE_TEST)
+	$(RM) $(OBJECTS)
+
+
+clean: local_clean
+clobber: local_clobber
+
+local_clean::
+	$(RM) core finished *.o
+
+local_clobber:: local_clean
+	$(RM) Makefile
+

@@ -34,7 +34,9 @@ feature -- Attributes
 	switch: INTEGER
 			-- Running mode of ETF application.
 		do
-			Result := etf_gui_show_history
+--			Result := etf_gui_show_history
+--			Result := unit_test
+			Result := etf_cl_show_history
 		end
 
 feature -- Tests
@@ -46,6 +48,10 @@ feature -- Tests
 			-- add your tests here
 			-- add cluster for tests
 			-- add_test (create {MY_TEST}.make)
+			add_test (create {BOARD_TESTS}.make)
+			add_test (create {NEW_GAME_TESTS}.make)
+			add_test (create {PLAY_TESTS}.make)
+			add_test (create {TTT_TESTS}.make)
 		end
 
 feature -- Constructor

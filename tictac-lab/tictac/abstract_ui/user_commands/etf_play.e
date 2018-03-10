@@ -6,19 +6,17 @@ note
 
 class
 	ETF_PLAY
-inherit 
+inherit
 	ETF_PLAY_INTERFACE
 		redefine play end
 create
 	make
-feature -- command 
+feature -- command
 	play(player: STRING ; press: INTEGER_64)
-		require else 
+		require else
 			play_precond(player, press)
     	do
-			-- perform some update on the model state
-			model.default_update
-			etf_cmd_container.on_change.notify ([Current])
+			play(player, press)
     	end
 
 end

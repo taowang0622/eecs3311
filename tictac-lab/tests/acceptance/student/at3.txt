@@ -1,4 +1,3 @@
---normal execution, no errors
 new_game("","")
 new_game("T", "#")
 undo

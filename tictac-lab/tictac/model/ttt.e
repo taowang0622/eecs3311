@@ -222,7 +222,9 @@ feature --Queries
 			elseif game_over then
 				Result := Result + message.message + ": => " + "play again or start new game%N"
 			else
-				if next = player_x then
+				if attached {NEW_GAME}history.first and history.first.has_error then
+				    Result := Result + message.message + ":  => " + "start new game%N"
+				elseif next = player_x then
 					Result := Result + message.message + ": => " + player_x.name + " plays next%N"
 				elseif next = player_o then
 					Result := Result + message.message + ": => " + player_o.name + " plays next%N"

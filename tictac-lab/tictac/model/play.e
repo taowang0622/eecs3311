@@ -41,7 +41,10 @@ feature --Commands
 		-- store the game state before execution
 		old_ttt := ttt.one_copy
 
-		if player_name /~ ttt.player_x.name and player_name /~ ttt.player_o.name then
+		if ttt.game_over then
+			message := "game is finished"
+			has_error := true
+		elseif player_name /~ ttt.player_x.name and player_name /~ ttt.player_o.name then
 			message := "no such player"
 			has_error := true
 		elseif player_name /~ ttt.next.name then

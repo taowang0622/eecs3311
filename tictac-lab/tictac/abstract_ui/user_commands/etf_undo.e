@@ -15,6 +15,7 @@ feature -- command
 	undo
     	do
 			ttt.undo
+			etf_cmd_container.on_change.notify ([Current])
     	end
 
 end

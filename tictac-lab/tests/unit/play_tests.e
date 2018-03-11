@@ -19,8 +19,6 @@ feature
 	make
 		do
 			add_boolean_case (agent test_execute)
-			add_boolean_case (agent test_play)
-			add_boolean_case (agent test_play_agian)
 		end
 
 feature -- boolean
@@ -152,50 +150,6 @@ feature -- boolean
 			Result := true
 		end
 
-	test_play: BOOLEAN
-	local
-			i: INTEGER
-			ttt: TTT
-			play: PLAY
-			board: BOARD_3x3
-	do
-		comment("test the command 'play'")
-		create ttt.make
-		ttt.new_game ("T", "K")
-		ttt.play ("T", 1)
-		check ttt.history.islast and ttt.history.count = 2 and ttt.next.name ~ "K" end
-		ttt.play ("T", 2)
-		check ttt.history.islast and ttt.history.count = 3 and ttt.next.name ~ "K" and ttt.history.last.has_error end
-		ttt.play ("K", 4)
-		ttt.play ("T", 2)
-		ttt.play ("K", 5)
-		ttt.play ("T", 3)
-		print(ttt.out)
-		check ttt.game_over and ttt.player_x.score = 1 and ttt.history.count = 1 end
-
-		Result := true
-	end
-
-	test_play_agian: BOOLEAN
-	local
-		ttt:TTT
-	do
-		comment("test the command 'play_agian'")
-		create ttt.make
-		ttt.new_game ("T", "K")
-		ttt.play ("T", 1)
-		ttt.play_again
-		check ttt.history.islast and ttt.history.count = 3 and ttt.history.last.has_error
-		and attached {PLAY_AGAIN} ttt.history.last end
-		ttt.play ("K", 4)
-		ttt.play ("T", 2)
-		ttt.play ("K", 5)
-		ttt.play ("T", 3)
-		ttt.play_again
-		check ttt.history.count = 1 and not ttt.game_over and ttt.player_x.score = 1 end
-
-		Result := true
-	end
 
 feature --violation
 

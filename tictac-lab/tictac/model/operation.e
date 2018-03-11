@@ -32,6 +32,7 @@ feature
 					ttt.set_next (ot.next)
 					ttt.set_board (ot.board)
 					ttt.message.set_message (ot.message.message)
+					ttt.set_first_player (ot.first_player)
 				end
 			end
 		end

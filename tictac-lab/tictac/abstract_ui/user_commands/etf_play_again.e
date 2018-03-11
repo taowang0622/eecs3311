@@ -15,6 +15,7 @@ feature -- command
 	play_again
     	do
     		ttt.play_again
+    		etf_cmd_container.on_change.notify ([Current])
     	end
 
 end

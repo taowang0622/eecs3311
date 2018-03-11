@@ -33,6 +33,8 @@ feature --Attributes
 
 	game_over: BOOLEAN
 
+	first_player: PLAYER
+
 feature {NONE} --Initialization
 
 	make
@@ -40,10 +42,11 @@ feature {NONE} --Initialization
 			create board.make
 			create player_x.make ("")
 			create player_o.make ("")
-			create message.make ("OK")
+			create message.make ("ok")
 			next := player_x
 			create history.make
 			game_over := false
+			first_player := player_x
 		end
 
 feature --Commands
@@ -98,6 +101,7 @@ feature --Commands
 			else
 				if attached {NEW_GAME} history.first and history.first.has_error then -- The game is not started correctly
 					create history.make
+					message.set_message ("ok")
 				else
 					history.item.undo
 					history.back
@@ -200,27 +204,33 @@ feature {OPERATION, ES_TEST, TTT}
 		game_over := false
 	end
 
+	set_first_player(p: PLAYER)
+	require
+		p_is_x_or_o: p = player_x or p = player_o
+	do
+		first_player := p
+	end
 feature --Queries
 
 	out: STRING
 			-- the string representation of the current game state!
 		do
-			Result := ""
-			Result := Result + message.message + ": => "
+			Result := "  "
+--			Result := Result + message.message + ": => "
 			if history.is_empty then
-				Result := Result + "start new game%N"
+				Result := Result + message.message + ":  => " + "start new game%N"
 			elseif game_over then
-				Result := Result + "play again or start new game%N"
+				Result := Result + message.message + ": => " + "play again or start new game%N"
 			else
 				if next = player_x then
-					Result := Result + player_x.name + " plays next%N"
+					Result := Result + message.message + ": => " + player_x.name + " plays next%N"
 				elseif next = player_o then
-					Result := Result + player_o.name + " plays next%N"
+					Result := Result + message.message + ": => " + player_o.name + " plays next%N"
 				end
 			end
 			Result := Result + board.out
-			Result := Result + player_x.score.out + ": " + "score for " + "%"" + player_x.name + "%"" + " (as X)%N"
-			Result := Result + player_o.score.out + ": " + "score for " + "%"" + player_o.name + "%"" + " (as O)"
+			Result := Result + "  " + player_x.score.out + ": " + "score for " + "%"" + player_x.name + "%"" + " (as X)%N"
+			Result := Result + "  " + player_o.score.out + ": " + "score for " + "%"" + player_o.name + "%"" + " (as O)"
 		end
 
 	one_copy: TTT
@@ -238,6 +248,11 @@ feature --Queries
 			Result.set_next(px)
 		else
 			Result.set_next(po)
+		end
+		if first_player = player_x then
+			Result.set_first_player(px)
+		else
+			Result.set_first_player (po)
 		end
 		Result.message.set_message (message.message)
 		Result.set_board(board.one_copy)

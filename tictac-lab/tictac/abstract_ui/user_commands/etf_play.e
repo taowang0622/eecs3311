@@ -16,7 +16,8 @@ feature -- command
 		require else
 			play_precond(player, press)
     	do
-			play(player, press)
+			ttt.play(player, press.as_integer_32)
+			etf_cmd_container.on_change.notify ([Current])
     	end
 
 end

@@ -37,6 +37,7 @@ feature --Queries
 		until
 			i > 3
 		loop
+			Result := Result + "  "
 			from
 				j := 1
 			until

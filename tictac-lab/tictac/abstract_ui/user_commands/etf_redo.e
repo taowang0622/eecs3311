@@ -15,6 +15,7 @@ feature -- command
 	redo
     	do
 			ttt.redo
+			etf_cmd_container.on_change.notify ([Current])
     	end
 
 end

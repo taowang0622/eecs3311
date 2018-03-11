@@ -63,7 +63,7 @@ feature --Commands
 				exe_mes := "name must start with A-Z or a-z"
 				has_error := true
 			else
-				exe_mes := "OK"
+				exe_mes := "ok"
 				has_error := false
 					-- modify the game state
 				px := create {PLAYER_X}.make (playerx_name)
@@ -71,6 +71,8 @@ feature --Commands
 				ttt.set_player_o (create {PLAYER_O}.make (playero_name))
 				ttt.set_next (px)
 				ttt.reset_board
+				ttt.set_game_not_over
+				ttt.set_first_player (ttt.player_x)
 			end
 			ttt.message.set_message (exe_mes)
 		end

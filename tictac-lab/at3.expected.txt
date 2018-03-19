@@ -1,0 +1,34 @@
+  ok:  => start new game
+  ___
+  ___
+  ___
+  0: score for "" (as X)
+  0: score for "" (as O)
+->new_game("","")
+  names of players must be different:  => start new game
+  ___
+  ___
+  ___
+  0: score for "" (as X)
+  0: score for "" (as O)
+->new_game("T","#")
+  name must start with A-Z or a-z:  => start new game
+  ___
+  ___
+  ___
+  0: score for "" (as X)
+  0: score for "" (as O)
+->undo
+  ok:  => start new game
+  ___
+  ___
+  ___
+  0: score for "" (as X)
+  0: score for "" (as O)
+->redo
+  ok:  => start new game
+  ___
+  ___
+  ___
+  0: score for "" (as X)
+  0: score for "" (as O)

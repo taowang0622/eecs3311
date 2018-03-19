@@ -1,0 +1,10 @@
+-- --------------------------------------------------------------------
+-- 1. myself
+-- List each player whose login is part of his or her name; i.e., his or her login is a substring of his or her name.
+-- This should be case insensitive; e.g., “thom” is a substring of “Thomas Kane”.
+-- schema: login, name, gender, address, joined
+-- order by login (asc)
+SELECT *
+FROM Player AS P
+WHERE LOCATE_IN_STRING(LCASE(P.name), LCASE(P.login)) != 0
+ORDER BY login ASC;

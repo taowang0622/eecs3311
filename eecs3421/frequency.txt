@@ -1,0 +1,64 @@
+-- ----------------------------------------------------------------------------------------------------------------
+-- 9. frequency
+-- Report the average number of days (as frequency) between visits to each given realm for each player.
+-- Also show the number of visits (#visit) to that realm for the player.
+-- (Ignore a player in a realm if the player has never visited it or has only visited it once;
+-- the frequency is not defined in such cases.)
+WITH temp1 AS (SELECT
+                 login,
+                 realm,
+                 day
+               FROM Visit
+               GROUP BY login, realm, day
+               HAVING (login, realm) NOT IN (SELECT
+                                               login,
+                                               realm
+                                             FROM Visit
+                                             GROUP BY login, realm
+                                             HAVING count(*) = 1
+                                             ORDER BY login, realm)
+               ORDER BY login, realm, day),
+    temp2 AS (SELECT
+                t1.login,
+                t1.realm,
+                t1.day AS day1,
+                t2.day AS day2
+              FROM temp1 AS t1
+                LEFT JOIN temp1 AS t2 ON t1.login = t2.login AND t1.realm = t2.realm
+              WHERE t1.day < t2.day),
+    temp3 AS (SELECT
+                t2.login,
+                t2.realm,
+                t2.day1,
+                min(t2.day2) AS day2
+              FROM temp2 AS t2
+              GROUP BY t2.login, t2.realm, t2.day1
+              ORDER BY t2.login, t2.realm, t2.day1),
+    temp4 AS (SELECT
+                t3.login,
+                t3.realm,
+                DAYS(t3.day2) - DAYS(t3.day1) AS day_interval
+              FROM temp3 AS t3),
+    freq AS (SELECT
+               t4.login,
+               t4.realm,
+               sum(t4.day_interval)                                                AS range,
+               decimal(ROUND(DECIMAL(AVG(FLOAT(t4.day_interval)), 5, 3), 2), 5, 2) AS frequency
+             FROM temp4 AS t4
+             GROUP BY t4.login, t4.realm),
+    "#visit" AS (SELECT
+                   login,
+                   realm,
+                   count(*) AS "#visit"
+                 FROM Visit
+                 GROUP BY login, realm)
+SELECT
+  f.login,
+  f.realm,
+  v."#visit",
+  f.range,
+  f.frequency
+FROM freq AS f
+  LEFT JOIN "#visit" AS v
+    ON f.login = v.login AND f.realm = v.realm
+ORDER BY f.login, f.realm;

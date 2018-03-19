@@ -1,0 +1,12 @@
+-- --------------------------------------------------------------------------
+-- 7. success
+-- Select the themes for which the quests were always successful.
+-- schema: theme
+-- order by theme
+SELECT theme
+FROM Quest
+EXCEPT
+SELECT theme
+FROM Quest
+WHERE succeeded IS NULL
+ORDER BY theme;

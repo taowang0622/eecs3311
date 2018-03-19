@@ -1,0 +1,9 @@
+-- -------------------------------------------------------------------
+-- 2. evening
+-- List the quests that were not completed before 8pm (on the day of the quest).
+-- schema: theme, day, realm, succeeded
+-- order by theme, day, realm
+SELECT *
+FROM Quest AS Q
+WHERE Q.succeeded IS NULL OR Q.succeeded > TIME '20:00:00'
+ORDER BY theme, day, realm;

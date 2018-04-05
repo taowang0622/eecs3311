@@ -1,0 +1,42 @@
+new_tracker(50.0, 10.0)
+
+new_phase("pid2", "compacting", 2, <<glass, metal, plastic>>)
+new_phase("pid1", "unpacking", 2, <<glass, metal, plastic, liquid>>)
+
+new_container("cid4", [liquid,   3.0], "pid1")
+undo
+new_container("cid4", [metal,   3.0], "pid1")
+new_container("cid1", [glass,   5.5], "pid1")
+new_container("cid4", [plastic,   3.0], "pid1")
+
+move_container ("cid1", "pid1", "pid2")
+move_container ("cid4", "pid1", "pid2")
+
+new_container("cid4", [metal,   3.0], "pid1")  -- e10
+new_container("cid1", [glass,   5.5], "pid1")  -- e10
+new_container("cid2", [liquid,  0.5], "pid1")  -- ok
+
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+redo
+redo
+redo
+redo
+redo
+redo
+redo
+redo
+redo
+redo
+redo
+redo

@@ -1,0 +1,28 @@
+CREATE TABLE Reassigned (
+  donor     VARCHAR(15) NOT NULL,
+  recipient VARCHAR(15) NOT NULL,
+  loot#     SMALLINT    NOT NULL,
+  treasure  VARCHAR(20) NOT NULL,
+  theme     VARCHAR(15) NOT NULL,
+  realm     VARCHAR(15) NOT NULL,
+  day       DATE        NOT NULL,
+  sql       INTEGER     NOT NULL,
+  PRIMARY KEY (donor, recipient, loot#, treasure, theme, realm, day, sql),
+  FOREIGN KEY (loot#, treasure, theme, realm, day) REFERENCES Loot (loot#, treasure, theme, realm, day),
+  FOREIGN KEY (donor) REFERENCES Player (login),
+  FOREIGN KEY (recipient) REFERENCES Player (login)
+);
+
+CREATE TRIGGER Marx
+AFTER UPDATE OF login
+  ON loot
+REFERENCING
+  OLD AS oo
+  NEW AS nn
+FOR EACH ROW
+  INSERT INTO Reassigned (donor, recipient, loot#, treasure, theme, realm, day, sql)
+  VALUES (oo.login, nn.login, oo.loot#, oo.treasure, oo.theme, oo.realm, oo.day, (SELECT T.sql
+                                                                                  FROM Treasure T
+                                                                                  WHERE T.treasure = oo.treasure));
+
+

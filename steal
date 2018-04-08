@@ -1,0 +1,126 @@
+--#set delimiter !
+
+BEGIN ATOMIC
+  DECLARE changed_ SMALLINT DEFAULT 1;
+
+  WHILE changed_ <> 0 DO
+    SET changed_ = 0;
+
+    FOR S AS
+    WITH
+    Haul ( DAY, realm, theme, login, #prize, worth) AS (
+    SELECT
+    L.day,
+    L.realm,
+    L.theme,
+    L.login,
+    COUNT (*),
+    sum( T.sql)
+    FROM Loot L, Treasure T
+    WHERE L.treasure = T.treasure
+    AND login IS NOT NULL
+    GROUP BY DAY, realm, theme, login
+    HAVING COUNT (*) > 1
+    ),
+    Donor ( DAY, realm, theme, login, #prize, worth) AS (
+    SELECT
+    DAY,
+    realm,
+    theme,
+    login, #prize, worth
+    FROM Haul H
+    WHERE NOT EXISTS (
+    SELECT *
+    FROM Haul J
+    WHERE H.day   = J.day
+    AND H.realm = J.realm
+    AND H.theme = J.theme
+    AND ((J.#prize > H.#prize)
+    OR
+    (J.#prize = H.#prize AND J.worth > H.worth)
+    OR
+    (J.#prize = H.#prize
+    AND J.worth = H.worth
+    AND J.login > H.login))
+    )
+    ),
+    Donation ( DAY, realm, theme, login, loot#, treasure, SQL ) AS (
+    SELECT
+    D.day,
+    D.realm,
+    D.theme,
+    D.login,
+    L.loot#,
+    L.treasure,
+    T.sql
+    FROM Donor D, Loot L, Treasure T
+    WHERE D.day = L.day    -- join of D and L
+    AND D.realm = L.realm
+    AND D.theme = L.theme
+    AND D.login = L.login
+    AND L.treasure = T.treasure -- join of L and T
+    AND NOT EXISTS (
+    SELECT *
+    FROM Loot M, Treasure S
+    WHERE M.day = L.day    -- join of M and L
+    AND M.realm = L.realm
+    AND M.theme = L.theme
+    AND M.login = L.login
+    AND M.treasure = S.treasure
+    AND ((S.sql < T.sql)
+    OR
+    (S.sql = T.sql AND S.treasure > T.treasure)
+    OR
+    (S.sql = T.sql
+    AND S.treasure = T.treasure
+    AND M.loot# > L.loot#))
+    )
+    ),
+    Recipient( DAY, realm, theme, login) AS ( SELECT
+    DAY,
+    realm,
+    theme,
+    min(login) AS login
+    FROM Actor
+    WHERE ( DAY, realm, theme, login) NOT IN (
+    SELECT
+    DAY,
+    realm,
+    theme,
+    login
+    FROM Loot
+    )
+    GROUP BY DAY, realm, theme
+    ORDER BY DAY, realm, theme)
+    SELECT
+      Donation.loot#,
+      Donation.treasure,
+      Donor.theme,
+      Donor.realm,
+      Donor.day,
+      Recipient.login
+    FROM Donor, Donation, Recipient
+    WHERE Donor.day = Donation.day
+          AND Donor.theme = Donation.theme
+          AND Donor.realm = Donation.realm
+          AND Donation.day = Recipient.day
+          AND Donation.theme = Recipient.theme
+          AND Donation.realm = Recipient.realm
+    DO
+      UPDATE loot AS L
+      SET L.login = S.login
+      WHERE L.loot# = S.loot#
+            AND L.treasure = S.treasure
+            AND L.theme = S.theme
+            AND L.realm = S.realm
+            AND L.day = S.day;
+    SET changed_ = 1;
+
+  END FOR;
+  -- handle each swap
+
+END WHILE;
+-- loop until no changes remain to be done
+
+END !
+-- we're done
